@@ -12,7 +12,6 @@ import net.celsiusqc.create_weaponry.item.custom.weapons.MaceItem;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.item.*;
 import net.minecraft.world.item.crafting.RecipeType;
-import net.minecraftforge.common.ForgeSpawnEggItem;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -24,40 +23,8 @@ public class ModItems {
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, CreateWeaponry.MOD_ID);
 
     //Materials
-    public static final RegistryObject<Item> PLANK = ITEMS.register("plank", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)){
-        @Override public int getBurnTime(ItemStack itemStack, @Nullable RecipeType<?> recipeType) {return 50;}});
 
-    //public static final RegistryObject<Item> ROCKS = ITEMS.register("rocks", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
 
-    public static final RegistryObject<Item> FIBER = ITEMS.register("fiber", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)){
-        @Override public int getBurnTime(ItemStack itemStack, @Nullable RecipeType<?> recipeType) {return 50;}});
-
-    public static final RegistryObject<Item> CHAINMAIL = ITEMS.register("chainmail", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
-
-    public static final RegistryObject<Item> COAL_POWDER = ITEMS.register("coal_powder", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)){
-        @Override public int getBurnTime(ItemStack itemStack, @Nullable RecipeType<?> recipeType) {return 2400;}});
-
-    public static final RegistryObject<Item> COKE = ITEMS.register("coke", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)){
-                @Override public int getBurnTime(ItemStack itemStack, @Nullable RecipeType<?> recipeType) {return 6400;}});
-
-    public static final RegistryObject<Item> COAL_CHUNK = ITEMS.register("coal_chunk", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)){
-        @Override public int getBurnTime(ItemStack itemStack, @Nullable RecipeType<?> recipeType) {return 200;}});
-
-    public static final RegistryObject<Item> CHARCOAL_CHUNK = ITEMS.register("charcoal_chunk", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)){
-        @Override public int getBurnTime(ItemStack itemStack, @Nullable RecipeType<?> recipeType) {return 200;}});
-
-    public static final RegistryObject<Item> COKE_CHUNK = ITEMS.register("coke_chunk", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)){
-        @Override public int getBurnTime(ItemStack itemStack, @Nullable RecipeType<?> recipeType) {return 800;}});
-
-    public static final RegistryObject<Item> COPPER_NUGGET = ITEMS.register("copper_nugget", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
-
-    public static final RegistryObject<Item> DIAMOND_SHARD = ITEMS.register("diamond_shard", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
-
-    public static final RegistryObject<Item> EXPOSED_COPPER_INGOT = ITEMS.register("exposed_copper_ingot", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
-
-    public static final RegistryObject<Item> WEATHERED_COPPER_INGOT = ITEMS.register("weathered_copper_ingot", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
-
-    public static final RegistryObject<Item> OXIDIZED_COPPER_INGOT = ITEMS.register("oxidized_copper_ingot", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
     public static final RegistryObject<Item> STEEL_INGOT = ITEMS.register("steel_ingot", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
 
     public static final RegistryObject<Item> STEEL_NUGGET = ITEMS.register("steel_nugget", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
@@ -70,71 +37,8 @@ public class ModItems {
 
     public static final RegistryObject<Item> PRISMARITE_SCRAP = ITEMS.register("prismarite_scrap", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
 
-    public static final RegistryObject<Item> COPPER_SCREW = ITEMS.register("copper_screw", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
-
-    //public static final RegistryObject<Item> SHELL = ITEMS.register("shell", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
-
-    public static final RegistryObject<Item> PEARL = ITEMS.register("pearl", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
-
-    public static final RegistryObject<Item> FLESH = ITEMS.register("flesh", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
-
-    public static final RegistryObject<Item> AMETHYST = ITEMS.register("amethyst", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
-
-    public static final RegistryObject<Item> ADOBE_BRICK = ITEMS.register("adobe_brick", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
-
-    public static final RegistryObject<Item> IRON_PLATING = ITEMS.register("iron_plating", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
-
-    public static final RegistryObject<Item> GOLD_PLATING = ITEMS.register("gold_plating", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
-
-    public static final RegistryObject<Item> STEEL_PLATING = ITEMS.register("steel_plating", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
-
-    public static final RegistryObject<Item> ROSEGOLD_PLATING = ITEMS.register("rosegold_plating", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
-
-    public static final RegistryObject<Item> NETHERITE_PLATING = ITEMS.register("netherite_plating", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
-
-    public static final RegistryObject<Item> PRISMARITE_PLATING = ITEMS.register("prismarite_plating", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
-
-    public static final RegistryObject<Item> DIAMOND_PLATING = ITEMS.register("diamond_plating", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
-
-    public static final RegistryObject<Item> IRON_PIECE = ITEMS.register("iron_piece", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
-
-    public static final RegistryObject<Item> GOLD_PIECE = ITEMS.register("gold_piece", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
-
-    public static final RegistryObject<Item> STEEL_PIECE = ITEMS.register("steel_piece", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
-
-    public static final RegistryObject<Item> ROSEGOLD_PIECE = ITEMS.register("rosegold_piece", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
-
-    public static final RegistryObject<Item> NETHERITE_PIECE = ITEMS.register("netherite_piece", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
-
-    public static final RegistryObject<Item> PRISMARITE_PIECE = ITEMS.register("prismarite_piece", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
-
-    public static final RegistryObject<Item> DIAMOND_PIECE = ITEMS.register("diamond_piece", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
-
-    public static final RegistryObject<Item> COPPER_DUST = ITEMS.register("copper_dust", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
-
-    public static final RegistryObject<Item> GOLD_DUST = ITEMS.register("gold_dust", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
-
-    public static final RegistryObject<Item> IRON_DUST = ITEMS.register("iron_dust", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
-
-    public static final RegistryObject<Item> DEBRIS_DUST = ITEMS.register("debris_dust", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
-
-    public static final RegistryObject<Item> REMAININGS_DUST = ITEMS.register("remaining_dust", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
-
-    public static final RegistryObject<Item> ENCHANTED_ROSEGOLD_APPLE = ITEMS.register("enchanted_rosegold_apple",
-            () -> new EnchantedGoldenAppleItem(new Item.Properties().tab(CreativeModeTab.TAB_FOOD).rarity(Rarity.EPIC).food(ModFoods.ENCHANTED_ROSEGOLD_APPLE)));
-
-    public static final RegistryObject<Item> ROSEGOLD_APPLE = ITEMS.register("rosegold_apple",
-            () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_FOOD).rarity(Rarity.RARE).food(ModFoods.ROSEGOLD_APPLE)));
-
-    public static final RegistryObject<Item> ROSEGOLD_CARROT = ITEMS.register("rosegold_carrot",
-            () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_FOOD).food(ModFoods.ROSEGOLD_CARROT)));
 
     //TOOLS                                                                                                                            attack      speed
-    public static final RegistryObject<Item> BRUSH = ITEMS.register("brush", () -> new BrushItem(0f,0f, ModTiers.COPPER,
-            new Item.Properties().tab(CreativeModeTab.TAB_TOOLS).durability(450)));
-
-    public static final RegistryObject<Item> CHISEL = ITEMS.register("chisel", () -> new ChiselItem(0f,0f, ModTiers.COPPER,
-            new Item.Properties().tab(CreativeModeTab.TAB_TOOLS).durability(450)));
 
     public static final RegistryObject<Item> FLINT_BLADE = ITEMS.register("flint_blade", () -> new SwordItem(ModTiers.FLINT, 1, -3,
             new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
@@ -150,19 +54,6 @@ public class ModItems {
 
     public static final RegistryObject<Item> FLINT_HOE = ITEMS.register("flint_hoe", () -> new HoeItem(ModTiers.FLINT, -1, -3,
             new Item.Properties().tab(CreativeModeTab.TAB_TOOLS)));
-
-    public static final RegistryObject<Item> FIBER_CAP = ITEMS.register("fiber_cap", () -> new ArmorItem(ModArmourMaterials.FIBER, EquipmentSlot.HEAD,
-            new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
-
-    public static final RegistryObject<Item> FIBER_TUNIC = ITEMS.register("fiber_tunic", () -> new ArmorItem(ModArmourMaterials.FIBER, EquipmentSlot.CHEST,
-            new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
-
-    public static final RegistryObject<Item> FIBER_PANTS = ITEMS.register("fiber_pants", () -> new ArmorItem(ModArmourMaterials.FIBER, EquipmentSlot.LEGS,
-            new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
-
-    public static final RegistryObject<Item> FIBER_BOOTS = ITEMS.register("fiber_boots", () -> new ArmorItem(ModArmourMaterials.FIBER, EquipmentSlot.FEET,
-            new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
-
 
     public static final RegistryObject<Item> COPPER_HATCHET = ITEMS.register("copper_hatchet", () -> new HatchetItem(ModTiers.COPPER_TOOL, 4, -3,
             new Item.Properties().tab(CreativeModeTab.TAB_TOOLS)));

@@ -3,7 +3,6 @@ package net.celsiusqc.create_weaponry;
 import com.mojang.logging.LogUtils;
 import net.celsiusqc.create_weaponry.effect.ModEffects;
 import net.celsiusqc.create_weaponry.item.ModItems;
-import net.celsiusqc.create_weaponry.recipe.ModRecipes;
 import net.celsiusqc.create_weaponry.world.feature.ModConfiguredFeatures;
 import net.celsiusqc.create_weaponry.world.feature.ModPlacedFeatures;
 import net.minecraft.client.gui.screens.MenuScreens;
@@ -33,7 +32,6 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.forgespi.locating.IModFile;
 import net.minecraftforge.resource.PathPackResources;
 import org.slf4j.Logger;
-import software.bernie.geckolib3.GeckoLib;
 
 import java.io.IOException;
 
