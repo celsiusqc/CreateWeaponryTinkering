@@ -1,7 +1,6 @@
 package net.celsiusqc.create_weaponry.item;
 
 import net.celsiusqc.create_weaponry.CreateWeaponry;
-import net.celsiusqc.create_weaponry.entity.ModEntityTypes;
 import net.celsiusqc.create_weaponry.item.custom.tools.BrushItem;
 import net.celsiusqc.create_weaponry.item.custom.tools.ChiselItem;
 import net.celsiusqc.create_weaponry.item.custom.tools.HatchetItem;
@@ -120,10 +119,6 @@ public class ModItems {
     public static final RegistryObject<Item> DEBRIS_DUST = ITEMS.register("debris_dust", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
 
     public static final RegistryObject<Item> REMAININGS_DUST = ITEMS.register("remaining_dust", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
-
-    public static final RegistryObject<Item> CLAM_SPAWN_EGG = ITEMS.register("clam_spawn_egg",
-            () -> new ForgeSpawnEggItem(ModEntityTypes.CLAM, 0xdeac87, 0x9e5543,
-                    new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
 
     public static final RegistryObject<Item> ENCHANTED_ROSEGOLD_APPLE = ITEMS.register("enchanted_rosegold_apple",
             () -> new EnchantedGoldenAppleItem(new Item.Properties().tab(CreativeModeTab.TAB_FOOD).rarity(Rarity.EPIC).food(ModFoods.ENCHANTED_ROSEGOLD_APPLE)));

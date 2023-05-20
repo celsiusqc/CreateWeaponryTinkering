@@ -1,15 +1,9 @@
 package net.celsiusqc.create_weaponry;
 
 import com.mojang.logging.LogUtils;
-import net.celsiusqc.create_weaponry.block.ModBlocks;
-import net.celsiusqc.create_weaponry.block.entity.ModBlockEntities;
 import net.celsiusqc.create_weaponry.effect.ModEffects;
-import net.celsiusqc.create_weaponry.entity.ModEntityTypes;
-import net.celsiusqc.create_weaponry.entity.client.ClamRenderer;
 import net.celsiusqc.create_weaponry.item.ModItems;
 import net.celsiusqc.create_weaponry.recipe.ModRecipes;
-import net.celsiusqc.create_weaponry.screen.ForgeScreen;
-import net.celsiusqc.create_weaponry.screen.ModMenuTypes;
 import net.celsiusqc.create_weaponry.world.feature.ModConfiguredFeatures;
 import net.celsiusqc.create_weaponry.world.feature.ModPlacedFeatures;
 import net.minecraft.client.gui.screens.MenuScreens;
@@ -50,31 +44,6 @@ public class CreateWeaponry
     public static final String MOD_ID = "create_weaponry";
     private static final Logger LOGGER = LogUtils.getLogger();
 
-    public CreateWeaponry()
-    {
-        IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();
-        eventBus.addListener(this::commonSetup);
-
-        ModEffects.register(eventBus);
-        ModItems.register(eventBus);
-        ModBlocks.register(eventBus);
-        ModBlockEntities.register(eventBus);
-        ModConfiguredFeatures.register(eventBus);
-        ModPlacedFeatures.register(eventBus);
-        ModMenuTypes.register(eventBus);
-        ModRecipes.register(eventBus);
-        ModEntityTypes.register(eventBus);
-        GeckoLib.initialize();
-
-        MinecraftForge.EVENT_BUS.register(this);
-    }
-
-    private void commonSetup(final FMLCommonSetupEvent event)
-    {
-        SpawnPlacements.register(ModEntityTypes.CLAM.get(),
-                SpawnPlacements.Type.IN_WATER, Heightmap.Types.OCEAN_FLOOR,
-                WaterAnimal::checkMobSpawnRules);
-    }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call
     @SubscribeEvent
@@ -83,16 +52,4 @@ public class CreateWeaponry
 
     }
 
-
-    // You can use EventBusSubscriber to automatically register all static methods in the class annotated with @SubscribeEvent
-    @Mod.EventBusSubscriber(modid = MOD_ID, bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
-    public static class ClientModEvents
-    {
-        @SubscribeEvent
-        public static void onClientSetup(FMLClientSetupEvent event)
-        {
-            EntityRenderers.register(ModEntityTypes.CLAM.get(), ClamRenderer::new);
-            MenuScreens.register(ModMenuTypes.FORGE_MENU.get(), ForgeScreen::new);
-        }
-    }
 }

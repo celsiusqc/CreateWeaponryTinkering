@@ -15,20 +15,6 @@ public class ModPlacedFeatures {
     public static final DeferredRegister<PlacedFeature> PLACED_FEATURES =
             DeferredRegister.create(Registry.PLACED_FEATURE_REGISTRY, CreateWeaponry.MOD_ID);
 
-    public static final RegistryObject<PlacedFeature> OCEANIC_REMAINS_PLACED = PLACED_FEATURES.register("oceanic_remains_placed",
-            () -> new PlacedFeature(ModConfiguredFeatures.OCEANIC_REMAINS.getHolder().get(),
-                    commonOrePlacement(7, // VeinsPerChunk
-                            HeightRangePlacement.triangle(VerticalAnchor.aboveBottom(-80), VerticalAnchor.aboveBottom(80)))));
-
-    public static final RegistryObject<PlacedFeature> SHELL_PLACED = PLACED_FEATURES.register("shell_placed",
-            () -> new PlacedFeature(ModConfiguredFeatures.SHELL.getHolder().get(), List.of(RarityFilter.onAverageOnceEvery(25),
-                    InSquarePlacement.spread(), PlacementUtils.HEIGHTMAP, BiomeFilter.biome())));
-
-    public static final RegistryObject<PlacedFeature> ROCKS_PLACED = PLACED_FEATURES.register("rocks_placed",
-            () -> new PlacedFeature(ModConfiguredFeatures.ROCKS.getHolder().get(), List.of(RarityFilter.onAverageOnceEvery(25),
-                    InSquarePlacement.spread(), PlacementUtils.HEIGHTMAP, BiomeFilter.biome())));
-
-
     public static List<PlacementModifier> orePlacement(PlacementModifier p_195347_, PlacementModifier p_195348_) {
         return List.of(p_195347_, InSquarePlacement.spread(), p_195348_, BiomeFilter.biome());
     }

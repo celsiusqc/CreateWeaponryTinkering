@@ -47,8 +47,6 @@
   "item.create_weaponry.debris_dust": "Debris Dust",
   "item.create_weaponry.remaining_dust": "Remaining Dust",
 
-  "item.create_weaponry.clam_spawn_egg": "Clam Spawn Egg",
-
   "item.create_weaponry.rosegold_apple": "Rosegold Apple",
   "item.create_weaponry.rosegold_carrot": "Rosegold Carrot",
   "item.create_weaponry.enchanted_rosegold_apple": "Enchanted Rosegold Apple",
@@ -241,5 +239,4 @@
   "effect.create_weaponry.prismarite_strength": "Prismarite Strength",
   "effect.create_weaponry.prismarite_speed": "Prismarite Speed",
 
-  "entity.create_weaponry.clam": "Clam"
 }
