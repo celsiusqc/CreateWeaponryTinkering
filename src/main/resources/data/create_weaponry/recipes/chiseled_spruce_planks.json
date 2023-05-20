@@ -5,11 +5,11 @@
   ],
   "key": {
     "#": {
-      "item": "modestmining:carved_spruce_planks"
+      "item": "create_weaponry:carved_spruce_planks"
     }
   },
   "result": {
-    "item": "modestmining:chiseled_spruce_planks",
+    "item": "create_weaponry:chiseled_spruce_planks",
     "count": 1
   }
 }

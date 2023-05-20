@@ -1,6 +1,6 @@
 {
   "type": "forge:add_features",
   "biomes": "#minecraft:is_forest",
-  "features": "modestmining:rocks_placed",
+  "features": "create_weaponry:rocks_placed",
   "step": "vegetal_decoration"
 }

@@ -1,5 +1,5 @@
 {
   "variants": {
-    "": { "model": "modestmining:block/warped_tiles" }
+    "": { "model": "create_weaponry:block/warped_tiles" }
   }
 }

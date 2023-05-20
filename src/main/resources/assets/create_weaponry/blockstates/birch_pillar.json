@@ -1,15 +1,15 @@
 {
   "variants": {
     "axis=x": {
-      "model": "modestmining:block/birch_pillar_horizontal",
+      "model": "create_weaponry:block/birch_pillar_horizontal",
       "x": 90,
       "y": 90
     },
     "axis=y": {
-      "model": "modestmining:block/birch_pillar"
+      "model": "create_weaponry:block/birch_pillar"
     },
     "axis=z": {
-      "model": "modestmining:block/birch_pillar_horizontal",
+      "model": "create_weaponry:block/birch_pillar_horizontal",
       "x": 90
     }
   }

@@ -7,7 +7,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "modestmining:coal_powder_block"
+          "name": "create_weaponry:coal_powder_block"
         }
       ],
       "conditions": [

@@ -2,7 +2,7 @@
 
   "structures": [
     {
-      "structure": "modestmining:ancient_digging_site",
+      "structure": "create_weaponry:ancient_digging_site",
       "weight": 1
     }
   ],

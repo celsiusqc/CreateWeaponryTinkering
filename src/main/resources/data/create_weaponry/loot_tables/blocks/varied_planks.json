@@ -7,7 +7,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "modestmining:varied_planks"
+          "name": "create_weaponry:varied_planks"
         }
       ],
       "conditions": [

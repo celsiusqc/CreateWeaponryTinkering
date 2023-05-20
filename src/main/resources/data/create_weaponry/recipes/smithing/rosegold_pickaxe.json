@@ -4,9 +4,9 @@
     "item": "minecraft:golden_pickaxe"
   },
   "addition": {
-    "tag": "modestmining:rosegold_pieces"
+    "tag": "create_weaponry:rosegold_pieces"
   },
   "result": {
-    "item": "modestmining:rosegold_pickaxe"
+    "item": "create_weaponry:rosegold_pickaxe"
   }
 }

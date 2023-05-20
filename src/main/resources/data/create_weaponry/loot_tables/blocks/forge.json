@@ -7,7 +7,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "modestmining:forge"
+          "name": "create_weaponry:forge"
         }
       ],
       "conditions": [

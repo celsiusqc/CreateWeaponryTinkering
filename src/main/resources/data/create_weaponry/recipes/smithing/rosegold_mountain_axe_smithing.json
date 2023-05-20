@@ -1,12 +1,12 @@
 {
   "type": "minecraft:smithing",
   "base": {
-    "item": "modestmining:golden_mountain_axe"
+    "item": "create_weaponry:golden_mountain_axe"
   },
   "addition": {
-    "tag": "modestmining:rosegold_pieces"
+    "tag": "create_weaponry:rosegold_pieces"
   },
   "result": {
-    "item": "modestmining:rosegold_mountain_axe"
+    "item": "create_weaponry:rosegold_mountain_axe"
   }
 }

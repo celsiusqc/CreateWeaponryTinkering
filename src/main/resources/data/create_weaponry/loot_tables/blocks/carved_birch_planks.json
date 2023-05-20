@@ -7,7 +7,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "modestmining:carved_birch_planks"
+          "name": "create_weaponry:carved_birch_planks"
         }
       ],
       "conditions": [

@@ -1,12 +1,12 @@
 {
   "type": "minecraft:smithing",
   "base": {
-    "item": "modestmining:golden_hammer"
+    "item": "create_weaponry:golden_hammer"
   },
   "addition": {
-    "tag": "modestmining:rosegold_pieces"
+    "tag": "create_weaponry:rosegold_pieces"
   },
   "result": {
-    "item": "modestmining:rosegold_hammer"
+    "item": "create_weaponry:rosegold_hammer"
   }
 }

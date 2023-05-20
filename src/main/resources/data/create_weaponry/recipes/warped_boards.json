@@ -7,14 +7,14 @@
   ],
   "key": {
     "#": {
-      "item": "modestmining:plank"
+      "item": "create_weaponry:plank"
     },
     "X": {
       "item": "minecraft:warped_planks"
     }
   },
   "result": {
-    "item": "modestmining:warped_boards",
+    "item": "create_weaponry:warped_boards",
     "count": 3
   }
 }

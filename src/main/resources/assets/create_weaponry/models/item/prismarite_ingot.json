@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "modestmining:item/prismarite_ingot"
+    "layer0": "create_weaponry:item/prismarite_ingot"
   }
 }

@@ -7,7 +7,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "modestmining:steel_block"
+          "name": "create_weaponry:steel_block"
         }
       ],
       "conditions": [

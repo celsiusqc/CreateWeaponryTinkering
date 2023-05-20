@@ -1,5 +1,5 @@
 {
   "variants": {
-    "": { "model": "modestmining:block/spruce_boards" }
+    "": { "model": "create_weaponry:block/spruce_boards" }
   }
 }

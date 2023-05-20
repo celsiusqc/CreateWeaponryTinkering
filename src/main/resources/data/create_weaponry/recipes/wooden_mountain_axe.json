@@ -13,10 +13,10 @@
       "tag": "minecraft:planks"
     },
     "F": {
-      "item": "modestmining:fiber"
+      "item": "create_weaponry:fiber"
     }
   },
   "result": {
-    "item": "modestmining:wooden_mountain_axe"
+    "item": "create_weaponry:wooden_mountain_axe"
   }
 }

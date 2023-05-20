@@ -2,7 +2,7 @@
   "type": "minecraft:blasting",
   "ingredient": [
     {
-      "item": "modestmining:iron_dust"
+      "item": "create_weaponry:iron_dust"
     }
   ],
   "result": "minecraft:iron_ingot",

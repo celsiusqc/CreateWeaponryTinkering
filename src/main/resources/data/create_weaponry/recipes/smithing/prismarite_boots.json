@@ -4,9 +4,9 @@
     "item": "minecraft:diamond_boots"
   },
   "addition": {
-    "tag": "modestmining:prismarite_platings"
+    "tag": "create_weaponry:prismarite_platings"
   },
   "result": {
-    "item": "modestmining:prismarite_boots"
+    "item": "create_weaponry:prismarite_boots"
   }
 }

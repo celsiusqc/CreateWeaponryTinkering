@@ -2,34 +2,34 @@
   "type": "minecraft:smelting",
   "ingredient": [
     {
-      "item": "modestmining:prismarite_pickaxe"
+      "item": "create_weaponry:prismarite_pickaxe"
     },
     {
-      "item": "modestmining:prismarite_shovel"
+      "item": "create_weaponry:prismarite_shovel"
     },
     {
-      "item": "modestmining:prismarite_axe"
+      "item": "create_weaponry:prismarite_axe"
     },
     {
-      "item": "modestmining:prismarite_hoe"
+      "item": "create_weaponry:prismarite_hoe"
     },
     {
-      "item": "modestmining:prismarite_sword"
+      "item": "create_weaponry:prismarite_sword"
     },
     {
-      "item": "modestmining:prismarite_helmet"
+      "item": "create_weaponry:prismarite_helmet"
     },
     {
-      "item": "modestmining:prismarite_chestplate"
+      "item": "create_weaponry:prismarite_chestplate"
     },
     {
-      "item": "modestmining:prismarite_leggings"
+      "item": "create_weaponry:prismarite_leggings"
     },
     {
-      "item": "modestmining:prismarite_boots"
+      "item": "create_weaponry:prismarite_boots"
     }
   ],
-  "result": "modestmining:prismarite_nugget",
+  "result": "create_weaponry:prismarite_nugget",
   "experience": 0.1,
   "cookingtime": 200
 }

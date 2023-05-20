@@ -7,7 +7,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "modestmining:warped_tiles"
+          "name": "create_weaponry:warped_tiles"
         }
       ],
       "conditions": [

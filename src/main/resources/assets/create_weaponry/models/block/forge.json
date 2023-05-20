@@ -1,11 +1,11 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"1": "modestmining:block/forge_side",
-		"2": "modestmining:block/forge_top",
-		"3": "modestmining:block/forge_bottom",
-		"4": "modestmining:block/forge_front",
-		"particle": "modestmining:block/forge_front"
+		"1": "create_weaponry:block/forge_side",
+		"2": "create_weaponry:block/forge_top",
+		"3": "create_weaponry:block/forge_bottom",
+		"4": "create_weaponry:block/forge_front",
+		"particle": "create_weaponry:block/forge_front"
 	},
 	"elements": [
 		{

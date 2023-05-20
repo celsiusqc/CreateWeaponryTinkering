@@ -7,7 +7,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "modestmining:carved_acacia_planks"
+          "name": "create_weaponry:carved_acacia_planks"
         }
       ],
       "conditions": [

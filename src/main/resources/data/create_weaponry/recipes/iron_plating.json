@@ -8,11 +8,11 @@
       "item": "minecraft:iron_ingot"
     },
     "@": {
-      "tag": "modestmining:hammers"
+      "tag": "create_weaponry:hammers"
     }
   },
   "result": {
-    "item": "modestmining:iron_plating",
+    "item": "create_weaponry:iron_plating",
     "count": 2
   }
 }

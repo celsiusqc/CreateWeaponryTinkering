@@ -2,17 +2,17 @@
   "parent": "minecraft:item/handheld",
   "loader": "forge:separate_transforms",
   "textures": {
-    "layer0": "modestmining:item/prismarite_mace_gui"
+    "layer0": "create_weaponry:item/prismarite_mace_gui"
   },
   "base": {
-    "parent": "modestmining:item/prismarite_mace_handheld"
+    "parent": "create_weaponry:item/prismarite_mace_handheld"
   },
   "perspectives": {
     "gui": {
-      "parent": "modestmining:item/prismarite_mace_gui"
+      "parent": "create_weaponry:item/prismarite_mace_gui"
     },
     "fixed": {
-      "parent": "modestmining:item/prismarite_mace_gui"
+      "parent": "create_weaponry:item/prismarite_mace_gui"
     }
   }
 }

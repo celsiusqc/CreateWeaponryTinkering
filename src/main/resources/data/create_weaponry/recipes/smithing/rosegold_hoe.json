@@ -4,9 +4,9 @@
     "item": "minecraft:golden_hoe"
   },
   "addition": {
-    "tag": "modestmining:rosegold_pieces"
+    "tag": "create_weaponry:rosegold_pieces"
   },
   "result": {
-    "item": "modestmining:rosegold_hoe"
+    "item": "create_weaponry:rosegold_hoe"
   }
 }

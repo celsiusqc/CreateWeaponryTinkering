@@ -1,5 +1,5 @@
 {
   "variants": {
-    "": { "model": "modestmining:block/oceanic_remains" }
+    "": { "model": "create_weaponry:block/oceanic_remains" }
   }
 }

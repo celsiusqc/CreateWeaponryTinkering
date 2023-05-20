@@ -10,13 +10,13 @@
       "item": "minecraft:stick"
     },
     "X": {
-      "tag": "modestmining:gold_pieces"
+      "tag": "create_weaponry:gold_pieces"
     },
     "@": {
-      "item": "modestmining:gold_piece"
+      "item": "create_weaponry:gold_piece"
     }
   },
   "result": {
-    "item": "modestmining:golden_glaive"
+    "item": "create_weaponry:golden_glaive"
   }
 }

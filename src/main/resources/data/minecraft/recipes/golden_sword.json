@@ -10,7 +10,7 @@
       "item": "minecraft:stick"
     },
     "X": {
-      "tag": "modestmining:gold_pieces"
+      "tag": "create_weaponry:gold_pieces"
     }
   },
   "result": {

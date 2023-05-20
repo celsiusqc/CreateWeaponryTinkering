@@ -6,14 +6,14 @@
   ],
   "key": {
     "#": {
-      "item": "modestmining:varied_planks"
+      "item": "create_weaponry:varied_planks"
     },
     "&": {
       "item": "minecraft:stick"
     }
   },
   "result": {
-    "item": "modestmining:varied_plank_fence",
+    "item": "create_weaponry:varied_plank_fence",
     "count": 3
   }
 }

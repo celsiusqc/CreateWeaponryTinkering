@@ -4,9 +4,9 @@
     "item": "minecraft:golden_boots"
   },
   "addition": {
-    "tag": "modestmining:rosegold_platings"
+    "tag": "create_weaponry:rosegold_platings"
   },
   "result": {
-    "item": "modestmining:rosegold_boots"
+    "item": "create_weaponry:rosegold_boots"
   }
 }

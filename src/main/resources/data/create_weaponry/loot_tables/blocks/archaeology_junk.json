@@ -38,7 +38,7 @@
         {
           "type": "minecraft:item",
           "weight": 1,
-          "name": "modestmining:copper_nugget"
+          "name": "create_weaponry:copper_nugget"
         },
         {
           "type": "minecraft:item",
@@ -53,7 +53,7 @@
         {
           "type": "minecraft:loot_table",
           "weight": 1,
-          "name": "modestmining:blocks/wooden_tools"
+          "name": "create_weaponry:blocks/wooden_tools"
         },
         {
           "type": "minecraft:item",
@@ -143,12 +143,12 @@
         {
           "type": "minecraft:item",
           "weight": 2,
-          "name": "modestmining:rocks"
+          "name": "create_weaponry:rocks"
         },
         {
           "type": "minecraft:item",
           "weight": 2,
-          "name": "modestmining:plank"
+          "name": "create_weaponry:plank"
         },
         {
           "type": "minecraft:item",
@@ -158,12 +158,12 @@
         {
           "type": "minecraft:item",
           "weight": 2,
-          "name": "modestmining:coal_chunk"
+          "name": "create_weaponry:coal_chunk"
         },
         {
           "type": "minecraft:item",
           "weight": 2,
-          "name": "modestmining:charcoal_chunk"
+          "name": "create_weaponry:charcoal_chunk"
         },
         {
           "type": "minecraft:item",
@@ -188,7 +188,7 @@
         {
           "type": "minecraft:item",
           "weight": 2,
-          "name": "modestmining:shell"
+          "name": "create_weaponry:shell"
         },
         {
           "type": "minecraft:item",
@@ -198,7 +198,7 @@
         {
           "type": "minecraft:loot_table",
           "weight": 2,
-          "name": "modestmining:blocks/flint_tools"
+          "name": "create_weaponry:blocks/flint_tools"
         },
         {
           "type": "minecraft:item",

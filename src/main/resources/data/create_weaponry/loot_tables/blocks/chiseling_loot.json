@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "modestmining:blocks/archaeology_treasure"
+          "name": "create_weaponry:blocks/archaeology_treasure"
         }
       ]
     }

@@ -2,19 +2,19 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "modestmining:plank"
+      "item": "create_weaponry:plank"
     },
     {
-      "item": "modestmining:plank"
+      "item": "create_weaponry:plank"
     },
     {
-      "item": "modestmining:plank"
+      "item": "create_weaponry:plank"
     },
     {
-      "item": "modestmining:plank"
+      "item": "create_weaponry:plank"
     }
   ],
   "result": {
-    "item": "modestmining:varied_planks"
+    "item": "create_weaponry:varied_planks"
   }
 }

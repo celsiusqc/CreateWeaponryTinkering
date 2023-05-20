@@ -2,17 +2,17 @@
   "parent": "minecraft:item/handheld",
   "loader": "forge:separate_transforms",
   "textures": {
-    "layer0": "modestmining:item/flint_bludgeon_gui"
+    "layer0": "create_weaponry:item/flint_bludgeon_gui"
   },
   "base": {
-    "parent": "modestmining:item/flint_bludgeon_handheld"
+    "parent": "create_weaponry:item/flint_bludgeon_handheld"
   },
   "perspectives": {
     "gui": {
-      "parent": "modestmining:item/flint_bludgeon_gui"
+      "parent": "create_weaponry:item/flint_bludgeon_gui"
     },
     "fixed": {
-      "parent": "modestmining:item/flint_bludgeon_gui"
+      "parent": "create_weaponry:item/flint_bludgeon_gui"
     }
   }
 }

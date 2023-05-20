@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "modestmining:plank"
+      "item": "create_weaponry:plank"
     }
   },
   "result": {
-    "item": "modestmining:varied_plank_stairs"
+    "item": "create_weaponry:varied_plank_stairs"
   }
 }

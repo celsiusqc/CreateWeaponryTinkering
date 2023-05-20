@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "modestmining:item/netherite_plating"
+    "layer0": "create_weaponry:item/netherite_plating"
   }
 }

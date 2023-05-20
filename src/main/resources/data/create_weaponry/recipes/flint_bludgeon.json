@@ -12,10 +12,10 @@
       "item": "minecraft:flint"
     },
     "F": {
-      "item": "modestmining:fiber"
+      "item": "create_weaponry:fiber"
     }
   },
   "result": {
-    "item": "modestmining:flint_bludgeon"
+    "item": "create_weaponry:flint_bludgeon"
   }
 }

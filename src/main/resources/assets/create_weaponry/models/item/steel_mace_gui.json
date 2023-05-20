@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/handheld",
   "textures": {
-    "layer0": "modestmining:item/steel_mace"
+    "layer0": "create_weaponry:item/steel_mace"
   }
 }

@@ -1,9 +1,9 @@
 {
   "type": "minecraft:blasting",
   "ingredient": {
-    "item": "modestmining:oceanic_remains"
+    "item": "create_weaponry:oceanic_remains"
   },
-  "result": "modestmining:prismarite_scrap",
+  "result": "create_weaponry:prismarite_scrap",
   "experience": 2.0,
   "cookingtime": 100
 }

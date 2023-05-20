@@ -1,7 +1,7 @@
 {
   "replace": false,
   "values": [
-    "modestmining:rosegold_piece",
-    "modestmining:rosegold_ingot"
+    "create_weaponry:rosegold_piece",
+    "create_weaponry:rosegold_ingot"
   ]
 }

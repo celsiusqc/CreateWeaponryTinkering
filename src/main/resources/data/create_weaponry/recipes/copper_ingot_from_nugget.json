@@ -3,7 +3,7 @@
   "group": "copper_ingot",
   "ingredients": [
     {
-      "item": "modestmining:copper_nugget"
+      "item": "create_weaponry:copper_nugget"
     }
   ],
   "result": {

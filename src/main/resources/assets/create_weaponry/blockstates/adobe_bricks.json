@@ -1,5 +1,5 @@
 {
   "variants": {
-    "": { "model": "modestmining:block/adobe_bricks" }
+    "": { "model": "create_weaponry:block/adobe_bricks" }
   }
 }

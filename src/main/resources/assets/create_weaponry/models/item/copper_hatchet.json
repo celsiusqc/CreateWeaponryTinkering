@@ -1,6 +1,6 @@
 {
   "parent": "item/handheld",
   "textures": {
-    "layer0": "modestmining:item/copper_hatchet"
+    "layer0": "create_weaponry:item/copper_hatchet"
   }
 }

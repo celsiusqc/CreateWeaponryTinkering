@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "modestmining:item/rosegold_nugget"
+    "layer0": "create_weaponry:item/rosegold_nugget"
   }
 }

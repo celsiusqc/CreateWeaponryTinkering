@@ -2,11 +2,11 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "modestmining:coke_block"
+      "item": "create_weaponry:coke_block"
     }
   ],
   "result": {
-    "item": "modestmining:coke",
+    "item": "create_weaponry:coke",
     "count": 9
   }
 }

@@ -1,5 +1,5 @@
 {
-  "type": "modestmining:forging",
+  "type": "create_weaponry:forging",
   "ingredients": [
     {
       "item": "minecraft:iron_ingot"
@@ -14,19 +14,19 @@
       "item": "minecraft:iron_ingot"
     },
     {
-      "item": "modestmining:coke"
+      "item": "create_weaponry:coke"
     },
     {
-      "item": "modestmining:coke"
+      "item": "create_weaponry:coke"
     },
     {
-      "item": "modestmining:coke"
+      "item": "create_weaponry:coke"
     },
     {
-      "item": "modestmining:coke"
+      "item": "create_weaponry:coke"
     }
   ],
   "output": {
-    "item": "modestmining:steel_ingot"
+    "item": "create_weaponry:steel_ingot"
   }
 }

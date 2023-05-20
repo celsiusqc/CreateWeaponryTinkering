@@ -1,5 +1,5 @@
 {
   "variants": {
-    "": { "model": "modestmining:block/prismarite_block" }
+    "": { "model": "create_weaponry:block/prismarite_block" }
   }
 }

@@ -1,6 +1,6 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "modestmining:block/oceanic_remains"
+    "all": "create_weaponry:block/oceanic_remains"
   }
 }

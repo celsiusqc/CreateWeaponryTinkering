@@ -7,7 +7,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "modestmining:dark_oak_boards"
+          "name": "create_weaponry:dark_oak_boards"
         }
       ],
       "conditions": [

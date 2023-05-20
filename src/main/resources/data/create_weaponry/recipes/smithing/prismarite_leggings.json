@@ -4,9 +4,9 @@
     "item": "minecraft:diamond_leggings"
   },
   "addition": {
-    "tag": "modestmining:prismarite_platings"
+    "tag": "create_weaponry:prismarite_platings"
   },
   "result": {
-    "item": "modestmining:prismarite_leggings"
+    "item": "create_weaponry:prismarite_leggings"
   }
 }

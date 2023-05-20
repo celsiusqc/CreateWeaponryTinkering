@@ -1,7 +1,7 @@
 {
   "replace": false,
   "values": [
-    "modestmining:flint_hatchet",
-    "modestmining:copper_hatchet"
+    "create_weaponry:flint_hatchet",
+    "create_weaponry:copper_hatchet"
   ]
 }

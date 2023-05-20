@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "modestmining:pearl",
+          "name": "create_weaponry:pearl",
           "conditions": [
             {
               "condition": "minecraft:entity_properties",
@@ -14,7 +14,7 @@
               "predicate": {
                 "equipment": {
                   "mainhand": {
-                    "tag": "modestmining:tools/chisels"
+                    "tag": "create_weaponry:tools/chisels"
                   }
                 }
               }
@@ -23,7 +23,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "modestmining:shell",
+          "name": "create_weaponry:shell",
           "functions": [
             {
               "function": "minecraft:set_count",

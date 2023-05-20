@@ -6,14 +6,14 @@
   ],
   "key": {
     "#": {
-      "item": "modestmining:plank"
+      "item": "create_weaponry:plank"
     },
     "X": {
       "item": "minecraft:acacia_planks"
     }
   },
   "result": {
-    "item": "modestmining:acacia_tiles",
+    "item": "create_weaponry:acacia_tiles",
     "count": 2
   }
 }

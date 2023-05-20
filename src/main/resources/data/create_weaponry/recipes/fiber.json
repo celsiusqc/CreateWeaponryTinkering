@@ -2,20 +2,20 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "tag": "modestmining:fiber_plants"
+      "tag": "create_weaponry:fiber_plants"
     },
     {
-      "tag": "modestmining:fiber_plants"
+      "tag": "create_weaponry:fiber_plants"
     },
     {
-      "tag": "modestmining:fiber_plants"
+      "tag": "create_weaponry:fiber_plants"
     },
     {
-      "tag": "modestmining:hatchets"
+      "tag": "create_weaponry:hatchets"
     }
   ],
   "result": {
-    "item": "modestmining:fiber",
+    "item": "create_weaponry:fiber",
     "count": 1
   }
 }

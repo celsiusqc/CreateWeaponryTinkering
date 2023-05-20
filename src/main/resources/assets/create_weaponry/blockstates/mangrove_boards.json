@@ -1,5 +1,5 @@
 {
   "variants": {
-    "": { "model": "modestmining:block/mangrove_boards" }
+    "": { "model": "create_weaponry:block/mangrove_boards" }
   }
 }

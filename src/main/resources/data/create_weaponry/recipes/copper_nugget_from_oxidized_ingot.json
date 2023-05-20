@@ -3,11 +3,11 @@
   "group": "copper_ingot",
   "ingredients": [
     {
-      "item": "modestmining:oxidized_copper_ingot"
+      "item": "create_weaponry:oxidized_copper_ingot"
     }
   ],
   "result": {
-    "item": "modestmining:copper_nugget",
+    "item": "create_weaponry:copper_nugget",
     "count": 9
   }
 }

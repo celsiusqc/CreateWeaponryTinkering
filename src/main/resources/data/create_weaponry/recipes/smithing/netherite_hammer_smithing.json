@@ -1,12 +1,12 @@
 {
   "type": "minecraft:smithing",
   "base": {
-    "item": "modestmining:diamond_hammer"
+    "item": "create_weaponry:diamond_hammer"
   },
   "addition": {
-    "tag": "modestmining:netherite_pieces"
+    "tag": "create_weaponry:netherite_pieces"
   },
   "result": {
-    "item": "modestmining:netherite_hammer"
+    "item": "create_weaponry:netherite_hammer"
   }
 }

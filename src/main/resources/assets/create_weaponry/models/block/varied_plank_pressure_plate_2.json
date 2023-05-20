@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/pressure_plate_up",
   "textures": {
-    "texture": "modestmining:block/varied_planks_2"
+    "texture": "create_weaponry:block/varied_planks_2"
   }
 }

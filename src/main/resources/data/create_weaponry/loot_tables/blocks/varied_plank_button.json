@@ -7,7 +7,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "modestmining:varied_plank_button"
+          "name": "create_weaponry:varied_plank_button"
         }
       ],
       "conditions": [

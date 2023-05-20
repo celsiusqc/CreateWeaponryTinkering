@@ -1,5 +1,5 @@
 {
-  "type": "modestmining:forging",
+  "type": "create_weaponry:forging",
   "ingredients": [
     {
       "item": "savage_and_ravage:creeper_spores"

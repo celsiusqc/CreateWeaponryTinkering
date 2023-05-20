@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/template_wall_post",
   "textures": {
-    "wall": "modestmining:block/adobe_bricks"
+    "wall": "create_weaponry:block/adobe_bricks"
   }
 }

@@ -1,5 +1,5 @@
 {
   "variants": {
-    "": { "model": "modestmining:block/birch_boards" }
+    "": { "model": "create_weaponry:block/birch_boards" }
   }
 }

@@ -1,7 +1,7 @@
 {
   "replace": false,
   "values": [
-    "modestmining:prismarite_plating",
-    "modestmining:prismarite_ingot"
+    "create_weaponry:prismarite_plating",
+    "create_weaponry:prismarite_ingot"
   ]
 }

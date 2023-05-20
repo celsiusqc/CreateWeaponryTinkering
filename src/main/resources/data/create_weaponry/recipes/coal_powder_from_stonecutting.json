@@ -3,6 +3,6 @@
   "ingredient": {
     "item": "minecraft:coal"
   },
-  "result": "modestmining:coal_powder",
+  "result": "create_weaponry:coal_powder",
   "count": 1
 }

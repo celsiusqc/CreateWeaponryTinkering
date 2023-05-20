@@ -7,7 +7,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "modestmining:adobe_brick_stairs"
+          "name": "create_weaponry:adobe_brick_stairs"
         }
       ],
       "conditions": [

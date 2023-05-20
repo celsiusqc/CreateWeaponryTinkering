@@ -13,10 +13,10 @@
       "item": "minecraft:gold_ingot"
     },
     "&": {
-      "item": "modestmining:gold_piece"
+      "item": "create_weaponry:gold_piece"
     }
   },
   "result": {
-    "item": "modestmining:golden_mace"
+    "item": "create_weaponry:golden_mace"
   }
 }

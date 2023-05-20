@@ -7,7 +7,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "modestmining:carved_jungle_planks"
+          "name": "create_weaponry:carved_jungle_planks"
         }
       ],
       "conditions": [

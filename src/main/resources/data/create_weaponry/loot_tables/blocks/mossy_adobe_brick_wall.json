@@ -7,7 +7,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "modestmining:mossy_adobe_brick_wall"
+          "name": "create_weaponry:mossy_adobe_brick_wall"
         }
       ],
       "conditions": [

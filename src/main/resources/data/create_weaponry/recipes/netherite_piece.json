@@ -10,11 +10,11 @@
       "item": "minecraft:netherite_ingot"
     },
     "@": {
-      "tag": "modestmining:hammers"
+      "tag": "create_weaponry:hammers"
     }
   },
   "result": {
-    "item": "modestmining:netherite_piece",
+    "item": "create_weaponry:netherite_piece",
     "count": 7
   }
 }

@@ -1,5 +1,5 @@
 {
   "variants": {
-    "": { "model": "modestmining:block/chiseled_spruce_planks" }
+    "": { "model": "create_weaponry:block/chiseled_spruce_planks" }
   }
 }

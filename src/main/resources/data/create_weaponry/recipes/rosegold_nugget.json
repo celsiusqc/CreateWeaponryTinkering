@@ -2,11 +2,11 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "modestmining:rosegold_ingot"
+      "item": "create_weaponry:rosegold_ingot"
     }
   ],
   "result": {
-    "item": "modestmining:rosegold_nugget",
+    "item": "create_weaponry:rosegold_nugget",
     "count": 9
   }
 }

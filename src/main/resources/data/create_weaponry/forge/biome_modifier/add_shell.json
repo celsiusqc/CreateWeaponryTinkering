@@ -1,6 +1,6 @@
 {
   "type": "forge:add_features",
   "biomes": "#minecraft:is_beach",
-  "features": "modestmining:shell_placed",
+  "features": "create_weaponry:shell_placed",
   "step": "vegetal_decoration"
 }

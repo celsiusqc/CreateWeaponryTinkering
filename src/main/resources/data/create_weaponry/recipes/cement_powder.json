@@ -3,16 +3,13 @@
   "group": "rosegold_ingot",
   "ingredients": [
     {
-      "item": "modestmining:shell"
+      "item": "create_weaponry:shell"
     },
     {
-      "item": "modestmining:shell"
+      "item": "create_weaponry:shell"
     },
     {
-      "item": "modestmining:shell"
-    },
-    {
-      "item": "minecraft:clay_ball"
+      "item": "create_weaponry:shell"
     },
     {
       "item": "minecraft:clay_ball"
@@ -21,17 +18,20 @@
       "item": "minecraft:clay_ball"
     },
     {
-      "item": "modestmining:rocks"
+      "item": "minecraft:clay_ball"
     },
     {
-      "item": "modestmining:rocks"
+      "item": "create_weaponry:rocks"
     },
     {
-      "item": "modestmining:rocks"
+      "item": "create_weaponry:rocks"
+    },
+    {
+      "item": "create_weaponry:rocks"
     }
   ],
   "result": {
-    "item": "modestmining:cement_powder",
+    "item": "create_weaponry:cement_powder",
     "count": 8
   }
 }

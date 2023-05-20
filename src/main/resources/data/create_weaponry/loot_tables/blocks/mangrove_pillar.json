@@ -7,7 +7,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "modestmining:mangrove_pillar"
+          "name": "create_weaponry:mangrove_pillar"
         }
       ],
       "conditions": [

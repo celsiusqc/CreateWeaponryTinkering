@@ -1,6 +1,6 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "modestmining:block/varied_planks_7"
+    "all": "create_weaponry:block/varied_planks_7"
   }
 }

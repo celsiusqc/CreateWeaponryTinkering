@@ -7,14 +7,14 @@
   ],
   "key": {
     "#": {
-      "item": "modestmining:plank"
+      "item": "create_weaponry:plank"
     },
     "X": {
       "item": "minecraft:mangrove_planks"
     }
   },
   "result": {
-    "item": "modestmining:carved_mangrove_planks",
+    "item": "create_weaponry:carved_mangrove_planks",
     "count": 5
   }
 }

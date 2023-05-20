@@ -1,7 +1,7 @@
 {
   "replace": false,
   "values": [
-    "modestmining:steel_plating",
-    "modestmining:steel_ingot"
+    "create_weaponry:steel_plating",
+    "create_weaponry:steel_ingot"
   ]
 }

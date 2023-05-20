@@ -7,7 +7,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "modestmining:cement_powder"
+          "name": "create_weaponry:cement_powder"
         }
       ],
       "conditions": [

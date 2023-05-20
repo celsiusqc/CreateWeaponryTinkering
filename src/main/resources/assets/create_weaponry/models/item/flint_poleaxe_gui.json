@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/handheld",
   "textures": {
-    "layer0": "modestmining:item/flint_poleaxe"
+    "layer0": "create_weaponry:item/flint_poleaxe"
   }
 }

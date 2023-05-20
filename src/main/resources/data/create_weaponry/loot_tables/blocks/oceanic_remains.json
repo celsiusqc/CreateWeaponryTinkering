@@ -7,7 +7,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "modestmining:oceanic_remains"
+          "name": "create_weaponry:oceanic_remains"
         }
       ],
       "conditions": [

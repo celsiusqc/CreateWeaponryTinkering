@@ -4,9 +4,9 @@
     "item": "minecraft:iron_leggings"
   },
   "addition": {
-    "tag": "modestmining:steel_platings"
+    "tag": "create_weaponry:steel_platings"
   },
   "result": {
-    "item": "modestmining:steel_leggings"
+    "item": "create_weaponry:steel_leggings"
   }
 }

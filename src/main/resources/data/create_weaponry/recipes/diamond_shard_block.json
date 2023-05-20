@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "modestmining:diamond_shard"
+      "item": "create_weaponry:diamond_shard"
     }
   },
   "result": {
-    "item": "modestmining:diamond_shard_block"
+    "item": "create_weaponry:diamond_shard_block"
   }
 }

@@ -6,14 +6,14 @@
   ],
   "key": {
     "#": {
-      "item": "modestmining:plank"
+      "item": "create_weaponry:plank"
     },
     "X": {
       "item": "minecraft:crimson_planks"
     }
   },
   "result": {
-    "item": "modestmining:crimson_tiles",
+    "item": "create_weaponry:crimson_tiles",
     "count": 2
   }
 }

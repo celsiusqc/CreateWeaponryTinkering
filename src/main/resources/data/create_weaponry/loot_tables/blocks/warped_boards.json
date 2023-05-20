@@ -7,7 +7,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "modestmining:warped_boards"
+          "name": "create_weaponry:warped_boards"
         }
       ],
       "conditions": [

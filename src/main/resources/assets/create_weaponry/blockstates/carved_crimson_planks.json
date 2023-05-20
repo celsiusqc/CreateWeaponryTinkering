@@ -1,5 +1,5 @@
 {
   "variants": {
-    "": { "model": "modestmining:block/carved_crimson_planks" }
+    "": { "model": "create_weaponry:block/carved_crimson_planks" }
   }
 }

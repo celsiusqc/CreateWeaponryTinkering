@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/handheld",
   "textures": {
-    "layer0": "modestmining:item/rosegold_glaive"
+    "layer0": "create_weaponry:item/rosegold_glaive"
   }
 }

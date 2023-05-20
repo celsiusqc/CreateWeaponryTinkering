@@ -1,5 +1,5 @@
 {
   "variants": {
-    "": { "model": "modestmining:block/chiseled_dark_oak_planks" }
+    "": { "model": "create_weaponry:block/chiseled_dark_oak_planks" }
   }
 }

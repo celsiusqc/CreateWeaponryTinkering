@@ -1,5 +1,5 @@
 {
-  "type": "modestmining:forging",
+  "type": "create_weaponry:forging",
   "ingredients": [
     {
       "item": "minecraft:gold_ingot"
@@ -27,6 +27,6 @@
     }
   ],
   "output": {
-    "item": "modestmining:rosegold_ingot"
+    "item": "create_weaponry:rosegold_ingot"
   }
 }

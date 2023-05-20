@@ -5,11 +5,11 @@
   ],
   "key": {
     "#": {
-      "item": "modestmining:varied_planks"
+      "item": "create_weaponry:varied_planks"
     }
   },
   "result": {
-    "item": "modestmining:varied_plank_pressure_plate",
+    "item": "create_weaponry:varied_plank_pressure_plate",
     "count": 1
   }
 }

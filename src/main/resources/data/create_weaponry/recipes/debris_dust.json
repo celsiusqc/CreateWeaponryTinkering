@@ -26,11 +26,11 @@
       "item": "minecraft:ancient_debris"
     },
     {
-      "tag": "modestmining:hammers"
+      "tag": "create_weaponry:hammers"
     }
   ],
   "result": {
-    "item": "modestmining:debris_dust",
+    "item": "create_weaponry:debris_dust",
     "count": 9
   }
 }

@@ -6,7 +6,7 @@
     "minecraft:frozen_ocean"
   ],
   "spawners": {
-    "type": "modestmining:clam",
+    "type": "create_weaponry:clam",
     "weight": 30,
     "minCount": 1,
     "maxCount": 3

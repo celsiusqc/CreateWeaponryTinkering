@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "modestmining:prismarite_nugget"
+      "item": "create_weaponry:prismarite_nugget"
     }
   },
   "result": {
-    "item": "modestmining:prismarite_ingot"
+    "item": "create_weaponry:prismarite_ingot"
   }
 }

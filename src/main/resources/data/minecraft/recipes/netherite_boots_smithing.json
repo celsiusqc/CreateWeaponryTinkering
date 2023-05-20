@@ -4,7 +4,7 @@
     "item": "minecraft:diamond_boots"
   },
   "addition": {
-    "tag": "modestmining:netherite_platings"
+    "tag": "create_weaponry:netherite_platings"
   },
   "result": {
     "item": "minecraft:netherite_boots"

@@ -1,7 +1,7 @@
 {
   "replace": false,
   "values": [
-    "modestmining:adobe_brick_wall",
-    "modestmining:mossy_adobe_brick_wall"
+    "create_weaponry:adobe_brick_wall",
+    "create_weaponry:mossy_adobe_brick_wall"
   ]
 }

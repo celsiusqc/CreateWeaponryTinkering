@@ -1,6 +1,6 @@
 {
 	"parent": "block/cube_all",
 	"textures": {
-		"all": "modestmining:block/suspicious_stone_3"
+		"all": "create_weaponry:block/suspicious_stone_3"
 	}
 }

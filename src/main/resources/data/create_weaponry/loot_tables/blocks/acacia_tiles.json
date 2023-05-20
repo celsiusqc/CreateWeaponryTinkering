@@ -7,7 +7,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "modestmining:acacia_tiles"
+          "name": "create_weaponry:acacia_tiles"
         }
       ],
       "conditions": [

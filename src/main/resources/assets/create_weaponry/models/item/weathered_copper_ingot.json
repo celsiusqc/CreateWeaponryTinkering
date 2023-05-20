@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "modestmining:item/weathered_copper_ingot"
+    "layer0": "create_weaponry:item/weathered_copper_ingot"
   }
 }

@@ -1,15 +1,15 @@
 {
   "variants": {
     "axis=x": {
-      "model": "modestmining:block/crimson_pillar_horizontal",
+      "model": "create_weaponry:block/crimson_pillar_horizontal",
       "x": 90,
       "y": 90
     },
     "axis=y": {
-      "model": "modestmining:block/crimson_pillar"
+      "model": "create_weaponry:block/crimson_pillar"
     },
     "axis=z": {
-      "model": "modestmining:block/crimson_pillar_horizontal",
+      "model": "create_weaponry:block/crimson_pillar_horizontal",
       "x": 90
     }
   }

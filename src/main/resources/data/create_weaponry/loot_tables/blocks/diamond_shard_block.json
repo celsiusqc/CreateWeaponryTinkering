@@ -7,7 +7,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "modestmining:diamond_shard_block"
+          "name": "create_weaponry:diamond_shard_block"
         }
       ],
       "conditions": [

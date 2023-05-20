@@ -1,12 +1,12 @@
 {
   "type": "minecraft:smithing",
   "base": {
-    "item": "modestmining:golden_glaive"
+    "item": "create_weaponry:golden_glaive"
   },
   "addition": {
-    "tag": "modestmining:rosegold_pieces"
+    "tag": "create_weaponry:rosegold_pieces"
   },
   "result": {
-    "item": "modestmining:rosegold_glaive"
+    "item": "create_weaponry:rosegold_glaive"
   }
 }

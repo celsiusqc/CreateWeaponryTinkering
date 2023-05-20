@@ -1,6 +1,6 @@
 {
   "parent": "item/handheld",
   "textures": {
-    "layer0": "modestmining:item/rosegold_hammer"
+    "layer0": "create_weaponry:item/rosegold_hammer"
   }
 }

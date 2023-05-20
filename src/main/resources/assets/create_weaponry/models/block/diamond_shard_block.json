@@ -1,6 +1,6 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "modestmining:block/diamond_shard_block"
+    "all": "create_weaponry:block/diamond_shard_block"
   }
 }

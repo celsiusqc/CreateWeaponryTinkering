@@ -5,10 +5,10 @@
       "item": "minecraft:moss_block"
     },
     {
-      "item": "modestmining:adobe_bricks"
+      "item": "create_weaponry:adobe_bricks"
     }
   ],
   "result": {
-    "item": "modestmining:mossy_adobe_bricks"
+    "item": "create_weaponry:mossy_adobe_bricks"
   }
 }

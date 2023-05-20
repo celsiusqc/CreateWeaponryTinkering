@@ -7,7 +7,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "modestmining:coke_block"
+          "name": "create_weaponry:coke_block"
         }
       ],
       "conditions": [

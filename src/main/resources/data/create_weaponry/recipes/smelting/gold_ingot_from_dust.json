@@ -2,7 +2,7 @@
   "type": "minecraft:blasting",
   "ingredient": [
     {
-      "item": "modestmining:gold_dust"
+      "item": "create_weaponry:gold_dust"
     }
   ],
   "result": "minecraft:gold_ingot",

@@ -7,11 +7,11 @@
   ],
   "key": {
     "#": {
-      "item": "modestmining:varied_planks"
+      "item": "create_weaponry:varied_planks"
     }
   },
   "result": {
-    "item": "modestmining:varied_plank_stairs",
+    "item": "create_weaponry:varied_plank_stairs",
     "count": 6
   }
 }

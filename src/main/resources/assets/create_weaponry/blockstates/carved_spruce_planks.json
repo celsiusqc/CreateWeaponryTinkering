@@ -1,5 +1,5 @@
 {
   "variants": {
-    "": { "model": "modestmining:block/carved_spruce_planks" }
+    "": { "model": "create_weaponry:block/carved_spruce_planks" }
   }
 }

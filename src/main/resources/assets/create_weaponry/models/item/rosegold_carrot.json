@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "modestmining:item/rosegold_carrot"
+    "layer0": "create_weaponry:item/rosegold_carrot"
   }
 }

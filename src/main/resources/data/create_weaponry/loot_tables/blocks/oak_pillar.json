@@ -7,7 +7,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "modestmining:oak_pillar"
+          "name": "create_weaponry:oak_pillar"
         }
       ],
       "conditions": [

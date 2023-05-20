@@ -1,5 +1,5 @@
 {
-  "type": "modestmining:forging",
+  "type": "create_weaponry:forging",
   "ingredients": [
     {
       "item": "minecraft:clay_ball"
@@ -14,20 +14,20 @@
       "item": "minecraft:clay_ball"
     },
     {
-      "item": "modestmining:fiber"
+      "item": "create_weaponry:fiber"
     },
     {
-      "item": "modestmining:fiber"
+      "item": "create_weaponry:fiber"
     },
     {
-      "item": "modestmining:fiber"
+      "item": "create_weaponry:fiber"
     },
     {
-      "item": "modestmining:fiber"
+      "item": "create_weaponry:fiber"
     }
   ],
   "output": {
-    "item": "modestmining:adobe_brick",
+    "item": "create_weaponry:adobe_brick",
     "count": 8
   }
 }

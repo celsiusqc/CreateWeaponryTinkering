@@ -2,7 +2,7 @@
   "type": "minecraft:stonecutting",
   "count": 1,
   "ingredient": {
-    "item": "modestmining:adobe_bricks"
+    "item": "create_weaponry:adobe_bricks"
   },
-  "result": "modestmining:adobe_brick_wall"
+  "result": "create_weaponry:adobe_brick_wall"
 }

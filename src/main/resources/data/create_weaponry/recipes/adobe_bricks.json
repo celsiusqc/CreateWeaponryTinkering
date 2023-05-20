@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "modestmining:adobe_brick"
+      "item": "create_weaponry:adobe_brick"
     }
   },
   "result": {
-    "item": "modestmining:adobe_bricks"
+    "item": "create_weaponry:adobe_bricks"
   }
 }

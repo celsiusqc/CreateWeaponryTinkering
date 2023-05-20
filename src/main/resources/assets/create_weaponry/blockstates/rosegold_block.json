@@ -1,5 +1,5 @@
 {
   "variants": {
-    "": { "model": "modestmining:block/rosegold_block" }
+    "": { "model": "create_weaponry:block/rosegold_block" }
   }
 }

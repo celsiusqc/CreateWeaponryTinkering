@@ -4,9 +4,9 @@
     "item": "minecraft:iron_chestplate"
   },
   "addition": {
-    "tag": "modestmining:steel_platings"
+    "tag": "create_weaponry:steel_platings"
   },
   "result": {
-    "item": "modestmining:steel_chestplate"
+    "item": "create_weaponry:steel_chestplate"
   }
 }

@@ -4,9 +4,9 @@
     "item": "minecraft:iron_hoe"
   },
   "addition": {
-    "tag": "modestmining:steel_pieces"
+    "tag": "create_weaponry:steel_pieces"
   },
   "result": {
-    "item": "modestmining:steel_hoe"
+    "item": "create_weaponry:steel_hoe"
   }
 }

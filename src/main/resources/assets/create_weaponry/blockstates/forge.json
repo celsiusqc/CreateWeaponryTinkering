@@ -1,33 +1,33 @@
 {
   "variants": {
     "facing=east,lit=false": {
-      "model": "modestmining:block/forge",
+      "model": "create_weaponry:block/forge",
       "y": 90
     },
     "facing=east,lit=true": {
-      "model": "modestmining:block/forge_lit",
+      "model": "create_weaponry:block/forge_lit",
       "y": 90
     },
     "facing=north,lit=false": {
-      "model": "modestmining:block/forge"
+      "model": "create_weaponry:block/forge"
     },
     "facing=north,lit=true": {
-      "model": "modestmining:block/forge_lit"
+      "model": "create_weaponry:block/forge_lit"
     },
     "facing=south,lit=false": {
-      "model": "modestmining:block/forge",
+      "model": "create_weaponry:block/forge",
       "y": 180
     },
     "facing=south,lit=true": {
-      "model": "modestmining:block/forge_lit",
+      "model": "create_weaponry:block/forge_lit",
       "y": 180
     },
     "facing=west,lit=false": {
-      "model": "modestmining:block/forge",
+      "model": "create_weaponry:block/forge",
       "y": 270
     },
     "facing=west,lit=true": {
-      "model": "modestmining:block/forge_lit",
+      "model": "create_weaponry:block/forge_lit",
       "y": 270
     }
   }

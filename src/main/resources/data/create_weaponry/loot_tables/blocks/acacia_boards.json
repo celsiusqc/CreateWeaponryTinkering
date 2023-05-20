@@ -7,7 +7,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "modestmining:acacia_boards"
+          "name": "create_weaponry:acacia_boards"
         }
       ],
       "conditions": [

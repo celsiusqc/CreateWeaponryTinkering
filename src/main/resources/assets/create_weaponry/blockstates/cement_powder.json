@@ -1,5 +1,5 @@
 {
   "variants": {
-    "": { "model": "modestmining:block/cement_powder" }
+    "": { "model": "create_weaponry:block/cement_powder" }
   }
 }

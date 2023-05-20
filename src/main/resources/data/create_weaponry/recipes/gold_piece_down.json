@@ -9,11 +9,11 @@
       "item": "minecraft:gold_ingot"
     },
     "@": {
-      "tag": "modestmining:hammers"
+      "tag": "create_weaponry:hammers"
     }
   },
   "result": {
-    "item": "modestmining:gold_piece",
+    "item": "create_weaponry:gold_piece",
     "count": 2
   }
 }

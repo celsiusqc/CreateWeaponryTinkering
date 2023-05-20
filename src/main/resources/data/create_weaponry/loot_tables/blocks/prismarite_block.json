@@ -7,7 +7,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "modestmining:prismarite_block"
+          "name": "create_weaponry:prismarite_block"
         }
       ],
       "conditions": [

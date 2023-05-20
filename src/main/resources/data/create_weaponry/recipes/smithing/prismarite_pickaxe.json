@@ -4,9 +4,9 @@
     "item": "minecraft:diamond_pickaxe"
   },
   "addition": {
-    "tag": "modestmining:prismarite_pieces"
+    "tag": "create_weaponry:prismarite_pieces"
   },
   "result": {
-    "item": "modestmining:prismarite_pickaxe"
+    "item": "create_weaponry:prismarite_pickaxe"
   }
 }

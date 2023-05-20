@@ -1,12 +1,12 @@
 {
   "type": "minecraft:smithing",
   "base": {
-    "item": "modestmining:iron_katana"
+    "item": "create_weaponry:iron_katana"
   },
   "addition": {
-    "tag": "modestmining:steel_pieces"
+    "tag": "create_weaponry:steel_pieces"
   },
   "result": {
-    "item": "modestmining:steel_katana"
+    "item": "create_weaponry:steel_katana"
   }
 }

@@ -2,7 +2,7 @@
   "type": "minecraft:blasting",
   "ingredient": [
     {
-      "item": "modestmining:debris_dust"
+      "item": "create_weaponry:debris_dust"
     }
   ],
   "result": "minecraft:netherite_scrap",

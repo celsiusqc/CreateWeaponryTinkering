@@ -1,5 +1,5 @@
 {
-  "type": "modestmining:forging",
+  "type": "create_weaponry:forging",
   "ingredients": [
     {
       "item": "minecraft:gold_ingot"

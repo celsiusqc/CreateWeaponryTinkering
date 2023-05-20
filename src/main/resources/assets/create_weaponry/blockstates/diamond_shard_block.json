@@ -1,5 +1,5 @@
 {
   "variants": {
-    "": { "model": "modestmining:block/diamond_shard_block" }
+    "": { "model": "create_weaponry:block/diamond_shard_block" }
   }
 }

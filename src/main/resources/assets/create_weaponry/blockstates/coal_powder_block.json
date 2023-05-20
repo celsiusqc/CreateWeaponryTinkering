@@ -1,5 +1,5 @@
 {
   "variants": {
-    "": { "model": "modestmining:block/coal_powder_block" }
+    "": { "model": "create_weaponry:block/coal_powder_block" }
   }
 }

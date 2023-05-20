@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "modestmining:fiber"
+      "item": "create_weaponry:fiber"
     }
   },
   "result": {
-    "item": "modestmining:fiber_pants"
+    "item": "create_weaponry:fiber_pants"
   }
 }

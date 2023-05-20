@@ -1,5 +1,5 @@
 {
   "variants": {
-    "": { "model": "modestmining:block/coke_block" }
+    "": { "model": "create_weaponry:block/coke_block" }
   }
 }

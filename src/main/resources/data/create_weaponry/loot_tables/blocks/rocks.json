@@ -7,7 +7,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "modestmining:rocks"
+          "name": "create_weaponry:rocks"
         }
       ],
       "conditions": [

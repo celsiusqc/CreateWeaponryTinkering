@@ -6,14 +6,14 @@
   ],
   "key": {
     "#": {
-      "item": "modestmining:coal_powder"
+      "item": "create_weaponry:coal_powder"
     },
     "@": {
       "tag": "minecraft:stick"
     }
   },
   "result": {
-    "item": "modestmining:torch",
+    "item": "create_weaponry:torch",
     "count": 4
   }
 }

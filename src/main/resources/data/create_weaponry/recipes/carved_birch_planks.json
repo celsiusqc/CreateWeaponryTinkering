@@ -7,14 +7,14 @@
   ],
   "key": {
     "#": {
-      "item": "modestmining:plank"
+      "item": "create_weaponry:plank"
     },
     "X": {
       "item": "minecraft:birch_planks"
     }
   },
   "result": {
-    "item": "modestmining:carved_birch_planks",
+    "item": "create_weaponry:carved_birch_planks",
     "count": 5
   }
 }

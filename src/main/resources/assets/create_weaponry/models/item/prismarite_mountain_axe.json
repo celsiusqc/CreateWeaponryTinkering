@@ -1,6 +1,6 @@
 {
   "parent": "item/handheld",
   "textures": {
-    "layer0": "modestmining:item/prismarite_mountain_axe"
+    "layer0": "create_weaponry:item/prismarite_mountain_axe"
   }
 }

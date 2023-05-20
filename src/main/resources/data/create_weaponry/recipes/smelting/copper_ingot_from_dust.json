@@ -2,7 +2,7 @@
   "type": "minecraft:blasting",
   "ingredient": [
     {
-      "item": "modestmining:copper_dust"
+      "item": "create_weaponry:copper_dust"
     }
   ],
   "result": "minecraft:copper_ingot",

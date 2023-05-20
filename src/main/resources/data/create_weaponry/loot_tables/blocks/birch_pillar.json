@@ -7,7 +7,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "modestmining:birch_pillar"
+          "name": "create_weaponry:birch_pillar"
         }
       ],
       "conditions": [

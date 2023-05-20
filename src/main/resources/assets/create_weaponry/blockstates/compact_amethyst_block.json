@@ -1,5 +1,5 @@
 {
   "variants": {
-    "": { "model": "modestmining:block/compact_amethyst_block" }
+    "": { "model": "create_weaponry:block/compact_amethyst_block" }
   }
 }

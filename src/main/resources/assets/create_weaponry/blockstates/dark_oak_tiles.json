@@ -1,5 +1,5 @@
 {
   "variants": {
-    "": { "model": "modestmining:block/dark_oak_tiles" }
+    "": { "model": "create_weaponry:block/dark_oak_tiles" }
   }
 }

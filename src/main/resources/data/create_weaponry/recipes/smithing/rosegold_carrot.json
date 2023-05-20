@@ -4,9 +4,9 @@
     "item": "minecraft:golden_carrot"
   },
   "addition": {
-    "item": "modestmining:rosegold_nugget"
+    "item": "create_weaponry:rosegold_nugget"
   },
   "result": {
-    "item": "modestmining:rosegold_carrot"
+    "item": "create_weaponry:rosegold_carrot"
   }
 }

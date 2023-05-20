@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "modestmining:steel_ingot"
+      "item": "create_weaponry:steel_ingot"
     },
     {
       "item": "minecraft:flint"

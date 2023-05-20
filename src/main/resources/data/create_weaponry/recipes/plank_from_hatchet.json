@@ -5,11 +5,11 @@
       "tag": "minecraft:planks"
     },
     {
-      "tag": "modestmining:hatchets"
+      "tag": "create_weaponry:hatchets"
     }
   ],
   "result": {
-    "item": "modestmining:plank",
+    "item": "create_weaponry:plank",
     "count": 4
   }
 }

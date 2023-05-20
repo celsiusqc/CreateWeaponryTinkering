@@ -144,7 +144,7 @@
         {
           "type": "minecraft:item",
           "weight": 4,
-          "name": "modestmining:diamond_shard"
+          "name": "create_weaponry:diamond_shard"
         },
         {
           "type": "minecraft:item",
@@ -184,7 +184,7 @@
         {
           "type": "minecraft:item",
           "weight": 4,
-          "name": "modestmining:coal_powder_block"
+          "name": "create_weaponry:coal_powder_block"
         },
         {
           "type": "minecraft:item",
@@ -194,19 +194,19 @@
         {
           "type": "minecraft:item",
           "weight": 4,
-          "name": "modestmining:copper_screw"
+          "name": "create_weaponry:copper_screw"
         },
 
 
         {
           "type": "minecraft:item",
           "weight": 8,
-          "name": "modestmining:chainmail"
+          "name": "create_weaponry:chainmail"
         },
         {
           "type": "minecraft:item",
           "weight": 8,
-          "name": "modestmining:coal_powder"
+          "name": "create_weaponry:coal_powder"
         },
         {
           "type": "minecraft:item",
@@ -258,7 +258,7 @@
         {
           "type": "minecraft:loot_table",
           "weight": 1,
-          "name": "modestmining:blocks/stone_tools"
+          "name": "create_weaponry:blocks/stone_tools"
         },
         {
           "type": "minecraft:item",
@@ -338,7 +338,7 @@
             }
           ],
           "weight": 8,
-          "name": "modestmining:brush"
+          "name": "create_weaponry:brush"
         },
         {
           "type": "minecraft:item",
@@ -369,7 +369,7 @@
         {
           "type": "minecraft:item",
           "weight": 8,
-          "name": "modestmining:copper_screw"
+          "name": "create_weaponry:copper_screw"
         }
 
       ]

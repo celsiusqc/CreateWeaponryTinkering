@@ -47,14 +47,13 @@ import java.io.IOException;
 @Mod(CreateWeaponry.MOD_ID)
 public class CreateWeaponry
 {
-    public static final String MOD_ID = "modestmining";
+    public static final String MOD_ID = "create_weaponry";
     private static final Logger LOGGER = LogUtils.getLogger();
 
     public CreateWeaponry()
     {
         IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();
         eventBus.addListener(this::commonSetup);
-        eventBus.addListener(this::addPackFinders);
 
         ModEffects.register(eventBus);
         ModItems.register(eventBus);
@@ -84,36 +83,6 @@ public class CreateWeaponry
 
     }
 
-    public void addPackFinders(AddPackFindersEvent event) {
-        if (event.getPackType() == PackType.CLIENT_RESOURCES) {
-            registerBuiltinResourcePack(event, Component.literal("Create Weaponry"), "modestmining_materials");
-        }
-    }
-
-    private static void registerBuiltinResourcePack(AddPackFindersEvent event, MutableComponent name, String folder) {
-        event.addRepositorySource((consumer, constructor) -> {
-            ResourceLocation res = new ResourceLocation(CreateWeaponry.MOD_ID, folder);
-            IModFile file = ModList.get().getModFileById(CreateWeaponry.MOD_ID).getFile();
-            try (PathPackResources pack = new PathPackResources(
-                    res.toString(),
-                    file.findResource("resourcepacks/" + folder))) {
-
-                consumer.accept(constructor.create(
-                        res.toString(),
-                        name,
-                        false,
-                        () -> pack,
-                        pack.getMetadataSection(PackMetadataSection.SERIALIZER),
-                        Pack.Position.BOTTOM,
-                        PackSource.BUILT_IN,
-                        false));
-
-            } catch (IOException e) {
-                if (!DatagenModLoader.isRunningDataGen())
-                    e.printStackTrace();
-            }
-        });
-    }
 
     // You can use EventBusSubscriber to automatically register all static methods in the class annotated with @SubscribeEvent
     @Mod.EventBusSubscriber(modid = MOD_ID, bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)

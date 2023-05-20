@@ -7,7 +7,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "modestmining:crimson_pillar"
+          "name": "create_weaponry:crimson_pillar"
         }
       ],
       "conditions": [

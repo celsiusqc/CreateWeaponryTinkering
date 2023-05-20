@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/fence_post",
   "textures": {
-    "texture": "modestmining:block/varied_planks_5"
+    "texture": "create_weaponry:block/varied_planks_5"
   }
 }

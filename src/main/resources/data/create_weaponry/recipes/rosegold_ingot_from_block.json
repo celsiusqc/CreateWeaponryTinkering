@@ -2,11 +2,11 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "modestmining:rosegold_block"
+      "item": "create_weaponry:rosegold_block"
     }
   ],
   "result": {
-    "item": "modestmining:rosegold_ingot",
+    "item": "create_weaponry:rosegold_ingot",
     "count": 9
   }
 }

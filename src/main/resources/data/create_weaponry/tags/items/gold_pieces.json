@@ -1,7 +1,7 @@
 {
   "replace": false,
   "values": [
-    "modestmining:gold_piece",
+    "create_weaponry:gold_piece",
     "minecraft:gold_ingot"
   ]
 }

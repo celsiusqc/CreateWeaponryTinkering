@@ -7,7 +7,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "modestmining:chiseled_jungle_planks"
+          "name": "create_weaponry:chiseled_jungle_planks"
         }
       ],
       "conditions": [

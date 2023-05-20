@@ -2,35 +2,35 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "modestmining:oceanic_remains"
+      "item": "create_weaponry:oceanic_remains"
     },
     {
-      "item": "modestmining:oceanic_remains"
+      "item": "create_weaponry:oceanic_remains"
     },
     {
-      "item": "modestmining:oceanic_remains"
+      "item": "create_weaponry:oceanic_remains"
     },
     {
-      "item": "modestmining:oceanic_remains"
+      "item": "create_weaponry:oceanic_remains"
     },
     {
-      "item": "modestmining:oceanic_remains"
+      "item": "create_weaponry:oceanic_remains"
     },
     {
-      "item": "modestmining:oceanic_remains"
+      "item": "create_weaponry:oceanic_remains"
     },
     {
-      "item": "modestmining:oceanic_remains"
+      "item": "create_weaponry:oceanic_remains"
     },
     {
-      "item": "modestmining:oceanic_remains"
+      "item": "create_weaponry:oceanic_remains"
     },
     {
-      "tag": "modestmining:hammers"
+      "tag": "create_weaponry:hammers"
     }
   ],
   "result": {
-    "item": "modestmining:remaining_dust",
+    "item": "create_weaponry:remaining_dust",
     "count": 9
   }
 }

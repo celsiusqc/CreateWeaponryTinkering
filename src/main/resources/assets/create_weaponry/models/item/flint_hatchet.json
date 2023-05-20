@@ -1,6 +1,6 @@
 {
   "parent": "item/handheld",
   "textures": {
-    "layer0": "modestmining:item/flint_hatchet"
+    "layer0": "create_weaponry:item/flint_hatchet"
   }
 }

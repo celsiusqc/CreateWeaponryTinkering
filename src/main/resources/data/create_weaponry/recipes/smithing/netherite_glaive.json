@@ -1,12 +1,12 @@
 {
   "type": "minecraft:smithing",
   "base": {
-    "item": "modestmining:diamond_glaive"
+    "item": "create_weaponry:diamond_glaive"
   },
   "addition": {
-    "tag": "modestmining:netherite_pieces"
+    "tag": "create_weaponry:netherite_pieces"
   },
   "result": {
-    "item": "modestmining:netherite_glaive"
+    "item": "create_weaponry:netherite_glaive"
   }
 }

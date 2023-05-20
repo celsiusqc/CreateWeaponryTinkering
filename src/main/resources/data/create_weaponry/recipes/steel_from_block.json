@@ -2,11 +2,11 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "modestmining:steel_block"
+      "item": "create_weaponry:steel_block"
     }
   ],
   "result": {
-    "item": "modestmining:steel_ingot",
+    "item": "create_weaponry:steel_ingot",
     "count": 9
   }
 }

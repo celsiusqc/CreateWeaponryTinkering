@@ -13,7 +13,7 @@
       "tag": "minecraft:planks"
     },
     "F": {
-      "item": "modestmining:fiber"
+      "item": "create_weaponry:fiber"
     }
   },
   "result": {

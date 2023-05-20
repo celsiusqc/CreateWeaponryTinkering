@@ -1,5 +1,5 @@
 {
   "variants": {
-    "": { "model": "modestmining:block/steel_block" }
+    "": { "model": "create_weaponry:block/steel_block" }
   }
 }

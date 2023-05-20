@@ -10,13 +10,13 @@
       "item": "minecraft:copper_ingot"
     },
     "X": {
-      "item": "modestmining:amethyst"
+      "item": "create_weaponry:amethyst"
     },
     "B": {
-      "item": "modestmining:copper_screw"
+      "item": "create_weaponry:copper_screw"
     }
   },
   "result": {
-    "item": "modestmining:chisel"
+    "item": "create_weaponry:chisel"
   }
 }

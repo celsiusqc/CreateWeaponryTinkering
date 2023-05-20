@@ -1,8 +1,8 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "modestmining:block/shell",
-		"particle": "modestmining:block/shell"
+		"0": "create_weaponry:block/shell",
+		"particle": "create_weaponry:block/shell"
 	},
 	"elements": [
 		{

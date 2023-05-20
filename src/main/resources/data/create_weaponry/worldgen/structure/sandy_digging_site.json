@@ -1,13 +1,13 @@
 {
   "type": "minecraft:jigsaw",
 
-  "start_pool": "modestmining:sandy_digging_site/start_pool",
+  "start_pool": "create_weaponry:sandy_digging_site/start_pool",
 
   "size": 2,
 
   "max_distance_from_center": 80,
 
-  "biomes": "#modestmining:has_structure/sandy_digging_site",
+  "biomes": "#create_weaponry:has_structure/sandy_digging_site",
 
   "step": "surface_structures",
 

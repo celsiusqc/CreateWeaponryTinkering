@@ -13,13 +13,13 @@
       "tag": "minecraft:planks"
     },
     "&": {
-      "item": "modestmining:plank"
+      "item": "create_weaponry:plank"
     },
     "F": {
-      "item": "modestmining:fiber"
+      "item": "create_weaponry:fiber"
     }
   },
   "result": {
-    "item": "modestmining:wooden_mace"
+    "item": "create_weaponry:wooden_mace"
   }
 }

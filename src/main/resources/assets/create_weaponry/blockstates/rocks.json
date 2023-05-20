@@ -1,10 +1,10 @@
 {
   "variants": {
     "": [
-      { "model": "modestmining:block/rocks" },
-      { "model": "modestmining:block/rocks", "y": 90 },
-      { "model": "modestmining:block/rocks", "y": 180 },
-      { "model": "modestmining:block/rocks", "y": 270 }
+      { "model": "create_weaponry:block/rocks" },
+      { "model": "create_weaponry:block/rocks", "y": 90 },
+      { "model": "create_weaponry:block/rocks", "y": 180 },
+      { "model": "create_weaponry:block/rocks", "y": 270 }
     ]
   }
 }

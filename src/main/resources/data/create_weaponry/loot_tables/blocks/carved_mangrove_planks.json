@@ -7,7 +7,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "modestmining:carved_mangrove_planks"
+          "name": "create_weaponry:carved_mangrove_planks"
         }
       ],
       "conditions": [

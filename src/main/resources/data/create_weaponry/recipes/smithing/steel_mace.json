@@ -1,12 +1,12 @@
 {
   "type": "minecraft:smithing",
   "base": {
-    "item": "modestmining:iron_mace"
+    "item": "create_weaponry:iron_mace"
   },
   "addition": {
-    "tag": "modestmining:steel_pieces"
+    "tag": "create_weaponry:steel_pieces"
   },
   "result": {
-    "item": "modestmining:steel_mace"
+    "item": "create_weaponry:steel_mace"
   }
 }

@@ -1,5 +1,5 @@
 {
   "variants": {
-    "": { "model": "modestmining:block/warped_boards" }
+    "": { "model": "create_weaponry:block/warped_boards" }
   }
 }

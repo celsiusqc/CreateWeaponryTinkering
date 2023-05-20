@@ -7,7 +7,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "modestmining:rosegold_block"
+          "name": "create_weaponry:rosegold_block"
         }
       ],
       "conditions": [

@@ -4,9 +4,9 @@
     "item": "minecraft:iron_boots"
   },
   "addition": {
-    "tag": "modestmining:steel_platings"
+    "tag": "create_weaponry:steel_platings"
   },
   "result": {
-    "item": "modestmining:steel_boots"
+    "item": "create_weaponry:steel_boots"
   }
 }

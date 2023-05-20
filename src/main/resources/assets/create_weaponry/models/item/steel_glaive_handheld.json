@@ -1,7 +1,7 @@
 {
   "parent": "minecraft:item/handheld",
   "textures": {
-    "layer0": "modestmining:item/steel_glaive_handheld"
+    "layer0": "create_weaponry:item/steel_glaive_handheld"
   },
   "display": {
     "thirdperson_righthand": {

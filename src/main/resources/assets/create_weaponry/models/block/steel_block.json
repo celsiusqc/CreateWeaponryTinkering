@@ -1,6 +1,6 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "modestmining:block/steel_block"
+    "all": "create_weaponry:block/steel_block"
   }
 }

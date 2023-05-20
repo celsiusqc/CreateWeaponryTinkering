@@ -4,9 +4,9 @@
     "item": "minecraft:golden_apple"
   },
   "addition": {
-    "tag": "modestmining:rosegold_pieces"
+    "tag": "create_weaponry:rosegold_pieces"
   },
   "result": {
-    "item": "modestmining:rosegold_apple"
+    "item": "create_weaponry:rosegold_apple"
   }
 }

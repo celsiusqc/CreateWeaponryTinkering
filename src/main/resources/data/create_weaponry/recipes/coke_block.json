@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "modestmining:coke"
+      "item": "create_weaponry:coke"
     }
   },
   "result": {
-    "item": "modestmining:coke_block"
+    "item": "create_weaponry:coke_block"
   }
 }

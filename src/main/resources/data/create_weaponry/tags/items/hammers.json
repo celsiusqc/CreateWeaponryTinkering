@@ -1,15 +1,15 @@
 {
   "replace": false,
   "values": [
-    "modestmining:flint_mallet",
-    "modestmining:stone_hammer",
-    "modestmining:wooden_hammer",
-    "modestmining:golden_hammer",
-    "modestmining:rosegold_hammer",
-    "modestmining:iron_hammer",
-    "modestmining:steel_hammer",
-    "modestmining:diamond_hammer",
-    "modestmining:netherite_hammer",
-    "modestmining:prismarite_hammer"
+    "create_weaponry:flint_mallet",
+    "create_weaponry:stone_hammer",
+    "create_weaponry:wooden_hammer",
+    "create_weaponry:golden_hammer",
+    "create_weaponry:rosegold_hammer",
+    "create_weaponry:iron_hammer",
+    "create_weaponry:steel_hammer",
+    "create_weaponry:diamond_hammer",
+    "create_weaponry:netherite_hammer",
+    "create_weaponry:prismarite_hammer"
   ]
 }

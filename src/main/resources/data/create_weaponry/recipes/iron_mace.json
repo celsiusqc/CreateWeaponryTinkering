@@ -13,10 +13,10 @@
       "item": "minecraft:iron_ingot"
     },
     "&": {
-      "item": "modestmining:iron_piece"
+      "item": "create_weaponry:iron_piece"
     }
   },
   "result": {
-    "item": "modestmining:iron_mace"
+    "item": "create_weaponry:iron_mace"
   }
 }

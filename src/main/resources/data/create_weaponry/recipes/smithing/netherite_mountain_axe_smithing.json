@@ -1,12 +1,12 @@
 {
   "type": "minecraft:smithing",
   "base": {
-    "item": "modestmining:diamond_mountain_axe"
+    "item": "create_weaponry:diamond_mountain_axe"
   },
   "addition": {
-    "tag": "modestmining:netherite_pieces"
+    "tag": "create_weaponry:netherite_pieces"
   },
   "result": {
-    "item": "modestmining:netherite_mountain_axe"
+    "item": "create_weaponry:netherite_mountain_axe"
   }
 }

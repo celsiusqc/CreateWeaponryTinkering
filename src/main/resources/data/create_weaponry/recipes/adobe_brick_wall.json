@@ -6,11 +6,11 @@
   ],
   "key": {
     "X": {
-      "item": "modestmining:adobe_bricks"
+      "item": "create_weaponry:adobe_bricks"
     }
   },
   "result": {
-    "item": "modestmining:adobe_brick_wall",
+    "item": "create_weaponry:adobe_brick_wall",
     "count": 6
   }
 }

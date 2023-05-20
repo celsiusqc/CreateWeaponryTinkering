@@ -7,7 +7,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "modestmining:carved_crimson_planks"
+          "name": "create_weaponry:carved_crimson_planks"
         }
       ],
       "conditions": [

@@ -12,10 +12,10 @@
       "item": "minecraft:gravel"
     },
     "F": {
-      "item": "modestmining:fiber"
+      "item": "create_weaponry:fiber"
     }
   },
   "result": {
-    "item": "modestmining:flint_mallet"
+    "item": "create_weaponry:flint_mallet"
   }
 }

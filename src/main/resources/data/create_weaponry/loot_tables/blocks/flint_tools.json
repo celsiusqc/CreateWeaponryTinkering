@@ -19,7 +19,7 @@
             }
           ],
           "weight": 2,
-          "name": "modestmining:flint_blade"
+          "name": "create_weaponry:flint_blade"
         },
         {
           "type": "minecraft:item",
@@ -35,7 +35,7 @@
             }
           ],
           "weight": 2,
-          "name": "modestmining:flint_hatchet"
+          "name": "create_weaponry:flint_hatchet"
         },
         {
           "type": "minecraft:item",
@@ -51,7 +51,7 @@
             }
           ],
           "weight": 2,
-          "name": "modestmining:flint_mattock"
+          "name": "create_weaponry:flint_mattock"
         },
         {
           "type": "minecraft:item",
@@ -67,7 +67,7 @@
             }
           ],
           "weight": 2,
-          "name": "modestmining:flint_spade"
+          "name": "create_weaponry:flint_spade"
         },
         {
           "type": "minecraft:item",
@@ -83,7 +83,7 @@
             }
           ],
           "weight": 2,
-          "name": "modestmining:flint_hoe"
+          "name": "create_weaponry:flint_hoe"
         }
       ]
     }

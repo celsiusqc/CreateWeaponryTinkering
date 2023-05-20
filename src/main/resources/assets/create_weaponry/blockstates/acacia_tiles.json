@@ -1,5 +1,5 @@
 {
   "variants": {
-    "": { "model": "modestmining:block/acacia_tiles" }
+    "": { "model": "create_weaponry:block/acacia_tiles" }
   }
 }

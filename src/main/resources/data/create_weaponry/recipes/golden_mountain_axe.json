@@ -10,10 +10,10 @@
       "item": "minecraft:stick"
     },
     "X": {
-      "tag": "modestmining:gold_pieces"
+      "tag": "create_weaponry:gold_pieces"
     }
   },
   "result": {
-    "item": "modestmining:golden_mountain_axe"
+    "item": "create_weaponry:golden_mountain_axe"
   }
 }

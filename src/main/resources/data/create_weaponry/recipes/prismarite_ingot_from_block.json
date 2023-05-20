@@ -2,11 +2,11 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "modestmining:prismarite_block"
+      "item": "create_weaponry:prismarite_block"
     }
   ],
   "result": {
-    "item": "modestmining:prismarite_ingot",
+    "item": "create_weaponry:prismarite_ingot",
     "count": 9
   }
 }

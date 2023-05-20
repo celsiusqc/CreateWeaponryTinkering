@@ -7,7 +7,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "modestmining:spruce_boards"
+          "name": "create_weaponry:spruce_boards"
         }
       ],
       "conditions": [

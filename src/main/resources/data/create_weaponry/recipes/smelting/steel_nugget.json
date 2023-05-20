@@ -2,34 +2,34 @@
   "type": "minecraft:smelting",
   "ingredient": [
     {
-      "item": "modestmining:steel_pickaxe"
+      "item": "create_weaponry:steel_pickaxe"
     },
     {
-      "item": "modestmining:steel_shovel"
+      "item": "create_weaponry:steel_shovel"
     },
     {
-      "item": "modestmining:steel_axe"
+      "item": "create_weaponry:steel_axe"
     },
     {
-      "item": "modestmining:steel_hoe"
+      "item": "create_weaponry:steel_hoe"
     },
     {
-      "item": "modestmining:steel_sword"
+      "item": "create_weaponry:steel_sword"
     },
     {
-      "item": "modestmining:steel_helmet"
+      "item": "create_weaponry:steel_helmet"
     },
     {
-      "item": "modestmining:steel_chestplate"
+      "item": "create_weaponry:steel_chestplate"
     },
     {
-      "item": "modestmining:steel_leggings"
+      "item": "create_weaponry:steel_leggings"
     },
     {
-      "item": "modestmining:steel_boots"
+      "item": "create_weaponry:steel_boots"
     }
   ],
-  "result": "modestmining:steel_nugget",
+  "result": "create_weaponry:steel_nugget",
   "experience": 0.1,
   "cookingtime": 200
 }

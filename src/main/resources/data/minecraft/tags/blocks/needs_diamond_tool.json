@@ -1,7 +1,7 @@
 {
   "replace": false,
   "values": [
-    "modestmining:prismarite_block",
-    "modestmining:oceanic_remains"
+    "create_weaponry:prismarite_block",
+    "create_weaponry:oceanic_remains"
   ]
 }

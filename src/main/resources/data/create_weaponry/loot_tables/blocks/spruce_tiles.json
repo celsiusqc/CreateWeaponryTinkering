@@ -7,7 +7,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "modestmining:spruce_tiles"
+          "name": "create_weaponry:spruce_tiles"
         }
       ],
       "conditions": [

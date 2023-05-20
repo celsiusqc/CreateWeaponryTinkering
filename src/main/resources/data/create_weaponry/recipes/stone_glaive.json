@@ -13,10 +13,10 @@
       "tag": "minecraft:stone_tool_materials"
     },
     "@": {
-      "item": "modestmining:rocks"
+      "item": "create_weaponry:rocks"
     }
   },
   "result": {
-    "item": "modestmining:stone_glaive"
+    "item": "create_weaponry:stone_glaive"
   }
 }

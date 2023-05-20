@@ -10,7 +10,7 @@
       "item": "minecraft:stick"
     },
     "X": {
-      "tag": "modestmining:iron_pieces"
+      "tag": "create_weaponry:iron_pieces"
     }
   },
   "result": {

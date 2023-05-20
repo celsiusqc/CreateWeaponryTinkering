@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "modestmining:rosegold_nugget"
+      "item": "create_weaponry:rosegold_nugget"
     }
   },
   "result": {
-    "item": "modestmining:rosegold_ingot"
+    "item": "create_weaponry:rosegold_ingot"
   }
 }

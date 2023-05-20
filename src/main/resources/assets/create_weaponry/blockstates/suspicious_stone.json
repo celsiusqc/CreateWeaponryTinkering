@@ -1,16 +1,16 @@
 {
   "variants": {
     "brushing=0": [
-      { "model": "modestmining:block/suspicious_stone0" }
+      { "model": "create_weaponry:block/suspicious_stone0" }
     ],
     "brushing=1": [
-      { "model": "modestmining:block/suspicious_stone1" }
+      { "model": "create_weaponry:block/suspicious_stone1" }
     ],
     "brushing=2": [
-      { "model": "modestmining:block/suspicious_stone2" }
+      { "model": "create_weaponry:block/suspicious_stone2" }
     ],
     "brushing=3": [
-      { "model": "modestmining:block/suspicious_stone3" }
+      { "model": "create_weaponry:block/suspicious_stone3" }
     ]
   }
 }

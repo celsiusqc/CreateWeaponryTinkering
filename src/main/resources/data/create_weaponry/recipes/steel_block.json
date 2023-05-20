@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "modestmining:steel_ingot"
+      "item": "create_weaponry:steel_ingot"
     }
   },
   "result": {
-    "item": "modestmining:steel_block"
+    "item": "create_weaponry:steel_block"
   }
 }

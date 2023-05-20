@@ -7,7 +7,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "modestmining:compact_amethyst_block"
+          "name": "create_weaponry:compact_amethyst_block"
         }
       ],
       "conditions": [

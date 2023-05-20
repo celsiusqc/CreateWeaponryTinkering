@@ -1,23 +1,23 @@
 {
-  "type": "modestmining:forging",
+  "type": "create_weaponry:forging",
   "ingredients": [
     {
-      "item": "modestmining:prismarite_scrap"
+      "item": "create_weaponry:prismarite_scrap"
     },
     {
-      "item": "modestmining:prismarite_scrap"
+      "item": "create_weaponry:prismarite_scrap"
     },
     {
-      "item": "modestmining:prismarite_scrap"
+      "item": "create_weaponry:prismarite_scrap"
     },
     {
-      "item": "modestmining:prismarite_scrap"
+      "item": "create_weaponry:prismarite_scrap"
     },
     {
-      "item": "modestmining:pearl"
+      "item": "create_weaponry:pearl"
     },
     {
-      "item": "modestmining:pearl"
+      "item": "create_weaponry:pearl"
     },
     {
       "item": "minecraft:gold_ingot"
@@ -27,6 +27,6 @@
     }
   ],
   "output": {
-    "item": "modestmining:prismarite_ingot"
+    "item": "create_weaponry:prismarite_ingot"
   }
 }

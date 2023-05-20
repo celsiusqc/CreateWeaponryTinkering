@@ -1,5 +1,5 @@
 {
   "variants": {
-    "": { "model": "modestmining:block/crimson_boards" }
+    "": { "model": "create_weaponry:block/crimson_boards" }
   }
 }

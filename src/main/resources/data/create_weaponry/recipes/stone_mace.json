@@ -13,10 +13,10 @@
       "item": "minecraft:cobblestone"
     },
     "&": {
-      "item": "modestmining:rocks"
+      "item": "create_weaponry:rocks"
     }
   },
   "result": {
-    "item": "modestmining:stone_mace"
+    "item": "create_weaponry:stone_mace"
   }
 }

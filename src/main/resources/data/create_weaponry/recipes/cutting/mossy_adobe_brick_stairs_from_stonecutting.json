@@ -2,7 +2,7 @@
   "type": "minecraft:stonecutting",
   "count": 1,
   "ingredient": {
-    "item": "modestmining:mossy_adobe_bricks"
+    "item": "create_weaponry:mossy_adobe_bricks"
   },
-  "result": "modestmining:mossy_adobe_brick_stairs"
+  "result": "create_weaponry:mossy_adobe_brick_stairs"
 }

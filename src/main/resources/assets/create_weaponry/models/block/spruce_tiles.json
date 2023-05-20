@@ -1,6 +1,6 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "modestmining:block/spruce_tiles"
+    "all": "create_weaponry:block/spruce_tiles"
   }
 }

@@ -2,11 +2,11 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "modestmining:coal_powder_block"
+      "item": "create_weaponry:coal_powder_block"
     }
   ],
   "result": {
-    "item": "modestmining:coal_powder",
+    "item": "create_weaponry:coal_powder",
     "count": 9
   }
 }

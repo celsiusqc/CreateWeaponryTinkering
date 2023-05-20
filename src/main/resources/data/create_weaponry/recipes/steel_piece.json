@@ -7,14 +7,14 @@
   ],
   "key": {
     "#": {
-      "item": "modestmining:steel_ingot"
+      "item": "create_weaponry:steel_ingot"
     },
     "@": {
-      "tag": "modestmining:hammers"
+      "tag": "create_weaponry:hammers"
     }
   },
   "result": {
-    "item": "modestmining:steel_piece",
+    "item": "create_weaponry:steel_piece",
     "count": 4
   }
 }

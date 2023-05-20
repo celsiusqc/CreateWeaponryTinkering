@@ -7,14 +7,14 @@
   ],
   "key": {
     "#": {
-      "item": "modestmining:rosegold_ingot"
+      "item": "create_weaponry:rosegold_ingot"
     },
     "@": {
-      "tag": "modestmining:hammers"
+      "tag": "create_weaponry:hammers"
     }
   },
   "result": {
-    "item": "modestmining:rosegold_piece",
+    "item": "create_weaponry:rosegold_piece",
     "count": 4
   }
 }

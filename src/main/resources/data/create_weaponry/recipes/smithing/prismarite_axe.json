@@ -4,9 +4,9 @@
     "item": "minecraft:diamond_axe"
   },
   "addition": {
-    "tag": "modestmining:prismarite_pieces"
+    "tag": "create_weaponry:prismarite_pieces"
   },
   "result": {
-    "item": "modestmining:prismarite_axe"
+    "item": "create_weaponry:prismarite_axe"
   }
 }

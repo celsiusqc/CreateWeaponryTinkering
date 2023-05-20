@@ -5,11 +5,11 @@
   ],
   "key": {
     "#": {
-      "item": "modestmining:carved_acacia_planks"
+      "item": "create_weaponry:carved_acacia_planks"
     }
   },
   "result": {
-    "item": "modestmining:chiseled_acacia_planks",
+    "item": "create_weaponry:chiseled_acacia_planks",
     "count": 1
   }
 }

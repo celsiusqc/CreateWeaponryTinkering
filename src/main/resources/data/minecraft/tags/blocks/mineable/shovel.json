@@ -1,10 +1,10 @@
 {
   "replace": false,
   "values": [
-    "modestmining:coal_powder_block",
-    "modestmining:suspicious_dirt",
-    "modestmining:suspicious_sand",
-    "modestmining:suspicious_gravel",
-    "modestmining:cement_powder"
+    "create_weaponry:coal_powder_block",
+    "create_weaponry:suspicious_dirt",
+    "create_weaponry:suspicious_sand",
+    "create_weaponry:suspicious_gravel",
+    "create_weaponry:cement_powder"
   ]
 }

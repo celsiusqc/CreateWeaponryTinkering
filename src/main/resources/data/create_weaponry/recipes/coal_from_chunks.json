@@ -2,28 +2,28 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "modestmining:coal_chunk"
+      "item": "create_weaponry:coal_chunk"
     },
     {
-      "item": "modestmining:coal_chunk"
+      "item": "create_weaponry:coal_chunk"
     },
     {
-      "item": "modestmining:coal_chunk"
+      "item": "create_weaponry:coal_chunk"
     },
     {
-      "item": "modestmining:coal_chunk"
+      "item": "create_weaponry:coal_chunk"
     },
     {
-      "item": "modestmining:coal_chunk"
+      "item": "create_weaponry:coal_chunk"
     },
     {
-      "item": "modestmining:coal_chunk"
+      "item": "create_weaponry:coal_chunk"
     },
     {
-      "item": "modestmining:coal_chunk"
+      "item": "create_weaponry:coal_chunk"
     },
     {
-      "item": "modestmining:coal_chunk"
+      "item": "create_weaponry:coal_chunk"
     }
   ],
   "result": {

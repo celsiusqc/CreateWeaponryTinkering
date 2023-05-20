@@ -7,14 +7,14 @@
   ],
   "key": {
     "#": {
-      "item": "modestmining:plank"
+      "item": "create_weaponry:plank"
     },
     "X": {
       "item": "minecraft:jungle_planks"
     }
   },
   "result": {
-    "item": "modestmining:carved_jungle_planks",
+    "item": "create_weaponry:carved_jungle_planks",
     "count": 5
   }
 }

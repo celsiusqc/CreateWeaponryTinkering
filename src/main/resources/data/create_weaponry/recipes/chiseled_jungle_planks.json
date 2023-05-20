@@ -5,11 +5,11 @@
   ],
   "key": {
     "#": {
-      "item": "modestmining:carved_jungle_planks"
+      "item": "create_weaponry:carved_jungle_planks"
     }
   },
   "result": {
-    "item": "modestmining:chiseled_jungle_planks",
+    "item": "create_weaponry:chiseled_jungle_planks",
     "count": 1
   }
 }

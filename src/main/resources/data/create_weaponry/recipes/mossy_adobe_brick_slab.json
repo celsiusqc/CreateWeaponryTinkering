@@ -5,11 +5,11 @@
   ],
   "key": {
     "X": {
-      "item": "modestmining:mossy_adobe_bricks"
+      "item": "create_weaponry:mossy_adobe_bricks"
     }
   },
   "result": {
-    "item": "modestmining:mossy_adobe_brick_slab",
+    "item": "create_weaponry:mossy_adobe_brick_slab",
     "count": 6
   }
 }

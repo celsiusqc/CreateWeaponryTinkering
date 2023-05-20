@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/button",
   "textures": {
-    "texture": "modestmining:block/varied_planks_9"
+    "texture": "create_weaponry:block/varied_planks_9"
   }
 }

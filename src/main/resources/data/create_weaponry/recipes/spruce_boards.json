@@ -7,14 +7,14 @@
   ],
   "key": {
     "#": {
-      "item": "modestmining:plank"
+      "item": "create_weaponry:plank"
     },
     "X": {
       "item": "minecraft:spruce_planks"
     }
   },
   "result": {
-    "item": "modestmining:spruce_boards",
+    "item": "create_weaponry:spruce_boards",
     "count": 3
   }
 }

@@ -1,7 +1,7 @@
 {
   "replace": false,
   "values": [
-    "modestmining:diamond_plating",
+    "create_weaponry:diamond_plating",
     "minecraft:diamond"
   ]
 }

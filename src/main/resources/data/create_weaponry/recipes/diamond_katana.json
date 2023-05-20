@@ -10,13 +10,13 @@
       "item": "minecraft:stick"
     },
     "X": {
-      "tag": "modestmining:diamond_pieces"
+      "tag": "create_weaponry:diamond_pieces"
     },
     "@": {
-      "item": "modestmining:diamond_piece"
+      "item": "create_weaponry:diamond_piece"
     }
   },
   "result": {
-    "item": "modestmining:diamond_katana"
+    "item": "create_weaponry:diamond_katana"
   }
 }

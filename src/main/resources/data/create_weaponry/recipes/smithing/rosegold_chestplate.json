@@ -4,9 +4,9 @@
     "item": "minecraft:golden_chestplate"
   },
   "addition": {
-    "tag": "modestmining:rosegold_platings"
+    "tag": "create_weaponry:rosegold_platings"
   },
   "result": {
-    "item": "modestmining:rosegold_chestplate"
+    "item": "create_weaponry:rosegold_chestplate"
   }
 }

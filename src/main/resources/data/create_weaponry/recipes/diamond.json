@@ -2,31 +2,31 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "modestmining:diamond_shard"
+      "item": "create_weaponry:diamond_shard"
     },
     {
-      "item": "modestmining:diamond_shard"
+      "item": "create_weaponry:diamond_shard"
     },
     {
-      "item": "modestmining:diamond_shard"
+      "item": "create_weaponry:diamond_shard"
     },
     {
-      "item": "modestmining:diamond_shard"
+      "item": "create_weaponry:diamond_shard"
     },
     {
-      "item": "modestmining:diamond_shard"
+      "item": "create_weaponry:diamond_shard"
     },
     {
-      "item": "modestmining:diamond_shard"
+      "item": "create_weaponry:diamond_shard"
     },
     {
-      "item": "modestmining:diamond_shard"
+      "item": "create_weaponry:diamond_shard"
     },
     {
-      "item": "modestmining:diamond_shard"
+      "item": "create_weaponry:diamond_shard"
     },
     {
-      "item": "modestmining:diamond_shard"
+      "item": "create_weaponry:diamond_shard"
     }
   ],
   "result": {

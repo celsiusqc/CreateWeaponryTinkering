@@ -8,11 +8,11 @@
       "item": "minecraft:diamond"
     },
     "@": {
-      "tag": "modestmining:hammers"
+      "tag": "create_weaponry:hammers"
     }
   },
   "result": {
-    "item": "modestmining:diamond_plating",
+    "item": "create_weaponry:diamond_plating",
     "count": 2
   }
 }

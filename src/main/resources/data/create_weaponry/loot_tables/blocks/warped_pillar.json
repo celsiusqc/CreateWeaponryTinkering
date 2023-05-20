@@ -7,7 +7,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "modestmining:warped_pillar"
+          "name": "create_weaponry:warped_pillar"
         }
       ],
       "conditions": [
