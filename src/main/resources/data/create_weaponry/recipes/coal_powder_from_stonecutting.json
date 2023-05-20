@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "minecraft:coal"
-  },
-  "result": "create_weaponry:coal_powder",
-  "count": 1
-}

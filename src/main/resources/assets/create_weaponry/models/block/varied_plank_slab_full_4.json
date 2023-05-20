@@ -1,8 +1,0 @@
-{
-  "parent": "block/cube_bottom_top",
-  "textures": {
-    "bottom": "create_weaponry:block/varied_planks_4",
-    "top": "create_weaponry:block/varied_planks_4",
-    "side": "create_weaponry:block/varied_planks_4"
-  }
-}

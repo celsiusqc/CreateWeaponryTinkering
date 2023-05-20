@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/slab_top",
-  "textures": {
-    "bottom": "create_weaponry:block/mossy_adobe_bricks",
-    "side": "create_weaponry:block/mossy_adobe_bricks",
-    "top": "create_weaponry:block/mossy_adobe_bricks"
-  }
-}

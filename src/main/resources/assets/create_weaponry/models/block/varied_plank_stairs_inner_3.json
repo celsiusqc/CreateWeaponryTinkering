@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/inner_stairs",
-  "textures": {
-    "bottom": "create_weaponry:block/varied_planks_3",
-    "top": "create_weaponry:block/varied_planks_3",
-    "side": "create_weaponry:block/varied_planks_3"
-  }
-}

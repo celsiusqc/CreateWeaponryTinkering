@@ -1,7 +1,0 @@
-{
-  "replace": false,
-  "values": [
-    "create_weaponry:netherite_plating",
-    "minecraft:netherite_ingot"
-  ]
-}

@@ -1,9 +1,0 @@
-{
-  "replace": false,
-  "values": [
-    "create_weaponry:steel_block",
-    "create_weaponry:rosegold_block",
-    "create_weaponry:compact_amethyst_block",
-    "create_weaponry:diamond_shard_block"
-  ]
-}

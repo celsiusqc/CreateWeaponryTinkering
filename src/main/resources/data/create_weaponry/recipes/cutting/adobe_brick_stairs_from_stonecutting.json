@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 1,
-  "ingredient": {
-    "item": "create_weaponry:adobe_bricks"
-  },
-  "result": "create_weaponry:adobe_brick_stairs"
-}

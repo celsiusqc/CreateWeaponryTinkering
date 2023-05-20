@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:smelting",
-  "ingredient": {
-    "item": "create_weaponry:steel_sword"
-  },
-  "result": "create_weaponry:steel_nugget",
-  "experience": 2.0,
-  "cookingtime": 200
-}

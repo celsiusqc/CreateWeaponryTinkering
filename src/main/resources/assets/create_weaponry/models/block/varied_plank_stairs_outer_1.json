@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/outer_stairs",
-  "textures": {
-    "bottom": "create_weaponry:block/varied_planks_1",
-    "top": "create_weaponry:block/varied_planks_1",
-    "side": "create_weaponry:block/varied_planks_1"
-  }
-}

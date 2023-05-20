@@ -135,21 +135,21 @@ minecraft {
 sourceSets.main.resources { srcDir 'src/generated/resources' }
 
 repositories {
-    maven {
-        // location of the maven that hosts JEI files
-        name = "Progwml6 maven"
-        url = "https://dvs1.progwml6.com/files/maven/"
-    }
+//    maven {
+//        // location of the maven that hosts JEI files
+//        name = "Progwml6 maven"
+//        url = "https://dvs1.progwml6.com/files/maven/"
+//    }
     maven {
         // location of a maven mirror for JEI files, as a fallback
         name = "ModMaven"
         url = "https://modmaven.dev"
     }
     maven {
-        url = "https://www.cursemaven.com"
-        content {
-            includeGroup "curse.maven"
-        }
+        url "https://cursemaven.com"
+    }
+    flatDir {
+        dir 'libs'
     }
 }
 
@@ -169,6 +169,17 @@ dependencies {
     compileOnly(fg.deobf("mezz.jei:jei-1.19.2-forge-api:11.5.0.297"))
     // at runtime, use the full JEI jar for Forge
     runtimeOnly(fg.deobf("mezz.jei:jei-1.19.2-forge:11.5.0.297"))
+    //JER
+    implementation fg.deobf("curse.maven:just-enough-resources-jer-240630:3951643")
+    //Create
+    implementation fg.deobf("curse.maven:create-328085:4371809")
+//    //KubeJs
+    implementation fg.deobf("curse.maven:kubejs-238086:4377175")
+    implementation fg.deobf("curse.maven:rhino-416294:4476056")
+    implementation fg.deobf("curse.maven:architectury-api-419699:4521273")
+//    //Quark
+    implementation fg.deobf("curse.maven:quark-243121:4538962")
+    implementation fg.deobf("curse.maven:autoreglib-250363:4100299")
 
     // Examples using mod jars from ./libs
     // implementation fg.deobf("blank:coolmod-${mc_version}:${coolmod_version}")
