@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/handheld",
   "textures": {
-    "layer0": "create_weaponry:item/stone_katana"
+    "layer0": "create_weaponry:items/stone_katana"
   }
 }

@@ -1,7 +1,7 @@
 {
   "parent": "minecraft:item/handheld",
   "textures": {
-    "layer0": "create_weaponry:item/diamond_glaive_handheld"
+    "layer0": "create_weaponry:items/diamond_glaive_handheld"
   },
   "display": {
     "thirdperson_righthand": {

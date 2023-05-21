@@ -1,6 +1,9 @@
 package net.celsiusqc.create_weaponry;
 
 import com.mojang.logging.LogUtils;
+import net.celsiusqc.create_weaponry.init.BlockInit;
+import net.celsiusqc.create_weaponry.init.FluidInit;
+import net.celsiusqc.create_weaponry.init.ItemInit;
 import net.celsiusqc.create_weaponry.item.ModItems;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.api.distmarker.Dist;
@@ -29,6 +32,12 @@ public class CreateWeaponry {
         modEventBus.addListener(this::commonSetup);
 
         MinecraftForge.EVENT_BUS.register(this);
+
+        BlockInit.BLOCKS.register(modEventBus);
+        ItemInit.ITEMS.register(modEventBus);
+        FluidInit.FLUID_TYPES.register(modEventBus);
+        FluidInit.FLUIDS.register(modEventBus);
+
     }
 
     private void commonSetup(final FMLCommonSetupEvent event)

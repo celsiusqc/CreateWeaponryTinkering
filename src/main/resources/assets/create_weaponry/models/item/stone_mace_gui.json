@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/handheld",
   "textures": {
-    "layer0": "create_weaponry:item/stone_mace"
+    "layer0": "create_weaponry:items/stone_mace"
   }
 }

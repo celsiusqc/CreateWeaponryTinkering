@@ -1,6 +1,6 @@
 {
   "parent": "item/handheld",
   "textures": {
-    "layer0": "create_weaponry:item/golden_mountain_axe"
+    "layer0": "create_weaponry:items/golden_mountain_axe"
   }
 }

@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/handheld",
   "textures": {
-    "layer0": "create_weaponry:item/iron_glaive"
+    "layer0": "create_weaponry:items/iron_glaive"
   }
 }
