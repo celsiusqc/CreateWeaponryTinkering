@@ -2,7 +2,7 @@
   "parent": "minecraft:item/handheld",
   "loader": "forge:separate_transforms",
   "textures": {
-    "layer0": "create_weaponry:items/netherite_mace_gui"
+    "layer0": "create_weaponry:item/netherite_mace_gui"
   },
   "base": {
     "parent": "create_weaponry:item/netherite_mace_handheld"
