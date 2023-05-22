@@ -1,7 +1,7 @@
 {
   "parent": "minecraft:item/handheld",
   "textures": {
-    "layer0": "modestmining:item/stone_mace_handheld"
+    "layer0": "create_weaponry:item/stone_mace_handheld"
   },
   "display": {
     "thirdperson_righthand": {

@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/inner_stairs",
-  "textures": {
-    "bottom": "modestmining:block/mossy_adobe_bricks",
-    "side": "modestmining:block/mossy_adobe_bricks",
-    "top": "modestmining:block/mossy_adobe_bricks"
-  }
-}
