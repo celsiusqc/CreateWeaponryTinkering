@@ -110,6 +110,8 @@ public class ModItems {
     public static final RegistryObject<Item> NETHERITE_MACE = ITEMS.register("netherite_mace", () -> new MaceItem(Tiers.NETHERITE, 1, -3.2f, 2.0f, 2.0f,
             new Item.Properties().tab(ModCreativeModTab.create_weaponry)));
 
+
+
     private static Item.Properties props() {
         return new Item.Properties().tab(ModCreativeModTab.create_weaponry);
     }
