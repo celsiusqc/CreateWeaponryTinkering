@@ -129,6 +129,7 @@ public class FluidRegistryContainer {
         private int slopeFindDistance = 4;
         private int tickRate = 5;
 
+
         public AdditionalProperties explosionResistance(float resistance) {
             this.explosionResistance = resistance;
             return this;
@@ -168,7 +169,7 @@ public class FluidRegistryContainer {
         }
 
         public ClientExtensions flowing(String name) {
-            return flowing(name, "block");
+            return flowing(name, "block/fluid");
         }
 
         public ClientExtensions flowing(String name, String folder) {
@@ -182,12 +183,12 @@ public class FluidRegistryContainer {
         }
 
         public ClientExtensions overlay(String name) {
-            return overlay(name, "block");
+            return overlay(name, "block/fluid");
         }
 
         public ClientExtensions overlay(String name, String folder) {
             this.overlay = new ResourceLocation(this.modid, folder + "/" + name + "_overlay");
-            return renderOverlay(new ResourceLocation(this.modid, "textures/" + folder + "/" + name + "_overlay.png"));
+            return renderOverlay(new ResourceLocation(this.modid, "textures/fluid/" + folder + "/" + name + "_overlay.png"));
         }
 
         public ClientExtensions renderOverlay(ResourceLocation path) {
@@ -196,7 +197,7 @@ public class FluidRegistryContainer {
         }
 
         public ClientExtensions still(String name) {
-            return still(name, "block");
+            return still(name, "block/fluid");
         }
 
         public ClientExtensions still(String name, String folder) {

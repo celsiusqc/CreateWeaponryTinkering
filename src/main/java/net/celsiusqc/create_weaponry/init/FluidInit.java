@@ -17,17 +17,17 @@ public class FluidInit {
 
     public static final FluidRegistryContainer EXAMPLE_FLUID = new FluidRegistryContainer(
             "example_fluid",
-            FluidType.Properties.create().canSwim(true).canDrown(true).canPushEntity(true).supportsBoating(true),
+            FluidType.Properties.create().canSwim(false).canDrown(false).canPushEntity(false).supportsBoating(false).density(6000).temperature(10000).viscosity(10000),
             () -> FluidRegistryContainer.createExtension(
                     new FluidRegistryContainer.ClientExtensions(
                             CreateWeaponry.MOD_ID,
                             "example_fluid"
-                    ).tint(0xFF44AA)
-                            .fogColor(1.0f, 0.2f, 0.5f)
+                    ).fogColor(253, 245, 95)
             ),
-            BlockBehaviour.Properties.copy(Blocks.WATER),
+            BlockBehaviour.Properties.copy(Blocks.LAVA),
             new Item.Properties()
                     .tab(ModCreativeModTab.create_weaponry)
                     .stacksTo(1)
+
     );
 }

@@ -1,5 +1,5 @@
 {
   "variants": {
-    "": { "model": "create_weaponry:block/example_fluid" }
+    "": { "model": "create_weaponry:block/fluid/example_fluid" }
   }
 }
