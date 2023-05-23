@@ -6,6 +6,7 @@ import net.celsiusqc.create_weaponry.item.custom.weapons.GlaiveItem;
 import net.celsiusqc.create_weaponry.item.custom.weapons.HammerItem;
 import net.celsiusqc.create_weaponry.item.custom.weapons.KatanaItem;
 import net.celsiusqc.create_weaponry.item.custom.weapons.MaceItem;
+import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.item.*;
 import net.minecraft.world.item.crafting.RecipeType;
@@ -75,24 +76,6 @@ public class ModItems {
     public static final RegistryObject<Item> NETHERITE_KATANA = ITEMS.register("netherite_katana", () -> new KatanaItem(Tiers.NETHERITE, 2, -2.7f, 3.0f,
             new Item.Properties().tab(ModCreativeModTab.create_weaponry)));
 
-    public static final RegistryObject<Item> WOODEN_MOUNTAIN_AXE = ITEMS.register("wooden_mountain_axe", () -> new PickaxeItem(ModTiers.MOUNTAIN_WOOD, 1, -2.8f,
-            new Item.Properties().tab(ModCreativeModTab.create_weaponry)));
-
-    public static final RegistryObject<Item> STONE_MOUNTAIN_AXE = ITEMS.register("stone_mountain_axe", () -> new PickaxeItem(ModTiers.MOUNTAIN_STONE, 1, 2.8f,
-            new Item.Properties().tab(ModCreativeModTab.create_weaponry)));
-
-    public static final RegistryObject<Item> IRON_MOUNTAIN_AXE = ITEMS.register("iron_mountain_axe", () -> new PickaxeItem(ModTiers.MOUNTAIN_IRON, 1, -2.8f,
-            new Item.Properties().tab(ModCreativeModTab.create_weaponry)));
-
-    public static final RegistryObject<Item> GOLDEN_MOUNTAIN_AXE = ITEMS.register("golden_mountain_axe", () -> new PickaxeItem(ModTiers.MOUNTAIN_GOLD, 1, -2.8f,
-            new Item.Properties().tab(ModCreativeModTab.create_weaponry)));
-
-    public static final RegistryObject<Item> DIAMOND_MOUNTAIN_AXE = ITEMS.register("diamond_mountain_axe", () -> new PickaxeItem(ModTiers.MOUNTAIN_DIAMOND, 1, -2.8f,
-            new Item.Properties().tab(ModCreativeModTab.create_weaponry)));
-
-    public static final RegistryObject<Item> NETHERITE_MOUNTAIN_AXE = ITEMS.register("netherite_mountain_axe", () -> new PickaxeItem(ModTiers.MOUNTAIN_NETHERITE, 1, -2.8f,
-            new Item.Properties().tab(ModCreativeModTab.create_weaponry)));
-
     public static final RegistryObject<Item> WOODEN_MACE = ITEMS.register("wooden_mace", () -> new MaceItem(Tiers.WOOD, 1, -3.4f, 2.0f, 2.0f,
             new Item.Properties().tab(ModCreativeModTab.create_weaponry)));
 
@@ -113,16 +96,15 @@ public class ModItems {
 
     public static final RegistryObject<Item> SOAP_WATER_BUCKET = ITEMS.register("soap_water_bucket",
             () -> new BucketItem(ModFluids.SOURCE_SOAP_WATER,
-                    new Item.Properties().tab(ModCreativeModTab.create_weaponry).craftRemainder(Items.BUCKET).stacksTo(1)));
+                    new Item.Properties().craftRemainder(Items.BUCKET).stacksTo(1)));
 
     private static Item.Properties props() {
         return new Item.Properties().tab(ModCreativeModTab.create_weaponry);
     }
 
-    public static void register (IEventBus eventBus) {
+    public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
     }
-
 
 
 }
