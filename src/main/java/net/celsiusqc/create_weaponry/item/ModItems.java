@@ -94,7 +94,7 @@ public class ModItems {
     public static final RegistryObject<Item> NETHERITE_MACE = ITEMS.register("netherite_mace", () -> new MaceItem(Tiers.NETHERITE, 1, -3.2f, 2.0f, 2.0f,
             new Item.Properties().tab(ModCreativeModTab.create_weaponry)));
 
-    //Fluids
+    //Iron Buckets
 
         //Molten Gold
     public static final RegistryObject<Item> MOLTEN_GOLD_BUCKET = ITEMS.register("molten_gold_bucket",
@@ -104,6 +104,29 @@ public class ModItems {
         //Molten Iron
     public static final RegistryObject<Item> MOLTEN_IRON_BUCKET = ITEMS.register("molten_iron_bucket",
             () -> new BucketItem(ModFluids.SOURCE_MOLTEN_IRON,
+                    new Item.Properties().tab(ModCreativeModTab.create_weaponry).craftRemainder(Items.BUCKET).stacksTo(1)));
+        //Molten Aquite
+        public static final RegistryObject<Item> MOLTEN_AQUITE_BUCKET = ITEMS.register("molten_aquite_bucket",
+                () -> new BucketItem(ModFluids.SOURCE_MOLTEN_AQUITE,
+                        new Item.Properties().tab(ModCreativeModTab.create_weaponry).craftRemainder(Items.BUCKET).stacksTo(1)));
+    //Molten Aquite
+    public static final RegistryObject<Item> MOLTEN_CHAROITE_BUCKET = ITEMS.register("molten_charoite_bucket",
+            () -> new BucketItem(ModFluids.SOURCE_MOLTEN_CHAROITE,
+                    new Item.Properties().tab(ModCreativeModTab.create_weaponry).craftRemainder(Items.BUCKET).stacksTo(1)));
+    public static final RegistryObject<Item> MOLTEN_DIOPSIDE_BUCKET = ITEMS.register("molten_diopside_bucket",
+            () -> new BucketItem(ModFluids.SOURCE_MOLTEN_DIOPSIDE,
+                    new Item.Properties().tab(ModCreativeModTab.create_weaponry).craftRemainder(Items.BUCKET).stacksTo(1)));
+    public static final RegistryObject<Item> MOLTEN_PYROPE_BUCKET = ITEMS.register("molten_pyrope_bucket",
+            () -> new BucketItem(ModFluids.SOURCE_MOLTEN_PYROPE,
+                    new Item.Properties().tab(ModCreativeModTab.create_weaponry).craftRemainder(Items.BUCKET).stacksTo(1)));
+    public static final RegistryObject<Item> MOLTEN_FALSITE_BUCKET = ITEMS.register("molten_falsite_bucket",
+            () -> new BucketItem(ModFluids.SOURCE_MOLTEN_FALSITE,
+                    new Item.Properties().tab(ModCreativeModTab.create_weaponry).craftRemainder(Items.BUCKET).stacksTo(1)));
+    public static final RegistryObject<Item> MOLTEN_HORIZONITE_BUCKET = ITEMS.register("molten_horizonite_bucket",
+            () -> new BucketItem(ModFluids.SOURCE_MOLTEN_HORIZONITE,
+                    new Item.Properties().tab(ModCreativeModTab.create_weaponry).craftRemainder(Items.BUCKET).stacksTo(1)));
+    public static final RegistryObject<Item> MOLTEN_VENTIUM_BUCKET = ITEMS.register("molten_ventium_bucket",
+            () -> new BucketItem(ModFluids.SOURCE_MOLTEN_VENTIUM,
                     new Item.Properties().tab(ModCreativeModTab.create_weaponry).craftRemainder(Items.BUCKET).stacksTo(1)));
 
 

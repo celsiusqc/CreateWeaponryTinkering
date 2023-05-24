@@ -1,6 +1,9 @@
 {
-  "parent": "minecraft:item/generated",
+  "parent": "forge:item/bucket",
+  "loader": "forge:bucket",
   "textures": {
-    "layer0": "create_weaponry:item/molten_gold_bucket"
-  }
+    "base": "item/bucket",
+    "fluid": "create_weaponry:item/buckets/drip_bucket"
+  },
+  "fluid": "create_weaponry:molten_gold"
 }

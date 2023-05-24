@@ -180,6 +180,9 @@ dependencies {
 //    //Quark
     implementation fg.deobf("curse.maven:quark-243121:4538962")
     implementation fg.deobf("curse.maven:autoreglib-250363:4100299")
+    //Blue Skies
+    implementation fg.deobf("curse.maven:blue-skies-312918:3966273")
+    implementation fg.deobf("curse.maven:structure-gel-api-378802:4489756")
 
     // Examples using mod jars from ./libs
     // implementation fg.deobf("blank:coolmod-${mc_version}:${coolmod_version}")

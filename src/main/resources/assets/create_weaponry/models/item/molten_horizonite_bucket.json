@@ -5,5 +5,5 @@
     "base": "item/bucket",
     "fluid": "create_weaponry:item/buckets/drip_bucket"
   },
-  "fluid": "create_weaponry:molten_iron"
+  "fluid": "create_weaponry:molten_horizonite"
 }

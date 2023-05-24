@@ -36,6 +36,22 @@
   "item.create_weaponry.netherite_mace": "Netherite Mace",
 
   "item.create_weaponry.molten_gold_bucket": "Molten Gold Bucket",
+  "item.create_weaponry.molten_aquite_bucket": "Molten Iron Bucket",
+  "item.create_weaponry.molten_charoite_bucket": "Molten Charoite Bucket",
+  "item.create_weaponry.molten_diopside_bucket": "Molten Diopside Bucket",
+  "item.create_weaponry.molten_falsite_bucket": "Molten Falsite Bucket",
+  "item.create_weaponry.molten_horizonite_bucket": "Molten Horizonite Bucket",
+  "item.create_weaponry.molten_pyrope_bucket": "Molten Pyrope Bucket",
+  "item.create_weaponry.molten_ventium_bucket": "Molten Ventium Bucket",
+
+  "fluid_type.create_weaponry.molten_gold_fluid": "Molten Gold",
+  "fluid_type.create_weaponry.molten_aquite_fluid": "Molten Iron",
+  "fluid_type.create_weaponry.molten_charoite_fluid": "Molten Charoite",
+  "fluid_type.create_weaponry.molten_diopside_fluid": "Molten Diopside",
+  "fluid_type.create_weaponry.molten_falsite_fluid": "Molten Falsite",
+  "fluid_type.create_weaponry.molten_horizonite_fluid": "Molten Horizonite",
+  "fluid_type.create_weaponry.molten_pyrope_fluid": "Molten Pyrope",
+  "fluid_type.create_weaponry.molten_ventium_fluid": "Molten Ventium",
 
   "itemGroup.create_weaponry_tab": "Create Weaponry"
 
