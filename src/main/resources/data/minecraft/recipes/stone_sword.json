@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "3": {
+      "item": "create_weaponry:stone_sword_head"
+    },
+    "2": {
+      "tag": "forge:string"
+    },
+    "1": {
+      "tag": "forge:rods/wooden"
+    }
+  },
+  "pattern": [
+    " 3 ",
+    " 2 ",
+    " 1 "
+  ],
+  "result": {
+    "item": "minecraft:stone_sword"
+  }
+}

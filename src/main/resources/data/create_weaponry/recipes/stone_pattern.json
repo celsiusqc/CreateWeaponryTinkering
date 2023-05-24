@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "crafting_tables",
+  "key": {
+    "P": {
+      "tag": "forge:cobblestone"
+    },
+    "S": {
+      "tag": "forge:rods/wooden"
+    }
+  },
+  "pattern": [
+    "PS",
+    "SP"
+  ],
+  "result": {
+    "item": "create_weaponry:stone_pattern"
+  }
+}

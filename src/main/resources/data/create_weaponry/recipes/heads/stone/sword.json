@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "create_weaponry:stone_pattern"
+  },
+  "result": "create_weaponry:stone_sword_head"
+}

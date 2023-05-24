@@ -94,15 +94,40 @@ public class ModItems {
     public static final RegistryObject<Item> NETHERITE_MACE = ITEMS.register("netherite_mace", () -> new MaceItem(Tiers.NETHERITE, 1, -3.2f, 2.0f, 2.0f,
             new Item.Properties().tab(ModCreativeModTab.create_weaponry)));
 
-    //Molten Gold
+    //Fluids
+
+        //Molten Gold
     public static final RegistryObject<Item> MOLTEN_GOLD_BUCKET = ITEMS.register("molten_gold_bucket",
             () -> new BucketItem(ModFluids.SOURCE_MOLTEN_GOLD,
                     new Item.Properties().tab(ModCreativeModTab.create_weaponry).craftRemainder(Items.BUCKET).stacksTo(1)));
 
-    //Molten Iron
+        //Molten Iron
     public static final RegistryObject<Item> MOLTEN_IRON_BUCKET = ITEMS.register("molten_iron_bucket",
             () -> new BucketItem(ModFluids.SOURCE_MOLTEN_IRON,
                     new Item.Properties().tab(ModCreativeModTab.create_weaponry).craftRemainder(Items.BUCKET).stacksTo(1)));
+
+
+    //Patterns
+
+    public static final RegistryObject<Item> STONE_PATTERN = ITEMS.register("stone_pattern",
+            () -> new Item(new Item.Properties().tab(ModCreativeModTab.create_weaponry)));
+
+        //Heads
+
+    //Stone
+    public static final RegistryObject<Item> STONE_AXE_HEAD= ITEMS.register("stone_axe_head",
+            () -> new Item(new Item.Properties().tab(ModCreativeModTab.create_weaponry)));
+    public static final RegistryObject<Item> STONE_HOE_HEAD= ITEMS.register("stone_hoe_head",
+            () -> new Item(new Item.Properties().tab(ModCreativeModTab.create_weaponry)));
+    public static final RegistryObject<Item> STONE_PICKAXE_HEAD= ITEMS.register("stone_pickaxe_head",
+                () -> new Item(new Item.Properties().tab(ModCreativeModTab.create_weaponry)));
+    public static final RegistryObject<Item> STONE_SHOVEL_HEAD= ITEMS.register("stone_shovel_head",
+            () -> new Item(new Item.Properties().tab(ModCreativeModTab.create_weaponry)));
+    public static final RegistryObject<Item> STONE_SWORD_HEAD= ITEMS.register("stone_sword_head",
+            () -> new Item(new Item.Properties().tab(ModCreativeModTab.create_weaponry)));
+
+
+
 
     private static Item.Properties props() {
         return new Item.Properties().tab(ModCreativeModTab.create_weaponry);
