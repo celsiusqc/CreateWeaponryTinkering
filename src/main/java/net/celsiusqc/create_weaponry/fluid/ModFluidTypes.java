@@ -12,14 +12,16 @@ import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 
 public class ModFluidTypes {
-    public static final ResourceLocation WATER_STILL_RL = new ResourceLocation("block/water_still");
-    public static final ResourceLocation WATER_FLOWING_RL = new ResourceLocation("block/water_flow");
-    public static final ResourceLocation SOAP_OVERLAY_RL = new ResourceLocation(CreateWeaponry.MOD_ID, "misc/in_soap_water");
+
+    //Molten Gold
+    public static final ResourceLocation MOLTEN_GOLD_STILL_RL = new ResourceLocation(CreateWeaponry.MOD_ID, "block/fluid/gold/still");
+    public static final ResourceLocation MOLTEN_GOLD_FLOWING_RL = new ResourceLocation(CreateWeaponry.MOD_ID, "block/fluid/gold/flowing");
+    public static final ResourceLocation MOLTEN_OVERLAY_RL = new ResourceLocation(CreateWeaponry.MOD_ID, "misc/in_soap_water");
 
     public static final DeferredRegister<FluidType> FLUID_TYPES =
             DeferredRegister.create(ForgeRegistries.Keys.FLUID_TYPES, CreateWeaponry.MOD_ID);
 
-    public static final RegistryObject<FluidType> SOAP_WATER_FLUID_TYPE = register("soap_water_fluid",
+    public static final RegistryObject<FluidType> MOLTEN_GOLD_FLUID_TYPE = register("molten_gold_fluid",
             FluidType.Properties.create()
                     .lightLevel(15)
                     .density(15)
@@ -37,12 +39,20 @@ public class ModFluidTypes {
 
 
     private static RegistryObject<FluidType> register(String name, FluidType.Properties properties) {
-        return FLUID_TYPES.register(name, () -> new BaseFluidType(WATER_STILL_RL, WATER_FLOWING_RL, SOAP_OVERLAY_RL,
-                0xA1E038D0, new Vector3f(224f / 255f, 56f / 255f, 208f / 255f), properties));
+        return FLUID_TYPES.register(name, () -> new BaseFluidType(MOLTEN_GOLD_STILL_RL, MOLTEN_GOLD_FLOWING_RL, MOLTEN_OVERLAY_RL,
+                0xFFFFFFFF, new Vector3f(229f / 255f, 191f / 255f, 38f / 255f), properties));
 
                                         //Vector3f is the fog color, we divide by 255 because it is the color value from 0 to 1 instead of 0-255
 
     }
+
+    public static final ResourceLocation MOLTEN_IRON_STILL_RL = new ResourceLocation(CreateWeaponry.MOD_ID, "block/fluid/iron/still");
+    public static final ResourceLocation MOLTEN_IRON_FLOWING_RL = new ResourceLocation(CreateWeaponry.MOD_ID, "block/fluid/iron/flowing");
+    public static final ResourceLocation MOLTEN_IRON_OVERLAY_RL = new ResourceLocation(CreateWeaponry.MOD_ID, "misc/in_soap_water");
+
+
+    //Molten Iron
+
 
     public static void register(IEventBus eventBus) {
         FLUID_TYPES.register(eventBus);

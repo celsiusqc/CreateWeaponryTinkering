@@ -94,9 +94,15 @@ public class ModItems {
     public static final RegistryObject<Item> NETHERITE_MACE = ITEMS.register("netherite_mace", () -> new MaceItem(Tiers.NETHERITE, 1, -3.2f, 2.0f, 2.0f,
             new Item.Properties().tab(ModCreativeModTab.create_weaponry)));
 
-    public static final RegistryObject<Item> SOAP_WATER_BUCKET = ITEMS.register("soap_water_bucket",
-            () -> new BucketItem(ModFluids.SOURCE_SOAP_WATER,
-                    new Item.Properties().craftRemainder(Items.BUCKET).stacksTo(1)));
+    //Molten Gold
+    public static final RegistryObject<Item> MOLTEN_GOLD_BUCKET = ITEMS.register("molten_gold_bucket",
+            () -> new BucketItem(ModFluids.SOURCE_MOLTEN_GOLD,
+                    new Item.Properties().tab(ModCreativeModTab.create_weaponry).craftRemainder(Items.BUCKET).stacksTo(1)));
+
+    //Molten Iron
+    public static final RegistryObject<Item> MOLTEN_IRON_BUCKET = ITEMS.register("molten_iron_bucket",
+            () -> new BucketItem(ModFluids.SOURCE_MOLTEN_IRON,
+                    new Item.Properties().tab(ModCreativeModTab.create_weaponry).craftRemainder(Items.BUCKET).stacksTo(1)));
 
     private static Item.Properties props() {
         return new Item.Properties().tab(ModCreativeModTab.create_weaponry);

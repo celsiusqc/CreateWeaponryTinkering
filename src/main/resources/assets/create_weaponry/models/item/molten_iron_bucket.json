@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "create_weaponry:item/soap_water_bucket"
+    "layer0": "create_weaponry:item/molten_iron_bucket"
   }
 }
