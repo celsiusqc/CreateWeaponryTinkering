@@ -23,7 +23,7 @@ public class ModFluidTypes {
             DeferredRegister.create(ForgeRegistries.Keys.FLUID_TYPES, CreateWeaponry.MOD_ID);
 
 
-    public static final RegistryObject<FluidType> MOLTEN_GOLD_TYPE = FLUID_TYPES.register("molten_gold",
+    public static final RegistryObject<FluidType> MOLTEN_GOLD_TYPE = FLUID_TYPES.register("molten_gold_fluid",
             () -> new BaseFluidType(
                     MOLTEN_GOLD_STILL_RL,
                     MOLTEN_GOLD_FLOWING_RL,
@@ -235,6 +235,223 @@ public class ModFluidTypes {
                             .canDrown(false)
                             .sound(SoundAction.get("drink"),
                                     SoundEvents.HONEY_DRINK)));
+
+    //Brass
+    public static final ResourceLocation MOLTEN_BRASS_STILL_RL = new ResourceLocation(CreateWeaponry.MOD_ID, "block/fluid/brass/still");
+    public static final ResourceLocation MOLTEN_BRASS_FLOWING_RL = new ResourceLocation(CreateWeaponry.MOD_ID, "block/fluid/brass/flowing");
+    public static final RegistryObject<FluidType> MOLTEN_BRASS_TYPE = FLUID_TYPES.register("molten_brass_fluid",
+            () -> new BaseFluidType(
+                    MOLTEN_BRASS_STILL_RL,
+                    MOLTEN_BRASS_FLOWING_RL,
+                    MOLTEN_OVERLAY_RL,
+                    0xFFFFFFFF,
+                    colorVecFromHex(0x832c04),  //Values are divided by 255
+                    FluidType.Properties.create()
+                            .lightLevel(15)
+                            .density(15)
+                            .viscosity(1)
+                            .canSwim(false)
+                            .canHydrate(false)
+                            .canConvertToSource(false)
+                            .canPushEntity(true)
+                            .temperature(9000)
+                            .supportsBoating(false)
+                            .canDrown(false)
+                            .sound(SoundAction.get("drink"),
+                                    SoundEvents.HONEY_DRINK)));
+
+    //Copper
+    public static final ResourceLocation MOLTEN_COPPER_STILL_RL = new ResourceLocation(CreateWeaponry.MOD_ID, "block/fluid/copper/still");
+    public static final ResourceLocation MOLTEN_COPPER_FLOWING_RL = new ResourceLocation(CreateWeaponry.MOD_ID, "block/fluid/copper/flowing");
+    public static final RegistryObject<FluidType> MOLTEN_COPPER_TYPE = FLUID_TYPES.register("molten_copper_fluid",
+            () -> new BaseFluidType(
+                    MOLTEN_COPPER_STILL_RL,
+                    MOLTEN_COPPER_FLOWING_RL,
+                    MOLTEN_OVERLAY_RL,
+                    0xFFFFFFFF,
+                    colorVecFromHex(0x832c04),  //Values are divided by 255
+                    FluidType.Properties.create()
+                            .lightLevel(15)
+                            .density(15)
+                            .viscosity(1)
+                            .canSwim(false)
+                            .canHydrate(false)
+                            .canConvertToSource(false)
+                            .canPushEntity(true)
+                            .temperature(9000)
+                            .supportsBoating(false)
+                            .canDrown(false)
+                            .sound(SoundAction.get("drink"),
+                                    SoundEvents.HONEY_DRINK)));
+
+    //Diamond
+    public static final ResourceLocation MOLTEN_DIAMOND_STILL_RL = new ResourceLocation(CreateWeaponry.MOD_ID, "block/fluid/diamond/still");
+    public static final ResourceLocation MOLTEN_DIAMOND_FLOWING_RL = new ResourceLocation(CreateWeaponry.MOD_ID, "block/fluid/diamond/flowing");
+    public static final RegistryObject<FluidType> MOLTEN_DIAMOND_TYPE = FLUID_TYPES.register("molten_diamond_fluid",
+            () -> new BaseFluidType(
+                    MOLTEN_DIAMOND_STILL_RL,
+                    MOLTEN_DIAMOND_FLOWING_RL,
+                    MOLTEN_OVERLAY_RL,
+                    0xFFFFFFFF,
+                    colorVecFromHex(0x832c04),  //Values are divided by 255
+                    FluidType.Properties.create()
+                            .lightLevel(15)
+                            .density(15)
+                            .viscosity(1)
+                            .canSwim(false)
+                            .canHydrate(false)
+                            .canConvertToSource(false)
+                            .canPushEntity(true)
+                            .temperature(9000)
+                            .supportsBoating(false)
+                            .canDrown(false)
+                            .sound(SoundAction.get("drink"),
+                                    SoundEvents.HONEY_DRINK)));
+
+    //Netherite
+    public static final ResourceLocation MOLTEN_NETHERITE_STILL_RL = new ResourceLocation(CreateWeaponry.MOD_ID, "block/fluid/netherite/still");
+    public static final ResourceLocation MOLTEN_NETHERITE_FLOWING_RL = new ResourceLocation(CreateWeaponry.MOD_ID, "block/fluid/netherite/flowing");
+    public static final RegistryObject<FluidType> MOLTEN_NETHERITE_TYPE = FLUID_TYPES.register("molten_netherite_fluid",
+            () -> new BaseFluidType(
+                    MOLTEN_NETHERITE_STILL_RL,
+                    MOLTEN_NETHERITE_FLOWING_RL,
+                    MOLTEN_OVERLAY_RL,
+                    0xFFFFFFFF,
+                    colorVecFromHex(0x832c04),  //Values are divided by 255
+                    FluidType.Properties.create()
+                            .lightLevel(15)
+                            .density(15)
+                            .viscosity(1)
+                            .canSwim(false)
+                            .canHydrate(false)
+                            .canConvertToSource(false)
+                            .canPushEntity(true)
+                            .temperature(9000)
+                            .supportsBoating(false)
+                            .canDrown(false)
+                            .sound(SoundAction.get("drink"),
+                                    SoundEvents.HONEY_DRINK)));
+
+    //Steel
+    public static final ResourceLocation MOLTEN_STEEL_STILL_RL = new ResourceLocation(CreateWeaponry.MOD_ID, "block/fluid/steel/still");
+    public static final ResourceLocation MOLTEN_STEEL_FLOWING_RL = new ResourceLocation(CreateWeaponry.MOD_ID, "block/fluid/steel/flowing");
+    public static final RegistryObject<FluidType> MOLTEN_STEEL_TYPE = FLUID_TYPES.register("molten_steel_fluid",
+            () -> new BaseFluidType(
+                    MOLTEN_STEEL_STILL_RL,
+                    MOLTEN_STEEL_FLOWING_RL,
+                    MOLTEN_OVERLAY_RL,
+                    0xFFFFFFFF,
+                    colorVecFromHex(0x832c04),  //Values are divided by 255
+                    FluidType.Properties.create()
+                            .lightLevel(15)
+                            .density(15)
+                            .viscosity(1)
+                            .canSwim(false)
+                            .canHydrate(false)
+                            .canConvertToSource(false)
+                            .canPushEntity(true)
+                            .temperature(9000)
+                            .supportsBoating(false)
+                            .canDrown(false)
+                            .sound(SoundAction.get("drink"),
+                                    SoundEvents.HONEY_DRINK)));
+
+    //Zinc
+    public static final ResourceLocation MOLTEN_ZINC_STILL_RL = new ResourceLocation(CreateWeaponry.MOD_ID, "block/fluid/zinc/still");
+    public static final ResourceLocation MOLTEN_ZINC_FLOWING_RL = new ResourceLocation(CreateWeaponry.MOD_ID, "block/fluid/zinc/flowing");
+    public static final RegistryObject<FluidType> MOLTEN_ZINC_TYPE = FLUID_TYPES.register("molten_zinc_fluid",
+            () -> new BaseFluidType(
+                    MOLTEN_ZINC_STILL_RL,
+                    MOLTEN_ZINC_FLOWING_RL,
+                    MOLTEN_OVERLAY_RL,
+                    0xFFFFFFFF,
+                    colorVecFromHex(0x832c04),  //Values are divided by 255
+                    FluidType.Properties.create()
+                            .lightLevel(15)
+                            .density(15)
+                            .viscosity(1)
+                            .canSwim(false)
+                            .canHydrate(false)
+                            .canConvertToSource(false)
+                            .canPushEntity(true)
+                            .temperature(9000)
+                            .supportsBoating(false)
+                            .canDrown(false)
+                            .sound(SoundAction.get("drink"),
+                                    SoundEvents.HONEY_DRINK)));
+
+    //Calorite
+    public static final ResourceLocation MOLTEN_CALORITE_STILL_RL = new ResourceLocation(CreateWeaponry.MOD_ID, "block/fluid/calorite/still");
+    public static final ResourceLocation MOLTEN_CALORITE_FLOWING_RL = new ResourceLocation(CreateWeaponry.MOD_ID, "block/fluid/calorite/flowing");
+    public static final RegistryObject<FluidType> MOLTEN_CALORITE_TYPE = FLUID_TYPES.register("molten_calorite_fluid",
+            () -> new BaseFluidType(
+                    MOLTEN_CALORITE_STILL_RL,
+                    MOLTEN_CALORITE_FLOWING_RL,
+                    MOLTEN_OVERLAY_RL,
+                    0xFFFFFFFF,
+                    colorVecFromHex(0x832c04),  //Values are divided by 255
+                    FluidType.Properties.create()
+                            .lightLevel(15)
+                            .density(15)
+                            .viscosity(1)
+                            .canSwim(false)
+                            .canHydrate(false)
+                            .canConvertToSource(false)
+                            .canPushEntity(true)
+                            .temperature(9000)
+                            .supportsBoating(false)
+                            .canDrown(false)
+                            .sound(SoundAction.get("drink"),
+                                    SoundEvents.HONEY_DRINK)));
+
+    //Desh
+    public static final ResourceLocation MOLTEN_DESH_STILL_RL = new ResourceLocation(CreateWeaponry.MOD_ID, "block/fluid/desh/still");
+    public static final ResourceLocation MOLTEN_DESH_FLOWING_RL = new ResourceLocation(CreateWeaponry.MOD_ID, "block/fluid/desh/flowing");
+    public static final RegistryObject<FluidType> MOLTEN_DESH_TYPE = FLUID_TYPES.register("molten_desh_fluid",
+            () -> new BaseFluidType(
+                    MOLTEN_DESH_STILL_RL,
+                    MOLTEN_DESH_FLOWING_RL,
+                    MOLTEN_OVERLAY_RL,
+                    0xFFFFFFFF,
+                    colorVecFromHex(0x832c04),  //Values are divided by 255
+                    FluidType.Properties.create()
+                            .lightLevel(15)
+                            .density(15)
+                            .viscosity(1)
+                            .canSwim(false)
+                            .canHydrate(false)
+                            .canConvertToSource(false)
+                            .canPushEntity(true)
+                            .temperature(9000)
+                            .supportsBoating(false)
+                            .canDrown(false)
+                            .sound(SoundAction.get("drink"),
+                                    SoundEvents.HONEY_DRINK)));
+    //Ostrum
+    public static final ResourceLocation MOLTEN_OSTRUM_STILL_RL = new ResourceLocation(CreateWeaponry.MOD_ID, "block/fluid/ostrum/still");
+    public static final ResourceLocation MOLTEN_OSTRUM_FLOWING_RL = new ResourceLocation(CreateWeaponry.MOD_ID, "block/fluid/ostrum/flowing");
+    public static final RegistryObject<FluidType> MOLTEN_OSTRUM_TYPE = FLUID_TYPES.register("molten_ostrum_fluid",
+            () -> new BaseFluidType(
+                    MOLTEN_OSTRUM_STILL_RL,
+                    MOLTEN_OSTRUM_FLOWING_RL,
+                    MOLTEN_OVERLAY_RL,
+                    0xFFFFFFFF,
+                    colorVecFromHex(0x832c04),  //Values are divided by 255
+                    FluidType.Properties.create()
+                            .lightLevel(15)
+                            .density(15)
+                            .viscosity(1)
+                            .canSwim(false)
+                            .canHydrate(false)
+                            .canConvertToSource(false)
+                            .canPushEntity(true)
+                            .temperature(9000)
+                            .supportsBoating(false)
+                            .canDrown(false)
+                            .sound(SoundAction.get("drink"),
+                                    SoundEvents.HONEY_DRINK)));
+
+
 
 
 

@@ -110,6 +110,105 @@ public class ModFluids {
             .slopeFindDistance(2).levelDecreasePerBlock(2).block(ModBlocks.MOLTEN_VENTIUM_BLOCK)
             .bucket(ModItems.MOLTEN_VENTIUM_BUCKET);
 
+    //Molten Brass
+    public static final RegistryObject<FlowingFluid> SOURCE_MOLTEN_BRASS = FLUIDS.register("molten_brass",
+            () -> new ForgeFlowingFluid.Source(ModFluids.MOLTEN_BRASS_PROPERTIES));
+    public static final RegistryObject<FlowingFluid> FLOWING_MOLTEN_BRASS = FLUIDS.register("flowing_molten_brass",
+            () -> new ForgeFlowingFluid.Flowing(ModFluids.MOLTEN_BRASS_PROPERTIES));
+
+    public static final ForgeFlowingFluid.Properties MOLTEN_BRASS_PROPERTIES = new ForgeFlowingFluid.Properties(
+            ModFluidTypes.MOLTEN_BRASS_TYPE, SOURCE_MOLTEN_BRASS, FLOWING_MOLTEN_BRASS)
+            .slopeFindDistance(2).levelDecreasePerBlock(2).block(ModBlocks.MOLTEN_BRASS_BLOCK)
+            .bucket(ModItems.MOLTEN_BRASS_BUCKET);
+
+    //Molten Copper
+    public static final RegistryObject<FlowingFluid> SOURCE_MOLTEN_COPPER = FLUIDS.register("molten_copper",
+            () -> new ForgeFlowingFluid.Source(ModFluids.MOLTEN_COPPER_PROPERTIES));
+    public static final RegistryObject<FlowingFluid> FLOWING_MOLTEN_COPPER = FLUIDS.register("flowing_molten_copper",
+            () -> new ForgeFlowingFluid.Flowing(ModFluids.MOLTEN_COPPER_PROPERTIES));
+
+    public static final ForgeFlowingFluid.Properties MOLTEN_COPPER_PROPERTIES = new ForgeFlowingFluid.Properties(
+            ModFluidTypes.MOLTEN_COPPER_TYPE, SOURCE_MOLTEN_COPPER, FLOWING_MOLTEN_COPPER)
+            .slopeFindDistance(2).levelDecreasePerBlock(2).block(ModBlocks.MOLTEN_COPPER_BLOCK)
+            .bucket(ModItems.MOLTEN_COPPER_BUCKET);
+
+    //Molten Diamond
+    public static final RegistryObject<FlowingFluid> SOURCE_MOLTEN_DIAMOND = FLUIDS.register("molten_diamond",
+            () -> new ForgeFlowingFluid.Source(ModFluids.MOLTEN_DIAMOND_PROPERTIES));
+    public static final RegistryObject<FlowingFluid> FLOWING_MOLTEN_DIAMOND = FLUIDS.register("flowing_molten_diamond",
+            () -> new ForgeFlowingFluid.Flowing(ModFluids.MOLTEN_DIAMOND_PROPERTIES));
+
+    public static final ForgeFlowingFluid.Properties MOLTEN_DIAMOND_PROPERTIES = new ForgeFlowingFluid.Properties(
+            ModFluidTypes.MOLTEN_DIAMOND_TYPE, SOURCE_MOLTEN_DIAMOND, FLOWING_MOLTEN_DIAMOND)
+            .slopeFindDistance(2).levelDecreasePerBlock(2).block(ModBlocks.MOLTEN_DIAMOND_BLOCK)
+            .bucket(ModItems.MOLTEN_DIAMOND_BUCKET);
+
+    //Molten Netherite
+    public static final RegistryObject<FlowingFluid> SOURCE_MOLTEN_NETHERITE = FLUIDS.register("molten_netherite",
+            () -> new ForgeFlowingFluid.Source(ModFluids.MOLTEN_NETHERITE_PROPERTIES));
+    public static final RegistryObject<FlowingFluid> FLOWING_MOLTEN_NETHERITE = FLUIDS.register("flowing_molten_netherite",
+            () -> new ForgeFlowingFluid.Flowing(ModFluids.MOLTEN_NETHERITE_PROPERTIES));
+
+    public static final ForgeFlowingFluid.Properties MOLTEN_NETHERITE_PROPERTIES = new ForgeFlowingFluid.Properties(
+            ModFluidTypes.MOLTEN_NETHERITE_TYPE, SOURCE_MOLTEN_NETHERITE, FLOWING_MOLTEN_NETHERITE)
+            .slopeFindDistance(2).levelDecreasePerBlock(2).block(ModBlocks.MOLTEN_NETHERITE_BLOCK)
+            .bucket(ModItems.MOLTEN_NETHERITE_BUCKET);
+
+    //Molten Steel
+    public static final RegistryObject<FlowingFluid> SOURCE_MOLTEN_STEEL = FLUIDS.register("molten_steel",
+            () -> new ForgeFlowingFluid.Source(ModFluids.MOLTEN_STEEL_PROPERTIES));
+    public static final RegistryObject<FlowingFluid> FLOWING_MOLTEN_STEEL = FLUIDS.register("flowing_molten_steel",
+            () -> new ForgeFlowingFluid.Flowing(ModFluids.MOLTEN_STEEL_PROPERTIES));
+
+    public static final ForgeFlowingFluid.Properties MOLTEN_STEEL_PROPERTIES = new ForgeFlowingFluid.Properties(
+            ModFluidTypes.MOLTEN_STEEL_TYPE, SOURCE_MOLTEN_STEEL, FLOWING_MOLTEN_STEEL)
+            .slopeFindDistance(2).levelDecreasePerBlock(2).block(ModBlocks.MOLTEN_STEEL_BLOCK)
+            .bucket(ModItems.MOLTEN_STEEL_BUCKET);
+
+    //Molten Steel
+    public static final RegistryObject<FlowingFluid> SOURCE_MOLTEN_ZINC = FLUIDS.register("molten_zinc",
+            () -> new ForgeFlowingFluid.Source(ModFluids.MOLTEN_ZINC_PROPERTIES));
+    public static final RegistryObject<FlowingFluid> FLOWING_MOLTEN_ZINC = FLUIDS.register("flowing_molten_zinc",
+            () -> new ForgeFlowingFluid.Flowing(ModFluids.MOLTEN_ZINC_PROPERTIES));
+
+    public static final ForgeFlowingFluid.Properties MOLTEN_ZINC_PROPERTIES = new ForgeFlowingFluid.Properties(
+            ModFluidTypes.MOLTEN_ZINC_TYPE, SOURCE_MOLTEN_ZINC, FLOWING_MOLTEN_ZINC)
+            .slopeFindDistance(2).levelDecreasePerBlock(2).block(ModBlocks.MOLTEN_ZINC_BLOCK)
+            .bucket(ModItems.MOLTEN_ZINC_BUCKET);
+
+    //Molten Calorite
+    public static final RegistryObject<FlowingFluid> SOURCE_MOLTEN_CALORITE = FLUIDS.register("molten_calorite",
+            () -> new ForgeFlowingFluid.Source(ModFluids.MOLTEN_CALORITE_PROPERTIES));
+    public static final RegistryObject<FlowingFluid> FLOWING_MOLTEN_CALORITE = FLUIDS.register("flowing_molten_calorite",
+            () -> new ForgeFlowingFluid.Flowing(ModFluids.MOLTEN_CALORITE_PROPERTIES));
+
+    public static final ForgeFlowingFluid.Properties MOLTEN_CALORITE_PROPERTIES = new ForgeFlowingFluid.Properties(
+            ModFluidTypes.MOLTEN_CALORITE_TYPE, SOURCE_MOLTEN_CALORITE, FLOWING_MOLTEN_CALORITE)
+            .slopeFindDistance(2).levelDecreasePerBlock(2).block(ModBlocks.MOLTEN_CALORITE_BLOCK)
+            .bucket(ModItems.MOLTEN_CALORITE_BUCKET);
+
+    //Molten Desh
+    public static final RegistryObject<FlowingFluid> SOURCE_MOLTEN_DESH = FLUIDS.register("molten_desh",
+            () -> new ForgeFlowingFluid.Source(ModFluids.MOLTEN_DESH_PROPERTIES));
+    public static final RegistryObject<FlowingFluid> FLOWING_MOLTEN_DESH = FLUIDS.register("flowing_molten_desh",
+            () -> new ForgeFlowingFluid.Flowing(ModFluids.MOLTEN_DESH_PROPERTIES));
+
+    public static final ForgeFlowingFluid.Properties MOLTEN_DESH_PROPERTIES = new ForgeFlowingFluid.Properties(
+            ModFluidTypes.MOLTEN_DESH_TYPE, SOURCE_MOLTEN_DESH, FLOWING_MOLTEN_DESH)
+            .slopeFindDistance(2).levelDecreasePerBlock(2).block(ModBlocks.MOLTEN_DESH_BLOCK)
+            .bucket(ModItems.MOLTEN_DESH_BUCKET);
+
+    //Molten Ostrum
+    public static final RegistryObject<FlowingFluid> SOURCE_MOLTEN_OSTRUM = FLUIDS.register("molten_ostrum",
+            () -> new ForgeFlowingFluid.Source(ModFluids.MOLTEN_OSTRUM_PROPERTIES));
+    public static final RegistryObject<FlowingFluid> FLOWING_MOLTEN_OSTRUM = FLUIDS.register("flowing_molten_ostrum",
+            () -> new ForgeFlowingFluid.Flowing(ModFluids.MOLTEN_OSTRUM_PROPERTIES));
+
+    public static final ForgeFlowingFluid.Properties MOLTEN_OSTRUM_PROPERTIES = new ForgeFlowingFluid.Properties(
+            ModFluidTypes.MOLTEN_OSTRUM_TYPE, SOURCE_MOLTEN_OSTRUM, FLOWING_MOLTEN_OSTRUM)
+            .slopeFindDistance(2).levelDecreasePerBlock(2).block(ModBlocks.MOLTEN_OSTRUM_BLOCK)
+            .bucket(ModItems.MOLTEN_OSTRUM_BUCKET);
+
 
     public static void register(IEventBus eventBus) {
         FLUIDS.register(eventBus);

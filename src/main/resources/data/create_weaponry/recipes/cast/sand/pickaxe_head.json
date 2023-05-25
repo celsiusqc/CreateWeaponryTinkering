@@ -1,0 +1,16 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "tag": "forge:sand"
+    },
+    {
+      "tag": "create_weaponry:heads/pickaxe"
+    }
+  ],
+  "results": [
+    {
+      "item": "create_weaponry:pickaxe_head_sand_cast"
+    }
+  ]
+}

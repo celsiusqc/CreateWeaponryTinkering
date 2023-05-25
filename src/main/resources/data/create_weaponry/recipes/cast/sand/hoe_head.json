@@ -1,0 +1,16 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "tag": "forge:sand"
+    },
+    {
+      "tag": "create_weaponry:heads/hoe"
+    }
+  ],
+  "results": [
+    {
+      "item": "create_weaponry:hoe_head_sand_cast"
+    }
+  ]
+}

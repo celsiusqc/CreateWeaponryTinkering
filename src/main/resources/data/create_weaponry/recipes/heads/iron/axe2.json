@@ -1,0 +1,21 @@
+{
+  "type": "create:filling",
+  "ingredients": [
+    {
+      "item": "create_weaponry:axe_head_gold_cast"
+    },
+    {
+      "fluid": "create_weaponry:molten_iron",
+      "nbt": {},
+      "amount": 300
+    }
+  ],
+  "results": [
+    {
+      "item": "create_weaponry:iron_axe_head"
+    },
+    {
+      "item": "create_weaponry:axe_head_gold_cast"
+    }
+  ]
+}

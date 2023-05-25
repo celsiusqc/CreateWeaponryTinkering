@@ -128,12 +128,66 @@ public class ModItems {
     public static final RegistryObject<Item> MOLTEN_VENTIUM_BUCKET = ITEMS.register("molten_ventium_bucket",
             () -> new BucketItem(ModFluids.SOURCE_MOLTEN_VENTIUM,
                     new Item.Properties().tab(ModCreativeModTab.create_weaponry).craftRemainder(Items.BUCKET).stacksTo(1)));
+    public static final RegistryObject<Item> MOLTEN_BRASS_BUCKET = ITEMS.register("molten_brass_bucket",
+            () -> new BucketItem(ModFluids.SOURCE_MOLTEN_BRASS,
+                    new Item.Properties().tab(ModCreativeModTab.create_weaponry).craftRemainder(Items.BUCKET).stacksTo(1)));
+    public static final RegistryObject<Item> MOLTEN_COPPER_BUCKET = ITEMS.register("molten_copper_bucket",
+            () -> new BucketItem(ModFluids.SOURCE_MOLTEN_COPPER,
+                    new Item.Properties().tab(ModCreativeModTab.create_weaponry).craftRemainder(Items.BUCKET).stacksTo(1)));
+
+    public static final RegistryObject<Item> MOLTEN_DIAMOND_BUCKET = ITEMS.register("molten_diamond_bucket",
+            () -> new BucketItem(ModFluids.SOURCE_MOLTEN_DIAMOND,
+                    new Item.Properties().tab(ModCreativeModTab.create_weaponry).craftRemainder(Items.BUCKET).stacksTo(1)));
+
+    public static final RegistryObject<Item> MOLTEN_NETHERITE_BUCKET = ITEMS.register("molten_netherite_bucket",
+            () -> new BucketItem(ModFluids.SOURCE_MOLTEN_NETHERITE,
+                    new Item.Properties().tab(ModCreativeModTab.create_weaponry).craftRemainder(Items.BUCKET).stacksTo(1)));
+    public static final RegistryObject<Item> MOLTEN_STEEL_BUCKET = ITEMS.register("molten_steel_bucket",
+            () -> new BucketItem(ModFluids.SOURCE_MOLTEN_STEEL,
+                    new Item.Properties().tab(ModCreativeModTab.create_weaponry).craftRemainder(Items.BUCKET).stacksTo(1)));
+    public static final RegistryObject<Item> MOLTEN_ZINC_BUCKET = ITEMS.register("molten_zinc_bucket",
+            () -> new BucketItem(ModFluids.SOURCE_MOLTEN_ZINC,
+                    new Item.Properties().tab(ModCreativeModTab.create_weaponry).craftRemainder(Items.BUCKET).stacksTo(1)));
+
+    public static final RegistryObject<Item> MOLTEN_CALORITE_BUCKET = ITEMS.register("molten_calorite_bucket",
+            () -> new BucketItem(ModFluids.SOURCE_MOLTEN_CALORITE,
+                    new Item.Properties().tab(ModCreativeModTab.create_weaponry).craftRemainder(Items.BUCKET).stacksTo(1)));
+    public static final RegistryObject<Item> MOLTEN_DESH_BUCKET = ITEMS.register("molten_desh_bucket",
+            () -> new BucketItem(ModFluids.SOURCE_MOLTEN_DESH,
+                    new Item.Properties().tab(ModCreativeModTab.create_weaponry).craftRemainder(Items.BUCKET).stacksTo(1)));
+    public static final RegistryObject<Item> MOLTEN_OSTRUM_BUCKET = ITEMS.register("molten_ostrum_bucket",
+            () -> new BucketItem(ModFluids.SOURCE_MOLTEN_OSTRUM,
+                    new Item.Properties().tab(ModCreativeModTab.create_weaponry).craftRemainder(Items.BUCKET).stacksTo(1)));
 
 
     //Patterns
 
     public static final RegistryObject<Item> STONE_PATTERN = ITEMS.register("stone_pattern",
             () -> new Item(new Item.Properties().tab(ModCreativeModTab.create_weaponry)));
+
+    //Casts
+    public static final RegistryObject<Item> PICKAXE_HEAD_SAND_CAST = ITEMS.register("pickaxe_head_sand_cast",
+            () -> new Item(new Item.Properties().tab(ModCreativeModTab.create_weaponry)));
+    public static final RegistryObject<Item> AXE_HEAD_SAND_CAST = ITEMS.register("axe_head_sand_cast",
+            () -> new Item(new Item.Properties().tab(ModCreativeModTab.create_weaponry)));
+    public static final RegistryObject<Item> SWORD_HEAD_SAND_CAST = ITEMS.register("sword_head_sand_cast",
+            () -> new Item(new Item.Properties().tab(ModCreativeModTab.create_weaponry)));
+    public static final RegistryObject<Item> SHOVEL_HEAD_SAND_CAST = ITEMS.register("shovel_head_sand_cast",
+            () -> new Item(new Item.Properties().tab(ModCreativeModTab.create_weaponry)));
+    public static final RegistryObject<Item> HOE_HEAD_SAND_CAST = ITEMS.register("hoe_head_sand_cast",
+            () -> new Item(new Item.Properties().tab(ModCreativeModTab.create_weaponry)));
+
+    public static final RegistryObject<Item> PICKAXE_HEAD_GOLD_CAST = ITEMS.register("pickaxe_head_gold_cast",
+            () -> new Item(new Item.Properties().tab(ModCreativeModTab.create_weaponry)));
+    public static final RegistryObject<Item> AXE_HEAD_GOLD_CAST = ITEMS.register("axe_head_gold_cast",
+            () -> new Item(new Item.Properties().tab(ModCreativeModTab.create_weaponry)));
+    public static final RegistryObject<Item> SWORD_HEAD_GOLD_CAST = ITEMS.register("sword_head_gold_cast",
+            () -> new Item(new Item.Properties().tab(ModCreativeModTab.create_weaponry)));
+    public static final RegistryObject<Item> SHOVEL_HEAD_GOLD_CAST = ITEMS.register("shovel_head_gold_cast",
+            () -> new Item(new Item.Properties().tab(ModCreativeModTab.create_weaponry)));
+    public static final RegistryObject<Item> HOE_HEAD_GOLD_CAST = ITEMS.register("hoe_head_gold_cast",
+            () -> new Item(new Item.Properties().tab(ModCreativeModTab.create_weaponry)));
+
 
         //Heads
 
@@ -147,6 +201,18 @@ public class ModItems {
     public static final RegistryObject<Item> STONE_SHOVEL_HEAD= ITEMS.register("stone_shovel_head",
             () -> new Item(new Item.Properties().tab(ModCreativeModTab.create_weaponry)));
     public static final RegistryObject<Item> STONE_SWORD_HEAD= ITEMS.register("stone_sword_head",
+            () -> new Item(new Item.Properties().tab(ModCreativeModTab.create_weaponry)));
+
+    //Iron
+    public static final RegistryObject<Item> IRON_AXE_HEAD= ITEMS.register("iron_axe_head",
+            () -> new Item(new Item.Properties().tab(ModCreativeModTab.create_weaponry)));
+    public static final RegistryObject<Item> IRON_HOE_HEAD= ITEMS.register("iron_hoe_head",
+            () -> new Item(new Item.Properties().tab(ModCreativeModTab.create_weaponry)));
+    public static final RegistryObject<Item> IRON_PICKAXE_HEAD= ITEMS.register("iron_pickaxe_head",
+            () -> new Item(new Item.Properties().tab(ModCreativeModTab.create_weaponry)));
+    public static final RegistryObject<Item> IRON_SHOVEL_HEAD= ITEMS.register("iron_shovel_head",
+            () -> new Item(new Item.Properties().tab(ModCreativeModTab.create_weaponry)));
+    public static final RegistryObject<Item> IRON_SWORD_HEAD= ITEMS.register("iron_sword_head",
             () -> new Item(new Item.Properties().tab(ModCreativeModTab.create_weaponry)));
 
 

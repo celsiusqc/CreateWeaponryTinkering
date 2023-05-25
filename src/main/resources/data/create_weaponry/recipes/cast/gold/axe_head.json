@@ -1,0 +1,18 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "amount": 300,
+      "fluid": "create_weaponry:molten_gold",
+      "nbt": {}
+    },
+    {
+      "tag": "create_weaponry:heads/axe"
+    }
+  ],
+  "results": [
+    {
+      "item": "create_weaponry:axe_head_gold_cast"
+    }
+  ]
+}

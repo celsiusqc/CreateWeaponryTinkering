@@ -1,0 +1,16 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "tag": "forge:sand"
+    },
+    {
+      "tag": "create_weaponry:heads/sword"
+    }
+  ],
+  "results": [
+    {
+      "item": "create_weaponry:sword_head_sand_cast"
+    }
+  ]
+}
