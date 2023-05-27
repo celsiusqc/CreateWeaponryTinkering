@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "create_weaponry:blank_pattern"
+  },
+  "result": "create_weaponry:hammer_head_pattern"
+}

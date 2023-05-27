@@ -5,10 +5,10 @@
       "item": "create_weaponry:handle"
     },
     {
-      "item": "create_weaponry:gold_axe_head"
+      "item": "create_weaponry:steel_axe_head"
     }
   ],
   "result": {
-    "item": "minecraft:golden_axe"
+    "item": "cp_tweaks:steel_axe"
   }
 }
