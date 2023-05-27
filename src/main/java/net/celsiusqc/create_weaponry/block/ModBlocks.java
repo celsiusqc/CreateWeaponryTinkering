@@ -42,12 +42,8 @@ public class ModBlocks {
             () -> new LiquidBlock(ModFluids.SOURCE_MOLTEN_DIOPSIDE, BlockBehaviour.Properties.copy(Blocks.LAVA)));
     public static final RegistryObject<LiquidBlock> MOLTEN_PYROPE_BLOCK = BLOCKS.register("molten_pyrope_block",
             () -> new LiquidBlock(ModFluids.SOURCE_MOLTEN_PYROPE, BlockBehaviour.Properties.copy(Blocks.LAVA)));
-    public static final RegistryObject<LiquidBlock> MOLTEN_FALSITE_BLOCK = BLOCKS.register("molten_falsite_block",
-            () -> new LiquidBlock(ModFluids.SOURCE_MOLTEN_FALSITE, BlockBehaviour.Properties.copy(Blocks.LAVA)));
     public static final RegistryObject<LiquidBlock> MOLTEN_HORIZONITE_BLOCK = BLOCKS.register("molten_horizonite_block",
             () -> new LiquidBlock(ModFluids.SOURCE_MOLTEN_HORIZONITE, BlockBehaviour.Properties.copy(Blocks.LAVA)));
-    public static final RegistryObject<LiquidBlock> MOLTEN_VENTIUM_BLOCK = BLOCKS.register("molten_ventium_block",
-            () -> new LiquidBlock(ModFluids.SOURCE_MOLTEN_VENTIUM, BlockBehaviour.Properties.copy(Blocks.LAVA)));
     public static final RegistryObject<LiquidBlock> MOLTEN_BRASS_BLOCK = BLOCKS.register("molten_brass_block",
             () -> new LiquidBlock(ModFluids.SOURCE_MOLTEN_BRASS, BlockBehaviour.Properties.copy(Blocks.LAVA)));
     public static final RegistryObject<LiquidBlock> MOLTEN_COPPER_BLOCK = BLOCKS.register("molten_copper_block",

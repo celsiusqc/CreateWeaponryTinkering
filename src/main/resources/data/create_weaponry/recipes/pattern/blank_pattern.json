@@ -1,0 +1,16 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    [
+      {
+        "item": "minecraft:polished_diorite"
+      }
+    ]
+  ],
+  "results": [
+    {
+      "count": 3,
+      "item": "create_weaponry:blank_pattern"
+    }
+  ]
+}

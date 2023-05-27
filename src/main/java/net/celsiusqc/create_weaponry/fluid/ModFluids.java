@@ -77,16 +77,6 @@ public class ModFluids {
             .slopeFindDistance(2).levelDecreasePerBlock(2).block(ModBlocks.MOLTEN_PYROPE_BLOCK)
             .bucket(ModItems.MOLTEN_PYROPE_BUCKET);
 
-    //Molten Falsite
-    public static final RegistryObject<FlowingFluid> SOURCE_MOLTEN_FALSITE = FLUIDS.register("molten_falsite",
-            () -> new ForgeFlowingFluid.Source(ModFluids.MOLTEN_FALSITE_PROPERTIES));
-    public static final RegistryObject<FlowingFluid> FLOWING_MOLTEN_FALSITE = FLUIDS.register("flowing_molten_falsite",
-            () -> new ForgeFlowingFluid.Flowing(ModFluids.MOLTEN_FALSITE_PROPERTIES));
-
-    public static final ForgeFlowingFluid.Properties MOLTEN_FALSITE_PROPERTIES = new ForgeFlowingFluid.Properties(
-            ModFluidTypes.MOLTEN_FALSITE_TYPE, SOURCE_MOLTEN_FALSITE, FLOWING_MOLTEN_FALSITE)
-            .slopeFindDistance(2).levelDecreasePerBlock(2).block(ModBlocks.MOLTEN_FALSITE_BLOCK)
-            .bucket(ModItems.MOLTEN_FALSITE_BUCKET);
 
     //Molten Horizonite
     public static final RegistryObject<FlowingFluid> SOURCE_MOLTEN_HORIZONITE = FLUIDS.register("molten_horizonite",
@@ -99,16 +89,6 @@ public class ModFluids {
             .slopeFindDistance(2).levelDecreasePerBlock(2).block(ModBlocks.MOLTEN_HORIZONITE_BLOCK)
             .bucket(ModItems.MOLTEN_HORIZONITE_BUCKET);
 
-    //Molten Ventium
-    public static final RegistryObject<FlowingFluid> SOURCE_MOLTEN_VENTIUM = FLUIDS.register("molten_ventium",
-            () -> new ForgeFlowingFluid.Source(ModFluids.MOLTEN_VENTIUM_PROPERTIES));
-    public static final RegistryObject<FlowingFluid> FLOWING_MOLTEN_VENTIUM = FLUIDS.register("flowing_molten_ventium",
-            () -> new ForgeFlowingFluid.Flowing(ModFluids.MOLTEN_VENTIUM_PROPERTIES));
-
-    public static final ForgeFlowingFluid.Properties MOLTEN_VENTIUM_PROPERTIES = new ForgeFlowingFluid.Properties(
-            ModFluidTypes.MOLTEN_VENTIUM_TYPE, SOURCE_MOLTEN_VENTIUM, FLOWING_MOLTEN_VENTIUM)
-            .slopeFindDistance(2).levelDecreasePerBlock(2).block(ModBlocks.MOLTEN_VENTIUM_BLOCK)
-            .bucket(ModItems.MOLTEN_VENTIUM_BUCKET);
 
     //Molten Brass
     public static final RegistryObject<FlowingFluid> SOURCE_MOLTEN_BRASS = FLUIDS.register("molten_brass",

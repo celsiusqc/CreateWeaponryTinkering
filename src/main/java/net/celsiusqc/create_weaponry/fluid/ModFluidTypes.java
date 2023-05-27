@@ -79,7 +79,7 @@ public class ModFluidTypes {
                     MOLTEN_AQUITE_FLOWING_RL,
                     MOLTEN_OVERLAY_RL,
                     0xFFFFFFFF,
-                    colorVecFromHex(0x832c04),  //Values are divided by 255
+                    colorVecFromHex(0x84c0cd),  //Values are divided by 255
                     FluidType.Properties.create()
                             .lightLevel(15)
                             .density(15)
@@ -102,7 +102,7 @@ public class ModFluidTypes {
                     MOLTEN_CHAROITE_FLOWING_RL,
                     MOLTEN_OVERLAY_RL,
                     0xFFFFFFFF,
-                    colorVecFromHex(0x832c04),  //Values are divided by 255
+                    colorVecFromHex(0xcabccf),  //Values are divided by 255
                     FluidType.Properties.create()
                             .lightLevel(15)
                             .density(15)
@@ -125,7 +125,7 @@ public class ModFluidTypes {
                     MOLTEN_DIOPSIDE_FLOWING_RL,
                     MOLTEN_OVERLAY_RL,
                     0xFFFFFFFF,
-                    colorVecFromHex(0x832c04),  //Values are divided by 255
+                    colorVecFromHex(0x80d380),  //Values are divided by 255
                     FluidType.Properties.create()
                             .lightLevel(15)
                             .density(15)
@@ -149,7 +149,7 @@ public class ModFluidTypes {
                     MOLTEN_PYROPE_FLOWING_RL,
                     MOLTEN_OVERLAY_RL,
                     0xFFFFFFFF,
-                    colorVecFromHex(0x832c04),  //Values are divided by 255
+                    colorVecFromHex(0xdaafbc),  //Values are divided by 255
                     FluidType.Properties.create()
                             .lightLevel(15)
                             .density(15)
@@ -164,29 +164,6 @@ public class ModFluidTypes {
                             .sound(SoundAction.get("drink"),
                                     SoundEvents.HONEY_DRINK)));
 
-    //Falsite
-    public static final ResourceLocation MOLTEN_FALSITE_STILL_RL = new ResourceLocation(CreateWeaponry.MOD_ID, "block/fluid/falsite/still");
-    public static final ResourceLocation MOLTEN_FALSITE_FLOWING_RL = new ResourceLocation(CreateWeaponry.MOD_ID, "block/fluid/falsite/flowing");
-    public static final RegistryObject<FluidType> MOLTEN_FALSITE_TYPE = FLUID_TYPES.register("molten_falsite_fluid",
-            () -> new BaseFluidType(
-                    MOLTEN_FALSITE_STILL_RL,
-                    MOLTEN_FALSITE_FLOWING_RL,
-                    MOLTEN_OVERLAY_RL,
-                    0xFFFFFFFF,
-                    colorVecFromHex(0x832c04),  //Values are divided by 255
-                    FluidType.Properties.create()
-                            .lightLevel(15)
-                            .density(15)
-                            .viscosity(1)
-                            .canSwim(false)
-                            .canHydrate(false)
-                            .canConvertToSource(false)
-                            .canPushEntity(true)
-                            .temperature(9000)
-                            .supportsBoating(false)
-                            .canDrown(false)
-                            .sound(SoundAction.get("drink"),
-                                    SoundEvents.HONEY_DRINK)));
 
     //Horizonite
     public static final ResourceLocation MOLTEN_HORIZONITE_STILL_RL = new ResourceLocation(CreateWeaponry.MOD_ID, "block/fluid/horizonite/still");
@@ -197,7 +174,7 @@ public class ModFluidTypes {
                     MOLTEN_HORIZONITE_FLOWING_RL,
                     MOLTEN_OVERLAY_RL,
                     0xFFFFFFFF,
-                    colorVecFromHex(0x832c04),  //Values are divided by 255
+                    colorVecFromHex(0xd5be80),  //Values are divided by 255
                     FluidType.Properties.create()
                             .lightLevel(15)
                             .density(15)
@@ -212,29 +189,6 @@ public class ModFluidTypes {
                             .sound(SoundAction.get("drink"),
                                     SoundEvents.HONEY_DRINK)));
 
-    //Ventium
-    public static final ResourceLocation MOLTEN_VENTIUM_STILL_RL = new ResourceLocation(CreateWeaponry.MOD_ID, "block/fluid/ventium/still");
-    public static final ResourceLocation MOLTEN_VENTIUM_FLOWING_RL = new ResourceLocation(CreateWeaponry.MOD_ID, "block/fluid/ventium/flowing");
-    public static final RegistryObject<FluidType> MOLTEN_VENTIUM_TYPE = FLUID_TYPES.register("molten_ventium_fluid",
-            () -> new BaseFluidType(
-                    MOLTEN_VENTIUM_STILL_RL,
-                    MOLTEN_VENTIUM_FLOWING_RL,
-                    MOLTEN_OVERLAY_RL,
-                    0xFFFFFFFF,
-                    colorVecFromHex(0x832c04),  //Values are divided by 255
-                    FluidType.Properties.create()
-                            .lightLevel(15)
-                            .density(15)
-                            .viscosity(1)
-                            .canSwim(false)
-                            .canHydrate(false)
-                            .canConvertToSource(false)
-                            .canPushEntity(true)
-                            .temperature(9000)
-                            .supportsBoating(false)
-                            .canDrown(false)
-                            .sound(SoundAction.get("drink"),
-                                    SoundEvents.HONEY_DRINK)));
 
     //Brass
     public static final ResourceLocation MOLTEN_BRASS_STILL_RL = new ResourceLocation(CreateWeaponry.MOD_ID, "block/fluid/brass/still");
@@ -245,7 +199,7 @@ public class ModFluidTypes {
                     MOLTEN_BRASS_FLOWING_RL,
                     MOLTEN_OVERLAY_RL,
                     0xFFFFFFFF,
-                    colorVecFromHex(0x832c04),  //Values are divided by 255
+                    colorVecFromHex(0xc6b29a),  //Values are divided by 255
                     FluidType.Properties.create()
                             .lightLevel(15)
                             .density(15)
@@ -269,7 +223,7 @@ public class ModFluidTypes {
                     MOLTEN_COPPER_FLOWING_RL,
                     MOLTEN_OVERLAY_RL,
                     0xFFFFFFFF,
-                    colorVecFromHex(0x832c04),  //Values are divided by 255
+                    colorVecFromHex(0xe4af9d),  //Values are divided by 255
                     FluidType.Properties.create()
                             .lightLevel(15)
                             .density(15)
@@ -293,7 +247,7 @@ public class ModFluidTypes {
                     MOLTEN_DIAMOND_FLOWING_RL,
                     MOLTEN_OVERLAY_RL,
                     0xFFFFFFFF,
-                    colorVecFromHex(0x832c04),  //Values are divided by 255
+                    colorVecFromHex(0xa2e0db),  //Values are divided by 255
                     FluidType.Properties.create()
                             .lightLevel(15)
                             .density(15)
@@ -317,7 +271,7 @@ public class ModFluidTypes {
                     MOLTEN_NETHERITE_FLOWING_RL,
                     MOLTEN_OVERLAY_RL,
                     0xFFFFFFFF,
-                    colorVecFromHex(0x832c04),  //Values are divided by 255
+                    colorVecFromHex(0xa6a5a6),  //Values are divided by 255
                     FluidType.Properties.create()
                             .lightLevel(15)
                             .density(15)
@@ -341,7 +295,7 @@ public class ModFluidTypes {
                     MOLTEN_STEEL_FLOWING_RL,
                     MOLTEN_OVERLAY_RL,
                     0xFFFFFFFF,
-                    colorVecFromHex(0x832c04),  //Values are divided by 255
+                    colorVecFromHex(0xb4b5b7),  //Values are divided by 255
                     FluidType.Properties.create()
                             .lightLevel(15)
                             .density(15)
@@ -365,7 +319,7 @@ public class ModFluidTypes {
                     MOLTEN_ZINC_FLOWING_RL,
                     MOLTEN_OVERLAY_RL,
                     0xFFFFFFFF,
-                    colorVecFromHex(0x832c04),  //Values are divided by 255
+                    colorVecFromHex(0xb4b6ae),  //Values are divided by 255
                     FluidType.Properties.create()
                             .lightLevel(15)
                             .density(15)
@@ -389,7 +343,7 @@ public class ModFluidTypes {
                     MOLTEN_CALORITE_FLOWING_RL,
                     MOLTEN_OVERLAY_RL,
                     0xFFFFFFFF,
-                    colorVecFromHex(0x832c04),  //Values are divided by 255
+                    colorVecFromHex(0xc8989b),  //Values are divided by 255
                     FluidType.Properties.create()
                             .lightLevel(15)
                             .density(15)
@@ -413,7 +367,7 @@ public class ModFluidTypes {
                     MOLTEN_DESH_FLOWING_RL,
                     MOLTEN_OVERLAY_RL,
                     0xFFFFFFFF,
-                    colorVecFromHex(0x832c04),  //Values are divided by 255
+                    colorVecFromHex(0xd9bd9d),  //Values are divided by 255
                     FluidType.Properties.create()
                             .lightLevel(15)
                             .density(15)
@@ -436,7 +390,7 @@ public class ModFluidTypes {
                     MOLTEN_OSTRUM_FLOWING_RL,
                     MOLTEN_OVERLAY_RL,
                     0xFFFFFFFF,
-                    colorVecFromHex(0x832c04),  //Values are divided by 255
+                    colorVecFromHex(0xc0a7ac),  //Values are divided by 255
                     FluidType.Properties.create()
                             .lightLevel(15)
                             .density(15)

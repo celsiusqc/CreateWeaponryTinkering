@@ -157,7 +157,7 @@ dependencies {
     // Specify the version of Minecraft to use. If this is any group other than 'net.minecraft', it is assumed
     // that the dep is a ForgeGradle 'patcher' dependency, and its patches will be applied.
     // The userdev artifact is a special name and will get all sorts of transformations applied to it.
-    minecraft 'net.minecraftforge:forge:1.19.2-43.2.0'
+    minecraft 'net.minecraftforge:forge:1.19.2-43.2.11'
 
     // Real mod deobf dependency examples - these get remapped to your current mappings
     // compileOnly fg.deobf("mezz.jei:jei-${mc_version}:${jei_version}:api") // Adds JEI API as a compile dependency
@@ -172,7 +172,7 @@ dependencies {
     //JER
     implementation fg.deobf("curse.maven:just-enough-resources-jer-240630:3951643")
     //Create
-    implementation fg.deobf("curse.maven:create-328085:4371809")
+    implementation fg.deobf("curse.maven:create-328085:4550987")
 //    //KubeJs
     implementation fg.deobf("curse.maven:kubejs-238086:4377175")
     implementation fg.deobf("curse.maven:rhino-416294:4476056")
