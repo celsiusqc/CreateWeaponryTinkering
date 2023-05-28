@@ -1,0 +1,18 @@
+{
+  "type": "create:filling",
+  "ingredients": [
+    {
+      "item": "create_weaponry:katana_head_pattern"
+    },
+    {
+      "fluid": "create_weaponry:molten_horizonite",
+      "nbt": {},
+      "amount": 300
+    }
+  ],
+  "results": [
+    {
+      "item": "create_weaponry:horizonite_katana_head"
+    }
+  ]
+}

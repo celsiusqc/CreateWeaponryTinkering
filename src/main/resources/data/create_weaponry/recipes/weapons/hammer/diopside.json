@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "create_weaponry:handle"
+    },
+    {
+      "item": "create_weaponry:diopside_hammer_head"
+    }
+  ],
+  "result": {
+    "item": "create_weaponry:diopside_hammer"
+  }
+}

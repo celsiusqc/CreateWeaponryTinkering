@@ -184,7 +184,7 @@ dependencies {
     implementation fg.deobf("curse.maven:blue-skies-312918:3966273")
     implementation fg.deobf("curse.maven:structure-gel-api-378802:4489756")
     //Cp Tweaks
-    implementation fg.deobf("curse.maven:create-planetary-tweaks-594527:4540617")
+    implementation fg.deobf("curse.maven:create-planetary-tweaks-594527:4555087")
     //Create SA
     implementation fg.deobf("curse.maven:create-stuff-additions-466792:4548582")
     //Ad Astra
@@ -195,8 +195,11 @@ dependencies {
     //Alexsmobs
     implementation fg.deobf("curse.maven:alexs-mobs-426558:4159154")
     implementation fg.deobf("curse.maven:citadel-331936:4473243")
+    //Durability
+    implementation fg.deobf("curse.maven:durability-tooltip-511040:4016227")
+    implementation fg.deobf("curse.maven:supermartijn642s-config-lib-438332:3871792")
     //CP Tweaks
-//    implementation fg.deobf("curse.maven:create-planetary-tweaks-594527:4554156")
+    //implementation fg.deobf("curse.maven:create-planetary-tweaks-594527:4555087")
     //Alloyed
 //    implementation fg.deobf("curse.maven:create-alloyed-564792:4210862")
 
