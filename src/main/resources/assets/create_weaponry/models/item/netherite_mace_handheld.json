@@ -1,7 +1,7 @@
 {
   "parent": "minecraft:item/handheld",
   "textures": {
-    "layer0": "create_weaponry:item/netherite_mace_handheld"
+    "layer0": "create_weaponry:item/weapons/mace/handheld/netherite"
   },
   "display": {
     "thirdperson_righthand": {

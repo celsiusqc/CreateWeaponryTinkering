@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/handheld",
   "textures": {
-    "layer0": "create_weaponry:item/netherite_katana"
+    "layer0": "create_weaponry:item/weapons/katana/netherite"
   }
 }

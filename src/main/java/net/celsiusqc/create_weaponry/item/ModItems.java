@@ -570,6 +570,47 @@ public class ModItems {
     public static final RegistryObject<Item> CALORITE_HAMMER = ITEMS.register("calorite_hammer",
             () -> new HammerItem(WeaponTiers.CALORITE, 7, -3.2f, props()));
 
+    //Glaive
+
+    public static final RegistryObject<Item> COPPER_GLAIVE = ITEMS.register("copper_glaive", () -> new GlaiveItem(WeaponTiers.COPPER, 3, -3.5f, 3.0f, props()));
+    public static final RegistryObject<Item> HORIZONITE_GLAIVE = ITEMS.register("horizonite_glaive", () -> new GlaiveItem(WeaponTiers.HORIZONITE, 3, -3.5f, 3.0f, props()));
+    public static final RegistryObject<Item> AQUITE_GLAIVE = ITEMS.register("aquite_glaive", () -> new GlaiveItem(WeaponTiers.AQUITE, 3, -3.5f, 3.0f, props()));
+    public static final RegistryObject<Item> ZINC_GLAIVE = ITEMS.register("zinc_glaive", () -> new GlaiveItem(WeaponTiers.ZINC, 3, -3.5f, 3.0f, props()));
+    public static final RegistryObject<Item> BRASS_GLAIVE = ITEMS.register("brass_glaive", () -> new GlaiveItem(WeaponTiers.BRASS, 3, -3.5f, 3.0f, props()));
+    public static final RegistryObject<Item> STEEL_GLAIVE = ITEMS.register("steel_glaive", () -> new GlaiveItem(WeaponTiers.STEEL, 3, -3.5f, 3.0f, props()));
+    public static final RegistryObject<Item> PYROPE_GLAIVE = ITEMS.register("pyrope_glaive", () -> new GlaiveItem(WeaponTiers.PYROPE, 3, -3.5f, 3.0f, props()));
+    public static final RegistryObject<Item> CHAROITE_GLAIVE = ITEMS.register("charoite_glaive", () -> new GlaiveItem(WeaponTiers.CHAROITE, 3, -3.5f, 3.0f, props()));
+    public static final RegistryObject<Item> DIOPSIDE_GLAIVE = ITEMS.register("diopside_glaive", () -> new GlaiveItem(WeaponTiers.DIOPSIDE, 3, -3.5f, 3.0f, props()));
+    public static final RegistryObject<Item> DESH_GLAIVE = ITEMS.register("desh_glaive", () -> new GlaiveItem(WeaponTiers.DESH, 3, -3.5f, 3.0f, props()));
+    public static final RegistryObject<Item> CALORITE_GLAIVE = ITEMS.register("calorite_glaive", () -> new GlaiveItem(WeaponTiers.CALORITE, 3, -3.5f, 3.0f, props()));
+
+    //Katana
+    public static final RegistryObject<Item> COPPER_KATANA = ITEMS.register("copper_katana", () -> new KatanaItem(WeaponTiers.COPPER, 2, -2.9f, 3.0f, props()));
+    public static final RegistryObject<Item> HORIZONITE_KATANA = ITEMS.register("horizonite_katana", () -> new KatanaItem(WeaponTiers.HORIZONITE, 2, -2.9f, 3.0f, props()));
+    public static final RegistryObject<Item> AQUITE_KATANA = ITEMS.register("aquite_katana", () -> new KatanaItem(WeaponTiers.AQUITE, 2, -2.9f, 3.0f, props()));
+    public static final RegistryObject<Item> ZINC_KATANA = ITEMS.register("zinc_katana", () -> new KatanaItem(WeaponTiers.ZINC, 2, -2.9f, 3.0f, props()));
+    public static final RegistryObject<Item> BRASS_KATANA = ITEMS.register("brass_katana", () -> new KatanaItem(WeaponTiers.BRASS, 2, -2.9f, 3.0f, props()));
+    public static final RegistryObject<Item> STEEL_KATANA = ITEMS.register("steel_katana", () -> new KatanaItem(WeaponTiers.STEEL, 2, -2.9f, 3.0f, props()));
+    public static final RegistryObject<Item> PYROPE_KATANA = ITEMS.register("pyrope_katana", () -> new KatanaItem(WeaponTiers.PYROPE, 2, -2.9f, 3.0f, props()));
+    public static final RegistryObject<Item> CHAROITE_KATANA = ITEMS.register("charoite_katana", () -> new KatanaItem(WeaponTiers.CHAROITE, 2, -2.9f, 3.0f, props()));
+    public static final RegistryObject<Item> DIOPSIDE_KATANA = ITEMS.register("diopside_katana", () -> new KatanaItem(WeaponTiers.DIOPSIDE, 2, -2.9f, 3.0f, props()));
+    public static final RegistryObject<Item> DESH_KATANA = ITEMS.register("desh_katana", () -> new KatanaItem(WeaponTiers.DESH, 2, -2.9f, 3.0f, props()));
+    public static final RegistryObject<Item> CALORITE_KATANA = ITEMS.register("calorite_katana", () -> new KatanaItem(WeaponTiers.CALORITE, 2, -2.9f, 3.0f, props()));
+
+    //Mace
+
+    public static final RegistryObject<Item> COPPER_MACE = ITEMS.register("copper_mace", () -> new MaceItem(WeaponTiers.COPPER, 1, -3.4f, 2.0f, 2.0f, props()));
+    public static final RegistryObject<Item> HORIZONITE_MACE = ITEMS.register("horizonite_mace", () -> new MaceItem(WeaponTiers.HORIZONITE, 1, -3.4f, 2.0f, 2.0f, props()));
+    public static final RegistryObject<Item> AQUITE_MACE = ITEMS.register("aquite_mace", () -> new MaceItem(WeaponTiers.AQUITE, 1, -3.4f, 2.0f, 2.0f, props()));
+    public static final RegistryObject<Item> ZINC_MACE = ITEMS.register("zinc_mace", () -> new MaceItem(WeaponTiers.ZINC, 1, -3.4f, 2.0f, 2.0f, props()));
+    public static final RegistryObject<Item> BRASS_MACE = ITEMS.register("brass_mace", () -> new MaceItem(WeaponTiers.BRASS, 1, -3.4f, 2.0f, 2.0f, props()));
+    public static final RegistryObject<Item> STEEL_MACE = ITEMS.register("steel_mace", () -> new MaceItem(WeaponTiers.STEEL, 1, -3.4f, 2.0f, 2.0f, props()));
+    public static final RegistryObject<Item> PYROPE_MACE = ITEMS.register("pyrope_mace", () -> new MaceItem(WeaponTiers.PYROPE, 1, -3.4f, 2.0f, 2.0f, props()));
+    public static final RegistryObject<Item> CHAROITE_MACE = ITEMS.register("charoite_mace", () -> new MaceItem(WeaponTiers.CHAROITE, 1, -3.4f, 2.0f, 2.0f, props()));
+    public static final RegistryObject<Item> DIOPSIDE_MACE = ITEMS.register("diopside_mace", () -> new MaceItem(WeaponTiers.DIOPSIDE, 1, -3.4f, 2.0f, 2.0f, props()));
+    public static final RegistryObject<Item> DESH_MACE = ITEMS.register("desh_mace", () -> new MaceItem(WeaponTiers.DESH, 1, -3.4f, 2.0f, 2.0f, props()));
+    public static final RegistryObject<Item> CALORITE_MACE = ITEMS.register("calorite_mace", () -> new MaceItem(WeaponTiers.CALORITE, 1, -3.4f, 2.0f, 2.0f, props()));
+
 
 
     private static Item.Properties props() {
