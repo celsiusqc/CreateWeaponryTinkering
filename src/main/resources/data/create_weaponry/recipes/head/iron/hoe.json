@@ -1,0 +1,18 @@
+{
+  "type": "create:filling",
+  "ingredients": [
+    {
+      "item": "create_weaponry:hoe_head_pattern"
+    },
+    {
+      "fluid": "create_weaponry:molten_iron",
+      "nbt": {},
+      "amount": 200
+    }
+  ],
+  "results": [
+    {
+      "item": "create_weaponry:iron_hoe_head"
+    }
+  ]
+}

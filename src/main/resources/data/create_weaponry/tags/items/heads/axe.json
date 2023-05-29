@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    { "required": false, "id": "create_weaponry:stone_axe_head"},
+    { "required": false, "id": "#create_weaponry:strong_heads/axe"}
+
+  ]
+}

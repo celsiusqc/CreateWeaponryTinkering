@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "create_weaponry:handle"
+    },
+    {
+      "item": "create_weaponry:charoite_mace_head"
+    }
+  ],
+  "result": {
+    "item": "create_weaponry:charoite_mace"
+  }
+}

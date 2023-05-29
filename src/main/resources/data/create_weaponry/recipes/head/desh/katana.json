@@ -1,0 +1,18 @@
+{
+  "type": "create:filling",
+  "ingredients": [
+    {
+      "item": "create_weaponry:katana_head_pattern"
+    },
+    {
+      "fluid": "create_weaponry:molten_desh",
+      "nbt": {},
+      "amount": 300
+    }
+  ],
+  "results": [
+    {
+      "item": "create_weaponry:desh_katana_head"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "forge:item/bucket",
+  "loader": "forge:bucket",
+  "textures": {
+    "base": "item/bucket",
+    "fluid": "create_weaponry:item/buckets/drip_bucket"
+  },
+  "fluid": "create_weaponry:molten_charoite"
+}

@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "create_weaponry:handle"
+    },
+    {
+      "item": "create_weaponry:zinc_shovel_head"
+    }
+  ],
+  "result": {
+    "item": "create_sa:zinc_shovel"
+  }
+}

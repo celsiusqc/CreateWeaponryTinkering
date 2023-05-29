@@ -1,0 +1,18 @@
+{
+  "type": "create:filling",
+  "ingredients": [
+    {
+      "item": "create_weaponry:pickaxe_head_pattern"
+    },
+    {
+      "fluid": "create_weaponry:molten_steel",
+      "nbt": {},
+      "amount": 300
+    }
+  ],
+  "results": [
+    {
+      "item": "create_weaponry:steel_pickaxe_head"
+    }
+  ]
+}

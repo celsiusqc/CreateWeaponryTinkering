@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "create_weaponry:handle"
+    },
+    {
+      "item": "create_weaponry:steel_hoe_head"
+    }
+  ],
+  "result": {
+    "item": "alloyed:steel_hoe"
+  }
+}

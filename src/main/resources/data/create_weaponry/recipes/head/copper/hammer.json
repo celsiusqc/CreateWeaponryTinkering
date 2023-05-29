@@ -1,0 +1,18 @@
+{
+  "type": "create:filling",
+  "ingredients": [
+    {
+      "item": "create_weaponry:hammer_head_pattern"
+    },
+    {
+      "fluid": "create_weaponry:molten_copper",
+      "nbt": {},
+      "amount": 300
+    }
+  ],
+  "results": [
+    {
+      "item": "create_weaponry:copper_hammer_head"
+    }
+  ]
+}

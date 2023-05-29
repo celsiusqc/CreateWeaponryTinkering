@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    { "required": false, "id": "create_weaponry:stone_shovel_head"},
+    { "required": false, "id": "#create_weaponry:strong_heads/shovel"}
+
+  ]
+}

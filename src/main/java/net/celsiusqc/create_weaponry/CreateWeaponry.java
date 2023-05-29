@@ -1,10 +1,12 @@
 package net.celsiusqc.create_weaponry;
 
 import com.mojang.logging.LogUtils;
-import net.celsiusqc.create_weaponry.init.BlockInit;
-import net.celsiusqc.create_weaponry.init.FluidInit;
-import net.celsiusqc.create_weaponry.init.ItemInit;
+import net.celsiusqc.create_weaponry.block.ModBlocks;
+import net.celsiusqc.create_weaponry.fluid.ModFluidTypes;
+import net.celsiusqc.create_weaponry.fluid.ModFluids;
 import net.celsiusqc.create_weaponry.item.ModItems;
+import net.minecraft.client.renderer.ItemBlockRenderTypes;
+import net.minecraft.client.renderer.RenderType;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
@@ -33,10 +35,9 @@ public class CreateWeaponry {
 
         MinecraftForge.EVENT_BUS.register(this);
 
-        BlockInit.BLOCKS.register(modEventBus);
-        ItemInit.ITEMS.register(modEventBus);
-        FluidInit.FLUID_TYPES.register(modEventBus);
-        FluidInit.FLUIDS.register(modEventBus);
+        ModBlocks.register(modEventBus);
+        ModFluids.register(modEventBus);
+        ModFluidTypes.register(modEventBus);
 
     }
 
@@ -53,6 +54,8 @@ public class CreateWeaponry {
     public static class ClientModEvents {
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event) {
+            ItemBlockRenderTypes.setRenderLayer(ModFluids.SOURCE_MOLTEN_GOLD.get(), RenderType.solid());
+            ItemBlockRenderTypes.setRenderLayer(ModFluids.FLOWING_MOLTEN_GOLD.get(), RenderType.solid());
 
         }
     }
