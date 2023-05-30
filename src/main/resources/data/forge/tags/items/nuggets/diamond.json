@@ -1,0 +1,6 @@
+{
+  "replace": false,
+  "values": [
+    { "required": false, "id": "create_weaponry:diamond_nugget"}
+  ]
+}

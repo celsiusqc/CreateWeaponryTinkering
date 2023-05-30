@@ -25,77 +25,7 @@ public class ModItems {
 
     //TOOLS                                                                                                                            attack      speed
 
-    public static final RegistryObject<Item> WOODEN_HAMMER = ITEMS.register("wooden_hammer", () -> new HammerItem(Tiers.WOOD, 7, -3.4f,
-            new Item.Properties().tab(ModCreativeModTab.create_weaponry)));
 
-    public static final RegistryObject<Item> STONE_HAMMER = ITEMS.register("stone_hammer", () -> new HammerItem(Tiers.STONE, 7, -3.4f,
-            new Item.Properties().tab(ModCreativeModTab.create_weaponry)));
-
-    public static final RegistryObject<Item> IRON_HAMMER = ITEMS.register("iron_hammer", () -> new HammerItem(Tiers.IRON, 7, -3.4f,
-            new Item.Properties().tab(ModCreativeModTab.create_weaponry)));
-
-    public static final RegistryObject<Item> GOLDEN_HAMMER = ITEMS.register("golden_hammer", () -> new HammerItem(Tiers.GOLD, 7, -3.3f,
-            new Item.Properties().tab(ModCreativeModTab.create_weaponry)));
-
-    public static final RegistryObject<Item> DIAMOND_HAMMER = ITEMS.register("diamond_hammer", () -> new HammerItem(Tiers.DIAMOND, 7, -3.2f,
-            new Item.Properties().tab(ModCreativeModTab.create_weaponry)));
-
-    public static final RegistryObject<Item> NETHERITE_HAMMER = ITEMS.register("netherite_hammer", () -> new HammerItem(Tiers.NETHERITE, 7, -3.2f,
-            new Item.Properties().tab(ModCreativeModTab.create_weaponry)));
-
-    public static final RegistryObject<Item> WOODEN_GLAIVE = ITEMS.register("wooden_glaive", () -> new GlaiveItem(Tiers.WOOD, 3, -3.5f, 3.0f,
-            new Item.Properties().tab(ModCreativeModTab.create_weaponry)));
-
-    public static final RegistryObject<Item> STONE_GLAIVE = ITEMS.register("stone_glaive", () -> new GlaiveItem(Tiers.STONE, 3, -3.5f, 3.0f,
-            new Item.Properties().tab(ModCreativeModTab.create_weaponry)));
-
-    public static final RegistryObject<Item> GOLDEN_GLAIVE = ITEMS.register("golden_glaive", () -> new GlaiveItem(Tiers.GOLD, 3, -3.5f, 3.0f,
-            new Item.Properties().tab(ModCreativeModTab.create_weaponry)));
-
-    public static final RegistryObject<Item> IRON_GLAIVE = ITEMS.register("iron_glaive", () -> new GlaiveItem(Tiers.IRON, 3, -3.4f, 3.0f,
-            new Item.Properties().tab(ModCreativeModTab.create_weaponry)));
-
-    public static final RegistryObject<Item> DIAMOND_GLAIVE = ITEMS.register("diamond_glaive", () -> new GlaiveItem(Tiers.DIAMOND, 3, -3.3f, 3.0f,
-            new Item.Properties().tab(ModCreativeModTab.create_weaponry)));
-
-    public static final RegistryObject<Item> NETHERITE_GLAIVE = ITEMS.register("netherite_glaive", () -> new GlaiveItem(Tiers.NETHERITE, 3, -3.3f, 3.0f,
-            new Item.Properties().tab(ModCreativeModTab.create_weaponry)));
-
-    public static final RegistryObject<Item> WOODEN_KATANA = ITEMS.register("wooden_katana", () -> new KatanaItem(Tiers.WOOD, 2, -2.9f, 3.0f,
-            new Item.Properties().tab(ModCreativeModTab.create_weaponry)));
-
-    public static final RegistryObject<Item> STONE_KATANA = ITEMS.register("stone_katana", () -> new KatanaItem(Tiers.STONE, 2, -2.9f, 3.0f,
-            new Item.Properties().tab(ModCreativeModTab.create_weaponry)));
-
-    public static final RegistryObject<Item> GOLDEN_KATANA = ITEMS.register("golden_katana", () -> new KatanaItem(Tiers.GOLD, 2, -2.9f, 3.0f,
-            new Item.Properties().tab(ModCreativeModTab.create_weaponry)));
-
-    public static final RegistryObject<Item> IRON_KATANA = ITEMS.register("iron_katana", () -> new KatanaItem(Tiers.IRON, 2, -2.8f, 3.0f,
-            new Item.Properties().tab(ModCreativeModTab.create_weaponry)));
-
-    public static final RegistryObject<Item> DIAMOND_KATANA = ITEMS.register("diamond_katana", () -> new KatanaItem(Tiers.DIAMOND, 2, -2.7f, 3.0f,
-            new Item.Properties().tab(ModCreativeModTab.create_weaponry)));
-
-    public static final RegistryObject<Item> NETHERITE_KATANA = ITEMS.register("netherite_katana", () -> new KatanaItem(Tiers.NETHERITE, 2, -2.7f, 3.0f,
-            new Item.Properties().tab(ModCreativeModTab.create_weaponry)));
-
-    public static final RegistryObject<Item> WOODEN_MACE = ITEMS.register("wooden_mace", () -> new MaceItem(Tiers.WOOD, 1, -3.4f, 2.0f, 2.0f,
-            new Item.Properties().tab(ModCreativeModTab.create_weaponry)));
-
-    public static final RegistryObject<Item> STONE_MACE = ITEMS.register("stone_mace", () -> new MaceItem(Tiers.STONE, 1, -3.4f, 2.0f, 2.0f,
-            new Item.Properties().tab(ModCreativeModTab.create_weaponry)));
-
-    public static final RegistryObject<Item> GOLDEN_MACE = ITEMS.register("golden_mace", () -> new MaceItem(Tiers.GOLD, 1, -3.4f, 2.0f, 2.0f,
-            new Item.Properties().tab(ModCreativeModTab.create_weaponry)));
-
-    public static final RegistryObject<Item> IRON_MACE = ITEMS.register("iron_mace", () -> new MaceItem(Tiers.IRON, 1, -3.3f, 2.0f, 2.0f,
-            new Item.Properties().tab(ModCreativeModTab.create_weaponry)));
-
-    public static final RegistryObject<Item> DIAMOND_MACE = ITEMS.register("diamond_mace", () -> new MaceItem(Tiers.DIAMOND, 1, -3.2f, 2.0f, 2.0f,
-            new Item.Properties().tab(ModCreativeModTab.create_weaponry)));
-
-    public static final RegistryObject<Item> NETHERITE_MACE = ITEMS.register("netherite_mace", () -> new MaceItem(Tiers.NETHERITE, 1, -3.2f, 2.0f, 2.0f,
-            new Item.Properties().tab(ModCreativeModTab.create_weaponry)));
 
     //Iron Buckets
 
@@ -547,6 +477,12 @@ public class ModItems {
     //Weapons
     //                                                    attack      speed
     //Hammers
+    public static final RegistryObject<Item> WOODEN_HAMMER = ITEMS.register("wooden_hammer", () -> new HammerItem(Tiers.WOOD, 7, -3.4f, props()));
+    public static final RegistryObject<Item> STONE_HAMMER = ITEMS.register("stone_hammer", () -> new HammerItem(Tiers.STONE, 7, -3.4f, props()));
+    public static final RegistryObject<Item> IRON_HAMMER = ITEMS.register("iron_hammer", () -> new HammerItem(Tiers.IRON, 7, -3.4f, props()));
+    public static final RegistryObject<Item> GOLDEN_HAMMER = ITEMS.register("golden_hammer", () -> new HammerItem(Tiers.GOLD, 7, -3.3f, props()));
+    public static final RegistryObject<Item> DIAMOND_HAMMER = ITEMS.register("diamond_hammer", () -> new HammerItem(Tiers.DIAMOND, 7, -3.2f, props()));
+    public static final RegistryObject<Item> NETHERITE_HAMMER = ITEMS.register("netherite_hammer", () -> new HammerItem(Tiers.NETHERITE, 7, -3.2f, props()));
     public static final RegistryObject<Item> COPPER_HAMMER = ITEMS.register("copper_hammer",
             () -> new HammerItem(WeaponTiers.COPPER, 7, -3.2f, props()));
     public static final RegistryObject<Item> AQUITE_HAMMER = ITEMS.register("aquite_hammer",
@@ -572,6 +508,12 @@ public class ModItems {
 
     //Glaive
 
+    public static final RegistryObject<Item> WOODEN_GLAIVE = ITEMS.register("wooden_glaive", () -> new GlaiveItem(Tiers.WOOD, 3, -3.5f, 3.0f, props()));
+    public static final RegistryObject<Item> STONE_GLAIVE = ITEMS.register("stone_glaive", () -> new GlaiveItem(Tiers.STONE, 3, -3.5f, 3.0f, props()));
+    public static final RegistryObject<Item> GOLDEN_GLAIVE = ITEMS.register("golden_glaive", () -> new GlaiveItem(Tiers.GOLD, 3, -3.5f, 3.0f, props()));
+    public static final RegistryObject<Item> IRON_GLAIVE = ITEMS.register("iron_glaive", () -> new GlaiveItem(Tiers.IRON, 3, -3.4f, 3.0f, props()));
+    public static final RegistryObject<Item> DIAMOND_GLAIVE = ITEMS.register("diamond_glaive", () -> new GlaiveItem(Tiers.DIAMOND, 3, -3.3f, 3.0f, props()));
+    public static final RegistryObject<Item> NETHERITE_GLAIVE = ITEMS.register("netherite_glaive", () -> new GlaiveItem(Tiers.NETHERITE, 3, -3.3f, 3.0f, props()));
     public static final RegistryObject<Item> COPPER_GLAIVE = ITEMS.register("copper_glaive", () -> new GlaiveItem(WeaponTiers.COPPER, 3, -3.5f, 3.0f, props()));
     public static final RegistryObject<Item> HORIZONITE_GLAIVE = ITEMS.register("horizonite_glaive", () -> new GlaiveItem(WeaponTiers.HORIZONITE, 3, -3.5f, 3.0f, props()));
     public static final RegistryObject<Item> AQUITE_GLAIVE = ITEMS.register("aquite_glaive", () -> new GlaiveItem(WeaponTiers.AQUITE, 3, -3.5f, 3.0f, props()));
@@ -585,6 +527,12 @@ public class ModItems {
     public static final RegistryObject<Item> CALORITE_GLAIVE = ITEMS.register("calorite_glaive", () -> new GlaiveItem(WeaponTiers.CALORITE, 3, -3.5f, 3.0f, props()));
 
     //Katana
+    public static final RegistryObject<Item> WOODEN_KATANA = ITEMS.register("wooden_katana", () -> new KatanaItem(Tiers.WOOD, 2, -2.9f, 3.0f, props()));
+    public static final RegistryObject<Item> STONE_KATANA = ITEMS.register("stone_katana", () -> new KatanaItem(Tiers.STONE, 2, -2.9f, 3.0f, props()));
+    public static final RegistryObject<Item> GOLDEN_KATANA = ITEMS.register("golden_katana", () -> new KatanaItem(Tiers.GOLD, 2, -2.9f, 3.0f, props()));
+    public static final RegistryObject<Item> IRON_KATANA = ITEMS.register("iron_katana", () -> new KatanaItem(Tiers.IRON, 2, -2.8f, 3.0f, props()));
+    public static final RegistryObject<Item> DIAMOND_KATANA = ITEMS.register("diamond_katana", () -> new KatanaItem(Tiers.DIAMOND, 2, -2.7f, 3.0f, props()));
+    public static final RegistryObject<Item> NETHERITE_KATANA = ITEMS.register("netherite_katana", () -> new KatanaItem(Tiers.NETHERITE, 2, -2.7f, 3.0f, props()));
     public static final RegistryObject<Item> COPPER_KATANA = ITEMS.register("copper_katana", () -> new KatanaItem(WeaponTiers.COPPER, 2, -2.9f, 3.0f, props()));
     public static final RegistryObject<Item> HORIZONITE_KATANA = ITEMS.register("horizonite_katana", () -> new KatanaItem(WeaponTiers.HORIZONITE, 2, -2.9f, 3.0f, props()));
     public static final RegistryObject<Item> AQUITE_KATANA = ITEMS.register("aquite_katana", () -> new KatanaItem(WeaponTiers.AQUITE, 2, -2.9f, 3.0f, props()));
@@ -599,6 +547,12 @@ public class ModItems {
 
     //Mace
 
+    public static final RegistryObject<Item> WOODEN_MACE = ITEMS.register("wooden_mace", () -> new MaceItem(Tiers.WOOD, 1, -3.4f, 2.0f, 2.0f, props()));
+    public static final RegistryObject<Item> STONE_MACE = ITEMS.register("stone_mace", () -> new MaceItem(Tiers.STONE, 1, -3.4f, 2.0f, 2.0f, props()));
+    public static final RegistryObject<Item> GOLDEN_MACE = ITEMS.register("golden_mace", () -> new MaceItem(Tiers.GOLD, 1, -3.4f, 2.0f, 2.0f, props()));
+    public static final RegistryObject<Item> IRON_MACE = ITEMS.register("iron_mace", () -> new MaceItem(Tiers.IRON, 1, -3.3f, 2.0f, 2.0f, props()));
+    public static final RegistryObject<Item> DIAMOND_MACE = ITEMS.register("diamond_mace", () -> new MaceItem(Tiers.DIAMOND, 1, -3.2f, 2.0f, 2.0f, props()));
+    public static final RegistryObject<Item> NETHERITE_MACE = ITEMS.register("netherite_mace", () -> new MaceItem(Tiers.NETHERITE, 1, -3.2f, 2.0f, 2.0f, props()));
     public static final RegistryObject<Item> COPPER_MACE = ITEMS.register("copper_mace", () -> new MaceItem(WeaponTiers.COPPER, 1, -3.4f, 2.0f, 2.0f, props()));
     public static final RegistryObject<Item> HORIZONITE_MACE = ITEMS.register("horizonite_mace", () -> new MaceItem(WeaponTiers.HORIZONITE, 1, -3.4f, 2.0f, 2.0f, props()));
     public static final RegistryObject<Item> AQUITE_MACE = ITEMS.register("aquite_mace", () -> new MaceItem(WeaponTiers.AQUITE, 1, -3.4f, 2.0f, 2.0f, props()));
@@ -611,6 +565,11 @@ public class ModItems {
     public static final RegistryObject<Item> DESH_MACE = ITEMS.register("desh_mace", () -> new MaceItem(WeaponTiers.DESH, 1, -3.4f, 2.0f, 2.0f, props()));
     public static final RegistryObject<Item> CALORITE_MACE = ITEMS.register("calorite_mace", () -> new MaceItem(WeaponTiers.CALORITE, 1, -3.4f, 2.0f, 2.0f, props()));
 
+
+    public static final RegistryObject<Item> TINY_IRON_PICKAXE = ITEMS.register("tiny_iron_pickaxe", () -> new PickaxeItem(WeaponTiers.TINY_IRON_PICKAXE,  1, -2.8f, props()));
+    public static final RegistryObject<Item> TINY_DIAMOND_PICKAXE = ITEMS.register("tiny_diamond_pickaxe", () -> new PickaxeItem(WeaponTiers.TINY_DIAMOND_PICKAXE,  1, -2.8f, props()));
+    public static final RegistryObject<Item> DIAMOND_NUGGET = ITEMS.register("diamond_nugget",
+            () -> new Item(props()));
 
 
     private static Item.Properties props() {

@@ -5,10 +5,10 @@
       "item": "create_weaponry:handle"
     },
     {
-      "item": "create_weaponry:netherite_mace_head"
+      "item": "create_weaponry:netherite_glaive_head"
     }
   ],
   "result": {
-    "item": "create_weaponry:netherite_mace"
+    "item": "create_weaponry:netherite_glaive"
   }
 }

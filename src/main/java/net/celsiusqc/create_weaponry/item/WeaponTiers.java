@@ -108,5 +108,22 @@ public class WeaponTiers {
                 null,
                 () -> Ingredient.of(ItemTags.create(new ResourceLocation("forge", "ingots/calorite"))));
 
+        public static final Tier TINY_IRON_PICKAXE = new ForgeTier(
+                2,
+                27,
+                6,
+                -1.5f,
+                0,
+                null,
+                () -> Ingredient.of(ItemTags.create(new ResourceLocation("forge", "nuggets/iron"))));
+        public static final Tier TINY_DIAMOND_PICKAXE = new ForgeTier(
+                3,
+                174,
+                8,
+                -1.5f,
+                0,
+                null,
+                () -> Ingredient.of(ItemTags.create(new ResourceLocation("forge", "nuggets/diamond"))));
+
 
 }

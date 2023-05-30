@@ -71,10 +71,14 @@
 
   "item.create_weaponry.blank_pattern": "Blank Pattern",
   "item.create_weaponry.pickaxe_head_pattern": "Pickaxe Head Pattern",
-  "item.create_weaponry.axe_head_pattern": "Axe Head Sand Pattern",
-  "item.create_weaponry.sword_head_pattern": "Sword Head Sand Pattern",
-  "item.create_weaponry.shovel_head_pattern": "Shovel Head Sand Pattern",
-  "item.create_weaponry.hoe_head_pattern": "Hoe Head Sand Pattern",
+  "item.create_weaponry.axe_head_pattern": "Axe Head Pattern",
+  "item.create_weaponry.sword_head_pattern": "Sword Head Pattern",
+  "item.create_weaponry.shovel_head_pattern": "Shovel Head Pattern",
+  "item.create_weaponry.hoe_head_pattern": "Hoe Head Pattern",
+  "item.create_weaponry.hammer_head_pattern": "Hammer Head Pattern",
+  "item.create_weaponry.glaive_head_pattern": "Glaive Head Pattern",
+  "item.create_weaponry.katana_head_pattern": "Katana Head Pattern",
+  "item.create_weaponry.mace_head_pattern": "Mace Head Pattern",
 
 
   "item.create_weaponry.steel_pickaxe_head": "Steel Pickaxe Head",
@@ -289,6 +293,10 @@
   "item.create_weaponry.diopside_mace": "Diopside Mace",
   "item.create_weaponry.desh_mace": "Desh Mace",
   "item.create_weaponry.calorite_mace": "Calorite Mace",
+
+  "item.create_weaponry.tiny_iron_pickaxe": "Tiny Iron Pickaxe",
+  "item.create_weaponry.tiny_diamond_pickaxe": "Tiny Diamond Pickaxe",
+  "item.create_weaponry.diamond_nugget": "Diamond Nugget",
 
 
 
