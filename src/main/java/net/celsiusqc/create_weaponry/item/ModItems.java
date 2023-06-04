@@ -82,9 +82,6 @@ public class ModItems {
     public static final RegistryObject<Item> MOLTEN_DESH_BUCKET = ITEMS.register("molten_desh_bucket",
             () -> new BucketItem(ModFluids.SOURCE_MOLTEN_DESH,
                     new Item.Properties().tab(ModCreativeModTab.create_weaponry).craftRemainder(Items.BUCKET).stacksTo(1)));
-    public static final RegistryObject<Item> MOLTEN_OSTRUM_BUCKET = ITEMS.register("molten_ostrum_bucket",
-            () -> new BucketItem(ModFluids.SOURCE_MOLTEN_OSTRUM,
-                    new Item.Properties().tab(ModCreativeModTab.create_weaponry).craftRemainder(Items.BUCKET).stacksTo(1)));
 
 
     //Patterns

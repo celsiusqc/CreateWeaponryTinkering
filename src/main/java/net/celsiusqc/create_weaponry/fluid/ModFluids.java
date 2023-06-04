@@ -178,16 +178,7 @@ public class ModFluids {
             .slopeFindDistance(2).levelDecreasePerBlock(2).block(ModBlocks.MOLTEN_DESH_BLOCK)
             .bucket(ModItems.MOLTEN_DESH_BUCKET);
 
-    //Molten Ostrum
-    public static final RegistryObject<FlowingFluid> SOURCE_MOLTEN_OSTRUM = FLUIDS.register("molten_ostrum",
-            () -> new ForgeFlowingFluid.Source(ModFluids.MOLTEN_OSTRUM_PROPERTIES));
-    public static final RegistryObject<FlowingFluid> FLOWING_MOLTEN_OSTRUM = FLUIDS.register("flowing_molten_ostrum",
-            () -> new ForgeFlowingFluid.Flowing(ModFluids.MOLTEN_OSTRUM_PROPERTIES));
 
-    public static final ForgeFlowingFluid.Properties MOLTEN_OSTRUM_PROPERTIES = new ForgeFlowingFluid.Properties(
-            ModFluidTypes.MOLTEN_OSTRUM_TYPE, SOURCE_MOLTEN_OSTRUM, FLOWING_MOLTEN_OSTRUM)
-            .slopeFindDistance(2).levelDecreasePerBlock(2).block(ModBlocks.MOLTEN_OSTRUM_BLOCK)
-            .bucket(ModItems.MOLTEN_OSTRUM_BUCKET);
 
 
     public static void register(IEventBus eventBus) {

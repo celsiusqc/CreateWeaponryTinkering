@@ -1,14 +1,30 @@
 {
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
+  "type": "forge:conditional",
+
+  "recipes": [
     {
-      "item": "create_weaponry:handle"
-    },
-    {
-      "item": "create_weaponry:brass_pickaxe_head"
+
+      "conditions": [
+
+        {
+          "type": "forge:mod_loaded",
+          "modid": "create_sa"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shapeless",
+        "ingredients": [
+          {
+            "item": "create_weaponry:handle"
+          },
+          {
+            "item": "create_weaponry:zinc_sword_head"
+          }
+        ],
+        "result": {
+          "item": "minecraft:empty"
+        }
+      }
     }
-  ],
-  "result": {
-    "item": "create_sa:brass_pickaxe"
-  }
+  ]
 }

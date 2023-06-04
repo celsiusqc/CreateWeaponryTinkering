@@ -60,8 +60,6 @@ public class ModBlocks {
             () -> new LiquidBlock(ModFluids.SOURCE_MOLTEN_CALORITE, BlockBehaviour.Properties.copy(Blocks.LAVA)));
     public static final RegistryObject<LiquidBlock> MOLTEN_DESH_BLOCK = BLOCKS.register("molten_desh_block",
             () -> new LiquidBlock(ModFluids.SOURCE_MOLTEN_DESH, BlockBehaviour.Properties.copy(Blocks.LAVA)));
-    public static final RegistryObject<LiquidBlock> MOLTEN_OSTRUM_BLOCK = BLOCKS.register("molten_ostrum_block",
-            () -> new LiquidBlock(ModFluids.SOURCE_MOLTEN_OSTRUM, BlockBehaviour.Properties.copy(Blocks.LAVA)));
 
 
 

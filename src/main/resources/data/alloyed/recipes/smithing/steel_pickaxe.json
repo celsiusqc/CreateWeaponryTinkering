@@ -1,14 +1,30 @@
 {
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
+  "type": "forge:conditional",
+
+  "recipes": [
     {
-      "item": "create_weaponry:handle"
-    },
-    {
-      "item": "create_weaponry:steel_pickaxe_head"
+
+      "conditions": [
+
+        {
+          "type": "forge:mod_loaded",
+          "modid": "alloyed"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shapeless",
+        "ingredients": [
+          {
+            "item": "create_weaponry:handle"
+          },
+          {
+            "item": "create_weaponry:steel_pickaxe_head"
+          }
+        ],
+        "result": {
+          "item": "minecraft:empty"
+        }
+      }
     }
-  ],
-  "result": {
-    "item": "alloyed:steel_pickaxe"
-  }
+  ]
 }

@@ -381,29 +381,7 @@ public class ModFluidTypes {
                             .canDrown(false)
                             .sound(SoundAction.get("drink"),
                                     SoundEvents.HONEY_DRINK)));
-    //Ostrum
-    public static final ResourceLocation MOLTEN_OSTRUM_STILL_RL = new ResourceLocation(CreateWeaponry.MOD_ID, "block/fluid/ostrum/still");
-    public static final ResourceLocation MOLTEN_OSTRUM_FLOWING_RL = new ResourceLocation(CreateWeaponry.MOD_ID, "block/fluid/ostrum/flowing");
-    public static final RegistryObject<FluidType> MOLTEN_OSTRUM_TYPE = FLUID_TYPES.register("molten_ostrum_fluid",
-            () -> new BaseFluidType(
-                    MOLTEN_OSTRUM_STILL_RL,
-                    MOLTEN_OSTRUM_FLOWING_RL,
-                    MOLTEN_OVERLAY_RL,
-                    0xFFFFFFFF,
-                    colorVecFromHex(0xc0a7ac),  //Values are divided by 255
-                    FluidType.Properties.create()
-                            .lightLevel(15)
-                            .density(15)
-                            .viscosity(1)
-                            .canSwim(false)
-                            .canHydrate(false)
-                            .canConvertToSource(false)
-                            .canPushEntity(true)
-                            .temperature(9000)
-                            .supportsBoating(false)
-                            .canDrown(false)
-                            .sound(SoundAction.get("drink"),
-                                    SoundEvents.HONEY_DRINK)));
+
 
 
 

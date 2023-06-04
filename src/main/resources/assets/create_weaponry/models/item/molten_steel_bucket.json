@@ -1,6 +1,6 @@
 {
   "parent": "forge:item/bucket",
-  "loader": "forge:bucket",
+  "loader": "forge:fluid_container",
   "textures": {
     "base": "item/bucket",
     "fluid": "create_weaponry:item/buckets/drip_bucket"
