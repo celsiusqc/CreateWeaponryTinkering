@@ -1,0 +1,18 @@
+{
+  "type": "create:filling",
+  "ingredients": [
+    {
+      "item": "create_weaponry:shovel_head_pattern"
+    },
+    {
+      "fluid": "create_weaponry:molten_zinc",
+      "nbt": {},
+      "amount": 100
+    }
+  ],
+  "results": [
+    {
+      "item": "create_weaponry:zinc_shovel_head"
+    }
+  ]
+}
