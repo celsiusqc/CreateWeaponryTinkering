@@ -18,11 +18,11 @@
             "item": "create_weaponry:handle"
           },
           {
-            "item": "create_weaponry:steel_pickaxe_head"
+            "item": "create_weaponry:zinc_hoe_head"
           }
         ],
         "result": {
-          "item": "cp_tweaks:steel_pickaxe"
+          "item": "cp_tweaks:zinc_hoe"
         }
       }
     }

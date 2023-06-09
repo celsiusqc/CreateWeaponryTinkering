@@ -5,10 +5,10 @@
       "item": "create_weaponry:handle"
     },
     {
-      "item": "create_weaponry:golden_axe_head"
+      "item": "create_weaponry:golden_pickaxe_head"
     }
   ],
   "result": {
-    "item": "minecraft:golden_axe"
+    "item": "minecraft:golden_pickaxe"
   }
 }

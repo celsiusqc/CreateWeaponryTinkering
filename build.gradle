@@ -23,7 +23,7 @@ apply plugin: 'eclipse'
 apply plugin: 'maven-publish'
 apply plugin: "org.spongepowered.mixin"
 
-version = '1.0.1'
+version = '1.0.3-1.19.2'
 group = 'net.celsiusqc.create_weaponry' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = 'create_weaponry'
 
@@ -184,9 +184,9 @@ dependencies {
     implementation fg.deobf("curse.maven:blue-skies-312918:3966273")
     implementation fg.deobf("curse.maven:structure-gel-api-378802:4489756")
     //Cp Tweaks
-    implementation fg.deobf("curse.maven:create-planetary-tweaks-594527:4555087")
+    implementation fg.deobf("curse.maven:create-planetary-tweaks-594527:4575201")
     //Create SA
-    implementation fg.deobf("curse.maven:create-stuff-additions-466792:4548582")
+//    implementation fg.deobf("curse.maven:create-stuff-additions-466792:4548582")
     //Ad Astra
     implementation fg.deobf("curse.maven:ad-astra-635042:4452052")
     implementation fg.deobf("curse.maven:resourceful-config-714059:4444198")

@@ -18,11 +18,11 @@
             "item": "create_weaponry:handle"
           },
           {
-            "item": "create_weaponry:steel_axe_head"
+            "item": "create_weaponry:copper_sword_head"
           }
         ],
         "result": {
-          "item": "cp_tweaks:steel_axe"
+          "item": "cp_tweaks:copper_sword"
         }
       }
     }
