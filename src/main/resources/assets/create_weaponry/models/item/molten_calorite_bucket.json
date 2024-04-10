@@ -1,9 +1,0 @@
-{
-  "parent": "forge:item/bucket",
-  "loader": "forge:fluid_container",
-  "textures": {
-    "base": "item/bucket",
-    "fluid": "create_weaponry:item/buckets/drip_bucket"
-  },
-  "fluid": "create_weaponry:molten_calorite"
-}
