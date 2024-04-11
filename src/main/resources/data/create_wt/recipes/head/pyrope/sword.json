@@ -1,0 +1,18 @@
+{
+  "type": "create:filling",
+  "ingredients": [
+    {
+      "item": "create_wt:sword_head_pattern"
+    },
+    {
+      "fluid": "create_wt:molten_pyrope",
+      "nbt": {},
+      "amount": 200
+    }
+  ],
+  "results": [
+    {
+      "item": "create_wt:pyrope_sword_head"
+    }
+  ]
+}

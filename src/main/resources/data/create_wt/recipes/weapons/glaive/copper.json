@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "create_wt:handle"
+    },
+    {
+      "item": "create_wt:copper_glaive_head"
+    }
+  ],
+  "result": {
+    "item": "create_wt:copper_glaive"
+  }
+}

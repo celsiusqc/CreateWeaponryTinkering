@@ -1,0 +1,18 @@
+{
+  "type": "create:filling",
+  "ingredients": [
+    {
+      "item": "create_wt:pickaxe_head_pattern"
+    },
+    {
+      "fluid": "create_wt:molten_netherite",
+      "nbt": {},
+      "amount": 300
+    }
+  ],
+  "results": [
+    {
+      "item": "create_wt:netherite_pickaxe_head"
+    }
+  ]
+}

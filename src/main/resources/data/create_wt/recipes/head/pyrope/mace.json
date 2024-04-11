@@ -1,0 +1,18 @@
+{
+  "type": "create:filling",
+  "ingredients": [
+    {
+      "item": "create_wt:mace_head_pattern"
+    },
+    {
+      "fluid": "create_wt:molten_pyrope",
+      "nbt": {},
+      "amount": 300
+    }
+  ],
+  "results": [
+    {
+      "item": "create_wt:pyrope_mace_head"
+    }
+  ]
+}

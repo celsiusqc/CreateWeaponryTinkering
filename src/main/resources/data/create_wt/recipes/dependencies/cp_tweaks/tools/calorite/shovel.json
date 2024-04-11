@@ -1,0 +1,30 @@
+{
+  "type": "forge:conditional",
+
+  "recipes": [
+    {
+
+      "conditions": [
+
+        {
+          "type": "forge:mod_loaded",
+          "modid": "cp_tweaks"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shapeless",
+        "ingredients": [
+          {
+            "item": "create_wt:handle"
+          },
+          {
+            "item": "create_wt:calorite_shovel_head"
+          }
+        ],
+        "result": {
+          "item": "cp_tweaks:calorite_shovel"
+        }
+      }
+    }
+  ]
+}

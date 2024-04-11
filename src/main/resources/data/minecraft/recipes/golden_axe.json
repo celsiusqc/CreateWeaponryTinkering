@@ -2,10 +2,10 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "create_weaponry:handle"
+      "item": "create_wt:handle"
     },
     {
-      "item": "create_weaponry:golden_axe_head"
+      "item": "create_wt:golden_axe_head"
     }
   ],
   "result": {

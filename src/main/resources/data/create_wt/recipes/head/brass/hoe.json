@@ -1,0 +1,18 @@
+{
+  "type": "create:filling",
+  "ingredients": [
+    {
+      "item": "create_wt:hoe_head_pattern"
+    },
+    {
+      "fluid": "create_wt:molten_brass",
+      "nbt": {},
+      "amount": 200
+    }
+  ],
+  "results": [
+    {
+      "item": "create_wt:brass_hoe_head"
+    }
+  ]
+}

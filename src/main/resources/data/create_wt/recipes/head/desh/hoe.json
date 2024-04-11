@@ -1,0 +1,18 @@
+{
+  "type": "create:filling",
+  "ingredients": [
+    {
+      "item": "create_wt:hoe_head_pattern"
+    },
+    {
+      "fluid": "create_wt:molten_desh",
+      "nbt": {},
+      "amount": 200
+    }
+  ],
+  "results": [
+    {
+      "item": "create_wt:desh_hoe_head"
+    }
+  ]
+}

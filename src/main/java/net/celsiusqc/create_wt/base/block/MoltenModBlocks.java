@@ -2,7 +2,7 @@ package net.celsiusqc.create_wt.base.block;
 
 import net.celsiusqc.create_wt.CreateWeaponryTinkering;
 import net.celsiusqc.create_wt.fluid.ModFluids;
-import net.celsiusqc.create_wt.items.ModItems;
+import net.celsiusqc.create_wt.items.Misc;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
@@ -97,7 +97,7 @@ public class MoltenModBlocks {
     }
 
     private static <T extends Block> RegistryObject<Item> registerBlockItem(String name, RegistryObject<T> block) {
-        return ModItems.ITEMS.register(name, () -> new BlockItem(block.get(), new Item.Properties()));
+        return Misc.ITEMS.register(name, () -> new BlockItem(block.get(), new Item.Properties()));
     }
 
     public static void register(IEventBus eventBus) {

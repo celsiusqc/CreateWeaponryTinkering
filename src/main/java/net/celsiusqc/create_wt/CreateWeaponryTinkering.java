@@ -3,6 +3,7 @@ package net.celsiusqc.create_wt;
 import net.celsiusqc.create_wt.base.block.MoltenModBlocks;
 import net.celsiusqc.create_wt.fluid.ModFluidTypes;
 import net.celsiusqc.create_wt.fluid.ModFluids;
+import net.celsiusqc.create_wt.items.*;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
@@ -31,11 +32,16 @@ public class CreateWeaponryTinkering {
 
         net.celsiusqc.create_wt.items.ModCreativeModTab.register(modEventBus);
         modEventBus.addListener(this::setup);
-        net.celsiusqc.create_wt.items.ModItems.register(modEventBus);
-        net.celsiusqc.create_wt.item.Tools.register(modEventBus);
         MoltenModBlocks.register(modEventBus);
         ModFluids.register(modEventBus);
         ModFluidTypes.register(modEventBus);
+        Misc.register(modEventBus);
+        Buckets.register(modEventBus);
+        Heads.register(modEventBus);
+        Patterns.register(modEventBus);
+        TinyTools.register(modEventBus);
+
+
 
 
         modEventBus.addListener(this::commonSetup);

@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "create_wt:handle"
+    },
+    {
+      "item": "create_wt:calorite_hammer_head"
+    }
+  ],
+  "result": {
+    "item": "create_wt:calorite_hammer"
+  }
+}

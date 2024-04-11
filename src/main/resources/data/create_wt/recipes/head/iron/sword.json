@@ -1,0 +1,18 @@
+{
+  "type": "create:filling",
+  "ingredients": [
+    {
+      "item": "create_wt:sword_head_pattern"
+    },
+    {
+      "fluid": "create_wt:molten_iron",
+      "nbt": {},
+      "amount": 200
+    }
+  ],
+  "results": [
+    {
+      "item": "create_wt:iron_sword_head"
+    }
+  ]
+}

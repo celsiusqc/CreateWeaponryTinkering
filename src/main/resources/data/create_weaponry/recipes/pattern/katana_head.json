@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 1,
-  "ingredient": {
-    "item": "create_weaponry:blank_pattern"
-  },
-  "result": "create_weaponry:katana_head_pattern"
-}

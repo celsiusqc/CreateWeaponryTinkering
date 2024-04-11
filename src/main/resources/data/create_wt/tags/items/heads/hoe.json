@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    { "required": false, "id": "create_wt:stone_hoe_head"},
+    { "required": false, "id": "#create_wt:strong_heads/hoe"}
+
+  ]
+}

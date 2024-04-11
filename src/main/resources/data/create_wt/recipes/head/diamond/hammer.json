@@ -1,0 +1,18 @@
+{
+  "type": "create:filling",
+  "ingredients": [
+    {
+      "item": "create_wt:hammer_head_pattern"
+    },
+    {
+      "fluid": "create_wt:molten_diamond",
+      "nbt": {},
+      "amount": 300
+    }
+  ],
+  "results": [
+    {
+      "item": "create_wt:diamond_hammer_head"
+    }
+  ]
+}

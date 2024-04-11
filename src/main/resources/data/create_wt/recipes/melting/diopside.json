@@ -1,0 +1,15 @@
+{
+  "type": "create:mixing",
+  "heatRequirement": "heated",
+  "ingredients": [
+    {
+      "tag": "forge:gems/diopside"
+    }
+  ],
+  "results": [
+    {
+      "amount": 100,
+      "fluid": "create_wt:molten_diopside"
+    }
+  ]
+}

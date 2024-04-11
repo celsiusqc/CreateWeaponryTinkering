@@ -1,0 +1,30 @@
+{
+  "type": "forge:conditional",
+
+  "recipes": [
+    {
+
+      "conditions": [
+
+        {
+          "type": "forge:mod_loaded",
+          "modid": "create_sa"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shapeless",
+        "ingredients": [
+          {
+            "item": "create_wt:handle"
+          },
+          {
+            "item": "create_wt:brass_pickaxe_head"
+          }
+        ],
+        "result": {
+          "item": "create_sa:brass_pickaxe"
+        }
+      }
+    }
+  ]
+}

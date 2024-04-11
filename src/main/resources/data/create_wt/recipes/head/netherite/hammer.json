@@ -1,0 +1,18 @@
+{
+  "type": "create:filling",
+  "ingredients": [
+    {
+      "item": "create_wt:hammer_head_pattern"
+    },
+    {
+      "fluid": "create_wt:molten_netherite",
+      "nbt": {},
+      "amount": 900
+    }
+  ],
+  "results": [
+    {
+      "item": "create_wt:netherite_hammer_head"
+    }
+  ]
+}

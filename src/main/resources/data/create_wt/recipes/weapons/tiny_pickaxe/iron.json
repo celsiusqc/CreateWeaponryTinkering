@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    " / "
+  ],
+  "key": {
+    "#": {
+      "tag": "forge:nuggets/iron"
+    },
+    "/": {
+      "item": "create_wt:handle"
+    }
+  },
+  "result": {
+    "item": "create_wt:tiny_iron_pickaxe",
+    "count": 1
+  }
+}

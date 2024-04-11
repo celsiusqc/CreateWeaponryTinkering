@@ -15,9 +15,9 @@ import org.joml.Vector3f;
 public class ModFluidTypes {
 
     //Gold
-    public static final ResourceLocation MOLTEN_GOLD_STILL_RL = new ResourceLocation(CreateWeaponryTinkering.MOD_ID, "block/fluid/molten_gold/still");
-    public static final ResourceLocation MOLTEN_GOLD_FLOWING_RL = new ResourceLocation(CreateWeaponryTinkering.MOD_ID, "block/fluid/molten_gold/flowing");
-    public static final ResourceLocation MOLTEN_GOLD_RL = new ResourceLocation(CreateWeaponryTinkering.MOD_ID, "block/fluid/molten_gold/flowing");
+    public static final ResourceLocation MOLTEN_GOLD_STILL_RL = new ResourceLocation(CreateWeaponryTinkering.MOD_ID, "block/fluid/gold/still");
+    public static final ResourceLocation MOLTEN_GOLD_FLOWING_RL = new ResourceLocation(CreateWeaponryTinkering.MOD_ID, "block/fluid/gold/flowing");
+    public static final ResourceLocation MOLTEN_GOLD_RL = new ResourceLocation(CreateWeaponryTinkering.MOD_ID, "block/fluid/gold/flowing");
 
     public static final DeferredRegister<FluidType> FLUID_TYPES =
             DeferredRegister.create(ForgeRegistries.Keys.FLUID_TYPES, CreateWeaponryTinkering.MOD_ID);

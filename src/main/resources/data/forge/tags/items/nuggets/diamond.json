@@ -1,6 +1,6 @@
 {
   "replace": false,
   "values": [
-    { "required": false, "id": "create_weaponry:diamond_nugget"}
+    { "required": false, "id": "create_wt:diamond_nugget"}
   ]
 }
