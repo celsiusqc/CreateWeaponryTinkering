@@ -299,8 +299,9 @@
   "item.create_wt.diamond_nugget": "Diamond Nugget",
 
 
-  "item.cp_tweaks.tiny_iron_pickaxe.tooltip": "This item is needed in the progression of unlocking molten metals. It has the same characteristics as it's normal version, minus durability",
-  "item.cp_tweaks.tiny_diamond_pickaxe.tooltip": "This item is needed in the progression of unlocking molten metals. It has the same characteristics as it's normal version, minus durability",
+  "item.create_wt.tiny_iron_pickaxe.tooltip": "This item is needed in the progression of unlocking molten metals. It has the same characteristics as it's normal version, minus durability",
+  "item.create_wt.tiny_diamond_pickaxe.tooltip": "This item is needed in the progression of unlocking molten metals. It has the same characteristics as it's normal version, minus durability",
 
-  "creativetab.create_wt_tab": "Create Weaponry Tinkering"
+  "creativetab.create_wt_tab": "Create Weaponry Tinkering",
+  "creativetab.create_wt_weapon_tab": "Create Weaponry Tinkering Weapons"
 }

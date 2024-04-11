@@ -1,6 +1,7 @@
 package net.celsiusqc.create_wt.items;
 
 import net.celsiusqc.create_wt.CreateWeaponryTinkering;
+import net.celsiusqc.create_wt.items.custom.Glaives;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
@@ -181,6 +182,40 @@ public class ModCreativeModTab {
                             pOutput.accept(Heads.DESH_SWORD_HEAD.get());
                             pOutput.accept(Heads.CALORITE_SWORD_HEAD.get());
                         }
+                    })
+                    .build());
+
+    public static final RegistryObject<CreativeModeTab> CREATE_WT_WEAPON_TAB = CREATIVE_MODE_TABS.register("create_wt_weapons",
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(Glaives.NETHERITE_GLAIVE.get()))
+                    .title(Component.translatable("creativetab.create_wt_tab"))
+                    .displayItems((pParameters, pOutput) -> {
+
+
+                        // Always accept this item
+                        pOutput.accept(Glaives.WOODEN_GLAIVE.get());
+                        pOutput.accept(Glaives.STONE_GLAIVE.get());
+                        pOutput.accept(Glaives.GOLDEN_GLAIVE.get());
+                        pOutput.accept(Glaives.IRON_GLAIVE.get());
+                        pOutput.accept(Glaives.DIAMOND_GLAIVE.get());
+                        pOutput.accept(Glaives.NETHERITE_GLAIVE.get());
+                        pOutput.accept(Glaives.COPPER_GLAIVE.get());
+                        pOutput.accept(Glaives.ZINC_GLAIVE.get());
+                        pOutput.accept(Glaives.BRASS_GLAIVE.get());
+
+                        //Accept items if 'blue_skies' mod is loaded
+                        if (ModList.get().isLoaded("blue_skies")) {
+                            pOutput.accept(Glaives.HORIZONITE_GLAIVE.get());
+                            pOutput.accept(Glaives.AQUITE_GLAIVE.get());
+                            pOutput.accept(Glaives.PYROPE_GLAIVE.get());
+                            pOutput.accept(Glaives.CHAROITE_GLAIVE.get());
+                            pOutput.accept(Glaives.DIOPSIDE_GLAIVE.get());
+                        }
+                        if (ModList.get().isLoaded("ad_astra")) {
+                            pOutput.accept(Glaives.DESH_GLAIVE.get());
+                            pOutput.accept(Glaives.CALORITE_GLAIVE.get());
+                            pOutput.accept(Glaives.STEEL_GLAIVE.get());
+                        }
+
                     })
                     .build());
 
