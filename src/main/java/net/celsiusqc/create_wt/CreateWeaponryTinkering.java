@@ -1,12 +1,15 @@
 package net.celsiusqc.create_wt;
 
 import net.celsiusqc.create_wt.base.block.MoltenModBlocks;
+import net.celsiusqc.create_wt.config.CreateWeaponryTinkeringConfig;
+import net.celsiusqc.create_wt.crafting.ConfigEnabledCondition;
 import net.celsiusqc.create_wt.fluid.ModFluidTypes;
 import net.celsiusqc.create_wt.fluid.ModFluids;
 import net.celsiusqc.create_wt.items.*;
 import net.celsiusqc.create_wt.items.custom.Glaives;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
+import net.minecraftforge.common.crafting.CraftingHelper;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
 import net.minecraftforge.event.server.ServerStartingEvent;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -35,6 +38,9 @@ public class CreateWeaponryTinkering {
     public CreateWeaponryTinkering() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
+        ModLoadingContext.get().registerConfig(ModConfig.Type.COMMON, CreateWeaponryTinkeringConfig.CONFIG);
+
+
         net.celsiusqc.create_wt.items.ModCreativeModTab.register(modEventBus);
         modEventBus.addListener(this::setup);
         MoltenModBlocks.register(modEventBus);
@@ -56,7 +62,8 @@ public class CreateWeaponryTinkering {
 
 
     private void commonSetup(final FMLCommonSetupEvent event) {
-
+        // Register your custom recipe condition
+        CraftingHelper.register(ConfigEnabledCondition.Serializer.INSTANCE);
     }
 
     private void setup(final FMLCommonSetupEvent event) {

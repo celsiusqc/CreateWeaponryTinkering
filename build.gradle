@@ -198,13 +198,7 @@ dependencies {
     // If the group id is "net.minecraft" and the artifact id is one of ["client", "server", "joined"],
     // then special handling is done to allow a setup of a vanilla dependency without the use of an external repository.
     minecraft "net.minecraftforge:forge:${minecraft_version}-${forge_version}"
-    implementation fg.deobf("curse.maven:hang-glider-852668:4611981")
-    implementation fg.deobf("curse.maven:puzzles-lib-495476:4621178")
-    //Waystones
-    implementation fg.deobf("curse.maven:waystones-245755:4584510")
-    implementation fg.deobf("curse.maven:balm-531761:4597440")
 
-    implementation fg.deobf("curse.maven:worldedit-225608:4586218")
     // compile against the JEI API but do not include it at runtime
     compileOnly(fg.deobf("mezz.jei:jei-1.20.1-common-api:15.2.0.23"))
     compileOnly(fg.deobf("mezz.jei:jei-1.20.1-forge-api:15.2.0.23"))
@@ -218,9 +212,6 @@ dependencies {
     implementation fg.deobf("curse.maven:resourceful-config-714059:5020441")
     implementation fg.deobf("curse.maven:botarium-704113:5118353")
 
-    //Rats
-    implementation fg.deobf("curse.maven:rats-323596:4608071")
-    implementation fg.deobf("curse.maven:citadel-331936:4613231")
 
     //Suggestion Provider for commands
     implementation fg.deobf("curse.maven:suggestion-provider-fix-469647:4591193")
@@ -228,41 +219,13 @@ dependencies {
     //Create
     implementation fg.deobf("curse.maven:create-328085:4626108")
 
-    //Alexsmobs
-    implementation fg.deobf("curse.maven:alexs-mobs-426558:4618074")
-    implementation fg.deobf("curse.maven:citadel-331936:4613231")
-
-    //Serene Seasons
-    implementation fg.deobf("curse.maven:serene-seasons-291874:4611121")
-
-    //Rubidium & Oculus
-    implementation fg.deobf("curse.maven:rubidium-574856:4573226")
-    implementation fg.deobf("curse.maven:oculus-581495:4578741")
-
-    //Consecration
-    implementation fg.deobf("curse.maven:consecration-284001:4638141")
-
-    //CraftTweaker
-    implementation fg.deobf("curse.maven:crafttweaker-239197:4640784")
-
-    //Cataclysm
-    implementation fg.deobf("curse.maven:l_ender-s-cataclysm-551586:4665435")
-
-    //Geckolib
-    implementation fg.deobf('software.bernie.geckolib:geckolib-forge-1.20:4.2')
-
-    //Ad Astra Rocketed
-    implementation fg.deobf("curse.maven:ad-astra-rocketed-996980:5245376")
-
-    //Twilight Forest
-    implementation fg.deobf("curse.maven:the-twilight-forest-227639:5071019")
 
     //Blue Skies
     implementation fg.deobf("curse.maven:blue-skies-312918:5010316")
     implementation fg.deobf("curse.maven:structure-gel-api-378802:5188368")
 
-    //Useful Spyglass
-    implementation fg.deobf("curse.maven:useful-spyglass-840027:5245771")
+    implementation fg.deobf("curse.maven:mmmmmmmmmmmm-225738:5051316")
+    implementation fg.deobf("curse.maven:selene-499980:5250759")
 
 
 
