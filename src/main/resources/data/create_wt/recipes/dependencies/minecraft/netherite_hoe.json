@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "conditions": [
+    {
+      "type": "create_wt:config",
+      "config": "feature.enableVanillaRecipeOverwrite"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "create_wt:handle"
+    },
+    {
+      "item": "create_wt:netherite_hoe_head"
+    }
+  ],
+  "result": {
+    "item": "minecraft:netherite_hoe"
+  }
+}

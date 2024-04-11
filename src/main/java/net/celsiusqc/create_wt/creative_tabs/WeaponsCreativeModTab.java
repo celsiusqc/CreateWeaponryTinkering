@@ -33,10 +33,13 @@ public class WeaponsCreativeModTab {
                             pOutput.accept(Glaives.DIAMOND_GLAIVE_HEAD.get());
                             pOutput.accept(Glaives.NETHERITE_GLAIVE_HEAD.get());
                             if (ModList.get().isLoaded("cp_tweaks") || ModList.get().isLoaded("create_sa")) {
-                                pOutput.accept(Glaives.COPPER_GLAIVE_HEAD.get());}
-                            pOutput.accept(Glaives.ZINC_GLAIVE_HEAD.get());
-                            pOutput.accept(Glaives.BRASS_GLAIVE_HEAD.get());
-                            pOutput.accept(Glaives.STEEL_GLAIVE_HEAD.get());
+                                pOutput.accept(Glaives.COPPER_GLAIVE_HEAD.get());
+                                pOutput.accept(Glaives.ZINC_GLAIVE_HEAD.get());
+                                pOutput.accept(Glaives.BRASS_GLAIVE_HEAD.get());
+                            }
+                            if (ModList.get().isLoaded("cp_tweaks") || ModList.get().isLoaded("alloyed")) {
+                                pOutput.accept(Glaives.STEEL_GLAIVE_HEAD.get());
+                            }
                             if (ModList.get().isLoaded("blue_skies")) {
                                 pOutput.accept(Glaives.HORIZONITE_GLAIVE_HEAD.get());
                                 pOutput.accept(Glaives.AQUITE_GLAIVE_HEAD.get());
@@ -57,10 +60,13 @@ public class WeaponsCreativeModTab {
                             pOutput.accept(Katanas.DIAMOND_KATANA_HEAD.get());
                             pOutput.accept(Katanas.NETHERITE_KATANA_HEAD.get());
                             if (ModList.get().isLoaded("cp_tweaks") || ModList.get().isLoaded("create_sa")) {
-                                pOutput.accept(Katanas.COPPER_KATANA_HEAD.get());}
-                            pOutput.accept(Katanas.ZINC_KATANA_HEAD.get());
-                            pOutput.accept(Katanas.BRASS_KATANA_HEAD.get());
-                            pOutput.accept(Katanas.STEEL_KATANA_HEAD.get());
+                                pOutput.accept(Katanas.COPPER_KATANA_HEAD.get());
+                                pOutput.accept(Katanas.ZINC_KATANA_HEAD.get());
+                                pOutput.accept(Katanas.BRASS_KATANA_HEAD.get());
+                            }
+                            if (ModList.get().isLoaded("cp_tweaks") || ModList.get().isLoaded("alloyed")) {
+                                pOutput.accept(Katanas.STEEL_KATANA_HEAD.get());
+                            }
                             if (ModList.get().isLoaded("blue_skies")) {
                                 pOutput.accept(Katanas.HORIZONITE_KATANA_HEAD.get());
                                 pOutput.accept(Katanas.AQUITE_KATANA_HEAD.get());
@@ -80,10 +86,13 @@ public class WeaponsCreativeModTab {
                             pOutput.accept(Hammers.DIAMOND_HAMMER_HEAD.get());
                             pOutput.accept(Hammers.NETHERITE_HAMMER_HEAD.get());
                             if (ModList.get().isLoaded("cp_tweaks") || ModList.get().isLoaded("create_sa")) {
-                                pOutput.accept(Hammers.COPPER_HAMMER_HEAD.get());}
-                            pOutput.accept(Hammers.ZINC_HAMMER_HEAD.get());
-                            pOutput.accept(Hammers.BRASS_HAMMER_HEAD.get());
-                            pOutput.accept(Hammers.STEEL_HAMMER_HEAD.get());
+                                pOutput.accept(Hammers.COPPER_HAMMER_HEAD.get());
+                                pOutput.accept(Hammers.ZINC_HAMMER_HEAD.get());
+                                pOutput.accept(Hammers.BRASS_HAMMER_HEAD.get());
+                            }
+                            if (ModList.get().isLoaded("cp_tweaks") || ModList.get().isLoaded("alloyed")) {
+                                pOutput.accept(Hammers.STEEL_HAMMER_HEAD.get());
+                            }
                             if (ModList.get().isLoaded("blue_skies")) {
                                 pOutput.accept(Hammers.HORIZONITE_HAMMER_HEAD.get());
                                 pOutput.accept(Hammers.AQUITE_HAMMER_HEAD.get());
@@ -104,10 +113,13 @@ public class WeaponsCreativeModTab {
                             pOutput.accept(Maces.DIAMOND_MACE_HEAD.get());
                             pOutput.accept(Maces.NETHERITE_MACE_HEAD.get());
                             if (ModList.get().isLoaded("cp_tweaks") || ModList.get().isLoaded("create_sa")) {
-                                pOutput.accept(Maces.COPPER_MACE_HEAD.get());}
-                            pOutput.accept(Maces.ZINC_MACE_HEAD.get());
-                            pOutput.accept(Maces.BRASS_MACE_HEAD.get());
-                            pOutput.accept(Maces.STEEL_MACE_HEAD.get());
+                                pOutput.accept(Maces.COPPER_MACE_HEAD.get());
+                                pOutput.accept(Maces.ZINC_MACE_HEAD.get());
+                                pOutput.accept(Maces.BRASS_MACE_HEAD.get());
+                            }
+                            if (ModList.get().isLoaded("cp_tweaks") || ModList.get().isLoaded("alloyed")) {
+                                pOutput.accept(Maces.STEEL_MACE_HEAD.get());
+                            }
                             if (ModList.get().isLoaded("blue_skies")) {
                                 pOutput.accept(Maces.HORIZONITE_MACE_HEAD.get());
                                 pOutput.accept(Maces.AQUITE_MACE_HEAD.get());
@@ -132,9 +144,13 @@ public class WeaponsCreativeModTab {
                             pOutput.accept(Glaives.DIAMOND_GLAIVE.get());
                             pOutput.accept(Glaives.NETHERITE_GLAIVE.get());
                             if (ModList.get().isLoaded("cp_tweaks") || ModList.get().isLoaded("create_sa")) {
-                                pOutput.accept(Glaives.COPPER_GLAIVE.get());}
-                            pOutput.accept(Glaives.ZINC_GLAIVE.get());
-                            pOutput.accept(Glaives.BRASS_GLAIVE.get());
+                                pOutput.accept(Glaives.COPPER_GLAIVE.get());
+                                pOutput.accept(Glaives.ZINC_GLAIVE.get());
+                                pOutput.accept(Glaives.BRASS_GLAIVE.get());
+                            }
+                            if (ModList.get().isLoaded("cp_tweaks") || ModList.get().isLoaded("alloyed")) {
+                                pOutput.accept(Glaives.STEEL_GLAIVE.get());
+                            }
                             // Accept items if 'blue_skies' mod is loaded
                             if (ModList.get().isLoaded("blue_skies")) {
                                 pOutput.accept(Glaives.HORIZONITE_GLAIVE.get());
@@ -146,7 +162,6 @@ public class WeaponsCreativeModTab {
                             if (ModList.get().isLoaded("ad_astra") && ModList.get().isLoaded("cp_tweaks")) {
                                 pOutput.accept(Glaives.DESH_GLAIVE.get());
                                 pOutput.accept(Glaives.CALORITE_GLAIVE.get());
-                                pOutput.accept(Glaives.STEEL_GLAIVE.get());
                             }
                         }
                         //Hammers
@@ -160,9 +175,13 @@ public class WeaponsCreativeModTab {
                             pOutput.accept(Hammers.DIAMOND_HAMMER.get());
                             pOutput.accept(Hammers.NETHERITE_HAMMER.get());
                             if (ModList.get().isLoaded("cp_tweaks") || ModList.get().isLoaded("create_sa")) {
-                                pOutput.accept(Hammers.COPPER_HAMMER.get());}
-                            pOutput.accept(Hammers.ZINC_HAMMER.get());
-                            pOutput.accept(Hammers.BRASS_HAMMER.get());
+                                pOutput.accept(Hammers.COPPER_HAMMER.get());
+                                pOutput.accept(Hammers.ZINC_HAMMER.get());
+                                pOutput.accept(Hammers.BRASS_HAMMER.get());
+                            }
+                            if (ModList.get().isLoaded("cp_tweaks") || ModList.get().isLoaded("alloyed")) {
+                                pOutput.accept(Hammers.STEEL_HAMMER.get());
+                            }
                             // Accept items if 'blue_skies' mod is loaded
                             if (ModList.get().isLoaded("blue_skies")) {
                                 pOutput.accept(Hammers.HORIZONITE_HAMMER.get());
@@ -174,7 +193,6 @@ public class WeaponsCreativeModTab {
                             if (ModList.get().isLoaded("ad_astra") && ModList.get().isLoaded("cp_tweaks")) {
                                 pOutput.accept(Hammers.DESH_HAMMER.get());
                                 pOutput.accept(Hammers.CALORITE_HAMMER.get());
-                                pOutput.accept(Hammers.STEEL_HAMMER.get());
                             }
                         }
 
@@ -189,9 +207,13 @@ public class WeaponsCreativeModTab {
                             pOutput.accept(Katanas.DIAMOND_KATANA.get());
                             pOutput.accept(Katanas.NETHERITE_KATANA.get());
                             if (ModList.get().isLoaded("cp_tweaks") || ModList.get().isLoaded("create_sa")) {
-                                pOutput.accept(Katanas.COPPER_KATANA.get());}
-                            pOutput.accept(Katanas.ZINC_KATANA.get());
-                            pOutput.accept(Katanas.BRASS_KATANA.get());
+                                pOutput.accept(Katanas.COPPER_KATANA.get());
+                                pOutput.accept(Katanas.ZINC_KATANA.get());
+                                pOutput.accept(Katanas.BRASS_KATANA.get());
+                            }
+                            if (ModList.get().isLoaded("cp_tweaks") || ModList.get().isLoaded("alloyed")) {
+                                pOutput.accept(Katanas.STEEL_KATANA.get());
+                            }
                             // Accept items if 'blue_skies' mod is loaded
                             if (ModList.get().isLoaded("blue_skies")) {
                                 pOutput.accept(Katanas.HORIZONITE_KATANA.get());
@@ -203,7 +225,6 @@ public class WeaponsCreativeModTab {
                             if (ModList.get().isLoaded("ad_astra") && ModList.get().isLoaded("cp_tweaks")) {
                                 pOutput.accept(Katanas.DESH_KATANA.get());
                                 pOutput.accept(Katanas.CALORITE_KATANA.get());
-                                pOutput.accept(Katanas.STEEL_KATANA.get());
                             }
                         }
                         //Maces
@@ -216,9 +237,13 @@ public class WeaponsCreativeModTab {
                             pOutput.accept(Maces.DIAMOND_MACE.get());
                             pOutput.accept(Maces.NETHERITE_MACE.get());
                             if (ModList.get().isLoaded("cp_tweaks") || ModList.get().isLoaded("create_sa")) {
-                                pOutput.accept(Maces.COPPER_MACE.get());}
-                            pOutput.accept(Maces.ZINC_MACE.get());
-                            pOutput.accept(Maces.BRASS_MACE.get());
+                                pOutput.accept(Maces.COPPER_MACE.get());
+                                pOutput.accept(Maces.ZINC_MACE.get());
+                                pOutput.accept(Maces.BRASS_MACE.get());
+                            }
+                            if (ModList.get().isLoaded("cp_tweaks") || ModList.get().isLoaded("alloyed")) {
+                                pOutput.accept(Maces.STEEL_MACE.get());
+                            }
                             // Accept items if 'blue_skies' mod is loaded
                             if (ModList.get().isLoaded("blue_skies")) {
                                 pOutput.accept(Maces.HORIZONITE_MACE.get());
@@ -230,7 +255,7 @@ public class WeaponsCreativeModTab {
                             if (ModList.get().isLoaded("ad_astra") && ModList.get().isLoaded("cp_tweaks")) {
                                 pOutput.accept(Maces.DESH_MACE.get());
                                 pOutput.accept(Maces.CALORITE_MACE.get());
-                                pOutput.accept(Maces.STEEL_MACE.get());
+
                             }
                         }
 

@@ -1,20 +1,17 @@
 {
-  "type": "minecraft:crafting_shapeless",
   "conditions": [
     {
-      "type": "create_wt:config",
-      "config": "feature.enableVanillaRecipeOverwrite"
+      "type": "forge:mod_loaded",
+      "modid": "disablethis"
     }
   ],
+  "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "create_wt:handle"
-    },
-    {
-      "item": "create_wt:iron_sword_head"
+      "item": "minecraft:dirt"
     }
   ],
   "result": {
-    "item": "minecraft:iron_sword"
+    "item": "minecraft:sand"
   }
 }

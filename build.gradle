@@ -230,6 +230,13 @@ dependencies {
 
     implementation fg.deobf("curse.maven:configured-457570:5096828")
 
+    //Geckolib
+    implementation fg.deobf('software.bernie.geckolib:geckolib-forge-1.20:4.2')
+
+    implementation fg.deobf("curse.maven:create-planetary-tweaks-594527:5250935")
+
+    implementation fg.deobf("curse.maven:the-twilight-forest-227639:5071019")
+
 
 
     //Blur Mod

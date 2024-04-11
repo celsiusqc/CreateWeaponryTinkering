@@ -4,24 +4,29 @@ import net.celsiusqc.create_wt.CreateWeaponryTinkering;
 import net.celsiusqc.create_wt.config.CreateWeaponryTinkeringConfig;
 import net.celsiusqc.create_wt.items.*;
 import net.celsiusqc.create_wt.items.custom.Glaives;
+import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
+import net.minecraft.resources.ResourceLocation;
+import net.minecraft.tags.TagKey;
 import net.minecraft.world.item.CreativeModeTab;
+import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.ModList;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.RegistryObject;
 
+
 public class ModCreativeModTab {
     public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS =
             DeferredRegister.create(Registries.CREATIVE_MODE_TAB, CreateWeaponryTinkering.MOD_ID);
 
+
+
     public static final RegistryObject<CreativeModeTab> CREATE_WT_TAB = CREATIVE_MODE_TABS.register("create_wt",
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(Buckets.MOLTEN_GOLD_BUCKET.get()))
                     .title(Component.translatable("creativetab.create_wt_tab"))
-
-
                     .displayItems((pParameters, pOutput) -> {
 
                         pOutput.accept(Patterns.BLANK_PATTERN.get());
@@ -32,6 +37,20 @@ public class ModCreativeModTab {
                         pOutput.accept(Patterns.SWORD_HEAD_PATTERN.get());
 
                         // Conditional items based on config
+
+//                        ResourceLocation aquiteTagLocation = new ResourceLocation("forge", "ingots/copper");
+//                        ResourceLocation charoiteTagLocation = new ResourceLocation("forge", "ingots/copper");
+//                        ResourceLocation pyropeTagLocation = new ResourceLocation("forge", "ingots/copper");
+//                        ResourceLocation diopsideTagLocation = new ResourceLocation("forge", "ingots/copper");
+//                        ResourceLocation horizoniteTagLocation = new ResourceLocation("forge", "ingots/copper");
+//                        TagKey<Item> aquiteTagKey = TagKey.create(Registries.ITEM, aquiteTagLocation);
+//                        TagKey<Item> charoiteTagKey = TagKey.create(Registries.ITEM, charoiteTagLocation);
+//                        TagKey<Item> pyropeTagKey = TagKey.create(Registries.ITEM, pyropeTagLocation);
+//                        TagKey<Item> diopsideTagKey = TagKey.create(Registries.ITEM, diopsideTagLocation);
+//                        TagKey<Item> horizoniteTagKey = TagKey.create(Registries.ITEM, horizoniteTagLocation);
+
+                        //if (BuiltInRegistries.ITEM.getOrCreateTag(aquiteTagKey).size() > 0 ) { }
+
 
                         if (CreateWeaponryTinkeringConfig.enableGlaives.get()) {
                             // Always accept this item
@@ -66,7 +85,8 @@ public class ModCreativeModTab {
                         pOutput.accept(Buckets.MOLTEN_DIAMOND_BUCKET.get());
                         pOutput.accept(Buckets.MOLTEN_NETHERITE_BUCKET.get());
                         pOutput.accept(Buckets.MOLTEN_ZINC_BUCKET.get());
-                        pOutput.accept(Buckets.MOLTEN_BRASS_BUCKET.get());
+                        if (ModList.get().isLoaded("cp_tweaks") || ModList.get().isLoaded("create_sa")) {
+                            pOutput.accept(Buckets.MOLTEN_BRASS_BUCKET.get());}
 
  //Accept items if 'blue_skies' mod is loaded
                         if (ModList.get().isLoaded("blue_skies")) {
@@ -89,14 +109,16 @@ public class ModCreativeModTab {
 
 
 // Axe Heads
-                        pOutput.accept(Heads.BRASS_AXE_HEAD.get());
+                        if (ModList.get().isLoaded("cp_tweaks") || ModList.get().isLoaded("create_sa")) {
+                        pOutput.accept(Heads.BRASS_AXE_HEAD.get());}
                         if (ModList.get().isLoaded("cp_tweaks") || ModList.get().isLoaded("create_sa")) {
                             pOutput.accept(Heads.COPPER_AXE_HEAD.get());}
                         pOutput.accept(Heads.DIAMOND_AXE_HEAD.get());
                         pOutput.accept(Heads.GOLDEN_AXE_HEAD.get());
                         pOutput.accept(Heads.IRON_AXE_HEAD.get());
                         pOutput.accept(Heads.NETHERITE_AXE_HEAD.get());
-                        pOutput.accept(Heads.ZINC_AXE_HEAD.get());
+                        if (ModList.get().isLoaded("cp_tweaks") || ModList.get().isLoaded("create_sa")) {
+                        pOutput.accept(Heads.ZINC_AXE_HEAD.get());}
                         if (ModList.get().isLoaded("blue_skies")) {
                             pOutput.accept(Heads.AQUITE_AXE_HEAD.get());
                             pOutput.accept(Heads.CHAROITE_AXE_HEAD.get());
@@ -111,14 +133,16 @@ public class ModCreativeModTab {
                         }
 
 // Hoe Heads
-                        pOutput.accept(Heads.BRASS_HOE_HEAD.get());
+                        if (ModList.get().isLoaded("cp_tweaks") || ModList.get().isLoaded("create_sa")) {
+                        pOutput.accept(Heads.BRASS_HOE_HEAD.get());}
                         if (ModList.get().isLoaded("cp_tweaks") || ModList.get().isLoaded("create_sa")) {
                             pOutput.accept(Heads.COPPER_HOE_HEAD.get());}
                         pOutput.accept(Heads.DIAMOND_HOE_HEAD.get());
                         pOutput.accept(Heads.GOLDEN_HOE_HEAD.get());
                         pOutput.accept(Heads.IRON_HOE_HEAD.get());
                         pOutput.accept(Heads.NETHERITE_HOE_HEAD.get());
-                        pOutput.accept(Heads.ZINC_HOE_HEAD.get());
+                        if (ModList.get().isLoaded("cp_tweaks") || ModList.get().isLoaded("create_sa")) {
+                        pOutput.accept(Heads.ZINC_HOE_HEAD.get());}
                         if (ModList.get().isLoaded("blue_skies")) {
                             pOutput.accept(Heads.AQUITE_HOE_HEAD.get());
                             pOutput.accept(Heads.CHAROITE_HOE_HEAD.get());
@@ -133,14 +157,16 @@ public class ModCreativeModTab {
                         }
 
 // Pickaxe Heads
-                        pOutput.accept(Heads.BRASS_PICKAXE_HEAD.get());
+                        if (ModList.get().isLoaded("cp_tweaks") || ModList.get().isLoaded("create_sa")) {
+                        pOutput.accept(Heads.BRASS_PICKAXE_HEAD.get());}
                         if (ModList.get().isLoaded("cp_tweaks") || ModList.get().isLoaded("create_sa")) {
                             pOutput.accept(Heads.COPPER_PICKAXE_HEAD.get());}
                         pOutput.accept(Heads.DIAMOND_PICKAXE_HEAD.get());
                         pOutput.accept(Heads.GOLDEN_PICKAXE_HEAD.get());
                         pOutput.accept(Heads.IRON_PICKAXE_HEAD.get());
                         pOutput.accept(Heads.NETHERITE_PICKAXE_HEAD.get());
-                        pOutput.accept(Heads.ZINC_PICKAXE_HEAD.get());
+                        if (ModList.get().isLoaded("cp_tweaks") || ModList.get().isLoaded("create_sa")) {
+                        pOutput.accept(Heads.ZINC_PICKAXE_HEAD.get());}
                         if (ModList.get().isLoaded("blue_skies")) {
                             pOutput.accept(Heads.AQUITE_PICKAXE_HEAD.get());
                             pOutput.accept(Heads.CHAROITE_PICKAXE_HEAD.get());
@@ -155,14 +181,16 @@ public class ModCreativeModTab {
                         }
 
 // Shovel Heads
-                        pOutput.accept(Heads.BRASS_SHOVEL_HEAD.get());
+                        if (ModList.get().isLoaded("cp_tweaks") || ModList.get().isLoaded("create_sa")) {
+                        pOutput.accept(Heads.BRASS_SHOVEL_HEAD.get());}
                         if (ModList.get().isLoaded("cp_tweaks") || ModList.get().isLoaded("create_sa")) {
                             pOutput.accept(Heads.COPPER_SHOVEL_HEAD.get());}
                         pOutput.accept(Heads.DIAMOND_SHOVEL_HEAD.get());
                         pOutput.accept(Heads.GOLDEN_SHOVEL_HEAD.get());
                         pOutput.accept(Heads.IRON_SHOVEL_HEAD.get());
                         pOutput.accept(Heads.NETHERITE_SHOVEL_HEAD.get());
-                        pOutput.accept(Heads.ZINC_SHOVEL_HEAD.get());
+                        if (ModList.get().isLoaded("cp_tweaks") || ModList.get().isLoaded("create_sa")) {
+                        pOutput.accept(Heads.ZINC_SHOVEL_HEAD.get());}
                         if (ModList.get().isLoaded("blue_skies")) {
                             pOutput.accept(Heads.AQUITE_SHOVEL_HEAD.get());
                             pOutput.accept(Heads.CHAROITE_SHOVEL_HEAD.get());
@@ -177,14 +205,16 @@ public class ModCreativeModTab {
                         }
 
 // Sword Heads
-                        pOutput.accept(Heads.BRASS_SWORD_HEAD.get());
+                        if (ModList.get().isLoaded("cp_tweaks") || ModList.get().isLoaded("create_sa")) {
+                        pOutput.accept(Heads.BRASS_SWORD_HEAD.get());}
                         if (ModList.get().isLoaded("cp_tweaks") || ModList.get().isLoaded("create_sa")) {
                             pOutput.accept(Heads.COPPER_SWORD_HEAD.get());}
                         pOutput.accept(Heads.DIAMOND_SWORD_HEAD.get());
                         pOutput.accept(Heads.GOLDEN_SWORD_HEAD.get());
                         pOutput.accept(Heads.IRON_SWORD_HEAD.get());
                         pOutput.accept(Heads.NETHERITE_SWORD_HEAD.get());
-                        pOutput.accept(Heads.ZINC_SWORD_HEAD.get());
+                        if (ModList.get().isLoaded("cp_tweaks") || ModList.get().isLoaded("create_sa")) {
+                        pOutput.accept(Heads.ZINC_SWORD_HEAD.get());}
                         if (ModList.get().isLoaded("blue_skies")) {
                             pOutput.accept(Heads.AQUITE_SWORD_HEAD.get());
                             pOutput.accept(Heads.CHAROITE_SWORD_HEAD.get());
