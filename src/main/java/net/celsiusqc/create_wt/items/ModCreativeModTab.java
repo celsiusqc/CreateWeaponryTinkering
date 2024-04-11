@@ -1,6 +1,7 @@
 package net.celsiusqc.create_wt.items;
 
 import net.celsiusqc.create_wt.CreateWeaponryTinkering;
+import net.celsiusqc.create_wt.config.CreateWeaponryTinkeringConfig;
 import net.celsiusqc.create_wt.items.custom.Glaives;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
@@ -18,18 +19,37 @@ public class ModCreativeModTab {
     public static final RegistryObject<CreativeModeTab> CREATE_WT_TAB = CREATIVE_MODE_TABS.register("create_wt",
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(Buckets.MOLTEN_GOLD_BUCKET.get()))
                     .title(Component.translatable("creativetab.create_wt_tab"))
+
+
                     .displayItems((pParameters, pOutput) -> {
 
+                        // Non-conditional items
                         pOutput.accept(Misc.HANDLE.get());
-                        pOutput.accept(TinyTools.TINY_IRON_PICKAXE.get());
-                        pOutput.accept(TinyTools.TINY_DIAMOND_PICKAXE.get());
-                        pOutput.accept(Misc.DIAMOND_NUGGET.get());
-                        // Always accept this item
                         pOutput.accept(Buckets.MOLTEN_GOLD_BUCKET.get());
                         pOutput.accept(Buckets.MOLTEN_IRON_BUCKET.get());
                         pOutput.accept(Buckets.MOLTEN_COPPER_BUCKET.get());
                         pOutput.accept(Buckets.MOLTEN_DIAMOND_BUCKET.get());
                         pOutput.accept(Buckets.MOLTEN_NETHERITE_BUCKET.get());
+
+                        pOutput.accept(Patterns.BLANK_PATTERN.get());
+                        pOutput.accept(Patterns.AXE_HEAD_PATTERN.get());
+                        pOutput.accept(Patterns.HOE_HEAD_PATTERN.get());
+                        pOutput.accept(Patterns.PICKAXE_HEAD_PATTERN.get());
+                        pOutput.accept(Patterns.SHOVEL_HEAD_PATTERN.get());
+                        pOutput.accept(Patterns.SWORD_HEAD_PATTERN.get());
+
+
+                        pOutput.accept(Patterns.HAMMER_HEAD_PATTERN.get());
+                        pOutput.accept(Patterns.KATANA_HEAD_PATTERN.get());
+                        pOutput.accept(Patterns.MACE_HEAD_PATTERN.get());
+
+                                               // Conditional items based on config
+                        if (CreateWeaponryTinkeringConfig.enableTinyTools.get()) {
+                            pOutput.accept(TinyTools.TINY_IRON_PICKAXE.get());
+                            pOutput.accept(TinyTools.TINY_DIAMOND_PICKAXE.get());
+                            pOutput.accept(Misc.DIAMOND_NUGGET.get());
+                            // ...other conditional items
+                        }
 
  //Accept items if 'blue_skies' mod is loaded
                         if (ModList.get().isLoaded("blue_skies")) {
@@ -57,19 +77,6 @@ public class ModCreativeModTab {
                             pOutput.accept(Buckets.MOLTEN_STEEL_BUCKET.get());
                         }
 
-                        if (ModList.get().isLoaded("create")) {
-                            pOutput.accept(Patterns.BLANK_PATTERN.get());
-                            pOutput.accept(Patterns.AXE_HEAD_PATTERN.get());
-                            pOutput.accept(Patterns.HOE_HEAD_PATTERN.get());
-                            pOutput.accept(Patterns.PICKAXE_HEAD_PATTERN.get());
-                            pOutput.accept(Patterns.SHOVEL_HEAD_PATTERN.get());
-                            pOutput.accept(Patterns.SWORD_HEAD_PATTERN.get());
-
-                            pOutput.accept(Patterns.GLAIVE_HEAD_PATTERN.get());
-                            pOutput.accept(Patterns.HAMMER_HEAD_PATTERN.get());
-                            pOutput.accept(Patterns.KATANA_HEAD_PATTERN.get());
-                            pOutput.accept(Patterns.MACE_HEAD_PATTERN.get());
-                        }
 
 // Axe Heads
                         pOutput.accept(Heads.BRASS_AXE_HEAD.get());
@@ -187,35 +194,37 @@ public class ModCreativeModTab {
 
     public static final RegistryObject<CreativeModeTab> CREATE_WT_WEAPON_TAB = CREATIVE_MODE_TABS.register("create_wt_weapons",
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(Glaives.NETHERITE_GLAIVE.get()))
-                    .title(Component.translatable("creativetab.create_wt_tab"))
+                    .title(Component.translatable("creativetab.create_wt_weapon_tab"))
                     .displayItems((pParameters, pOutput) -> {
 
+                        if (CreateWeaponryTinkeringConfig.enableGlaives.get()) {
+                            // Always accept this item
+                            pOutput.accept(Patterns.GLAIVE_HEAD_PATTERN.get());
 
-                        // Always accept this item
-                        pOutput.accept(Glaives.WOODEN_GLAIVE.get());
-                        pOutput.accept(Glaives.STONE_GLAIVE.get());
-                        pOutput.accept(Glaives.GOLDEN_GLAIVE.get());
-                        pOutput.accept(Glaives.IRON_GLAIVE.get());
-                        pOutput.accept(Glaives.DIAMOND_GLAIVE.get());
-                        pOutput.accept(Glaives.NETHERITE_GLAIVE.get());
-                        pOutput.accept(Glaives.COPPER_GLAIVE.get());
-                        pOutput.accept(Glaives.ZINC_GLAIVE.get());
-                        pOutput.accept(Glaives.BRASS_GLAIVE.get());
+                            pOutput.accept(Glaives.WOODEN_GLAIVE.get());
+                            pOutput.accept(Glaives.STONE_GLAIVE.get());
+                            pOutput.accept(Glaives.GOLDEN_GLAIVE.get());
+                            pOutput.accept(Glaives.IRON_GLAIVE.get());
+                            pOutput.accept(Glaives.DIAMOND_GLAIVE.get());
+                            pOutput.accept(Glaives.NETHERITE_GLAIVE.get());
+                            pOutput.accept(Glaives.COPPER_GLAIVE.get());
+                            pOutput.accept(Glaives.ZINC_GLAIVE.get());
+                            pOutput.accept(Glaives.BRASS_GLAIVE.get());
 
-                        //Accept items if 'blue_skies' mod is loaded
-                        if (ModList.get().isLoaded("blue_skies")) {
-                            pOutput.accept(Glaives.HORIZONITE_GLAIVE.get());
-                            pOutput.accept(Glaives.AQUITE_GLAIVE.get());
-                            pOutput.accept(Glaives.PYROPE_GLAIVE.get());
-                            pOutput.accept(Glaives.CHAROITE_GLAIVE.get());
-                            pOutput.accept(Glaives.DIOPSIDE_GLAIVE.get());
+                            //Accept items if 'blue_skies' mod is loaded
+                            if (ModList.get().isLoaded("blue_skies")) {
+                                pOutput.accept(Glaives.HORIZONITE_GLAIVE.get());
+                                pOutput.accept(Glaives.AQUITE_GLAIVE.get());
+                                pOutput.accept(Glaives.PYROPE_GLAIVE.get());
+                                pOutput.accept(Glaives.CHAROITE_GLAIVE.get());
+                                pOutput.accept(Glaives.DIOPSIDE_GLAIVE.get());
+                            }
+                            if (ModList.get().isLoaded("ad_astra")) {
+                                pOutput.accept(Glaives.DESH_GLAIVE.get());
+                                pOutput.accept(Glaives.CALORITE_GLAIVE.get());
+                                pOutput.accept(Glaives.STEEL_GLAIVE.get());
+                            }
                         }
-                        if (ModList.get().isLoaded("ad_astra")) {
-                            pOutput.accept(Glaives.DESH_GLAIVE.get());
-                            pOutput.accept(Glaives.CALORITE_GLAIVE.get());
-                            pOutput.accept(Glaives.STEEL_GLAIVE.get());
-                        }
-
                     })
                     .build());
 

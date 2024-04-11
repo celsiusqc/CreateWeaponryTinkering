@@ -1,5 +1,11 @@
 {
   "type": "create:filling",
+  "conditions": [
+    {
+      "type": "create_wt:config",
+      "config": "feature.enableGlaives"
+    }
+  ],
   "ingredients": [
     {
       "item": "create_wt:glaive_head_pattern"

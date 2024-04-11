@@ -23,8 +23,15 @@ public class ConfigEnabledCondition implements ICondition {
     // This is the correct method to override from ICondition
     @Override
     public boolean test(IContext context) {
-        // Check the appropriate config option, for example:
-        return CreateWeaponryTinkeringConfig.enableTinyTools.get();
+        // You should check which config name is being passed and return the appropriate config setting.
+        if (this.configName.equals("enableGlaives")) {
+            return CreateWeaponryTinkeringConfig.enableGlaives.get();
+        } else if (this.configName.equals("enableTinyTools")) {
+            return CreateWeaponryTinkeringConfig.enableTinyTools.get();
+        }
+        // If configName does not match known configs, you can decide to either default to true or false
+        // Or throw an exception if that is considered a configuration error.
+        return false; // or throw new RuntimeException("Unknown config: " + this.configName);
     }
 
     public static class Serializer implements IConditionSerializer<ConfigEnabledCondition> {

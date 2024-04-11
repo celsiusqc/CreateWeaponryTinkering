@@ -33,6 +33,27 @@ public class Glaives {
     public static final RegistryObject<Item> DESH_GLAIVE = ITEMS.register("desh_glaive", () -> new GlaiveItemType(ToolTiers.DESH, 3, -3.5f, 3.0f, props()));
     public static final RegistryObject<Item> CALORITE_GLAIVE = ITEMS.register("calorite_glaive", () -> new GlaiveItemType(ToolTiers.CALORITE, 3, -3.5f, 3.0f, props()));
 
+    //Glaive Head
+    public static final RegistryObject<Item> WOODEN_GLAIVE_HEAD = ITEMS.register("wooden_glaive_head", () -> new Item(new Item.Properties())); // Assuming this exists, as it was not in the original list.
+    public static final RegistryObject<Item> STONE_GLAIVE_HEAD = ITEMS.register("stone_glaive_head", () -> new Item(new Item.Properties())); // Assuming this exists, as it was not in the original list.
+    public static final RegistryObject<Item> GOLDEN_GLAIVE_HEAD = ITEMS.register("golden_glaive_head", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> IRON_GLAIVE_HEAD = ITEMS.register("iron_glaive_head", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> DIAMOND_GLAIVE_HEAD = ITEMS.register("diamond_glaive_head", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> NETHERITE_GLAIVE_HEAD = ITEMS.register("netherite_glaive_head", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> COPPER_GLAIVE_HEAD = ITEMS.register("copper_glaive_head", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> HORIZONITE_GLAIVE_HEAD = ITEMS.register("horizonite_glaive_head", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> AQUITE_GLAIVE_HEAD = ITEMS.register("aquite_glaive_head", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> ZINC_GLAIVE_HEAD = ITEMS.register("zinc_glaive_head", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> BRASS_GLAIVE_HEAD = ITEMS.register("brass_glaive_head", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> STEEL_GLAIVE_HEAD = ITEMS.register("steel_glaive_head", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> PYROPE_GLAIVE_HEAD = ITEMS.register("pyrope_glaive_head", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> CHAROITE_GLAIVE_HEAD = ITEMS.register("charoite_glaive_head", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> DIOPSIDE_GLAIVE_HEAD = ITEMS.register("diopside_glaive_head", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> DESH_GLAIVE_HEAD = ITEMS.register("desh_glaive_head", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> CALORITE_GLAIVE_HEAD = ITEMS.register("calorite_glaive_head", () -> new Item(new Item.Properties()));
+
+
+
     private static Item.Properties props() {
         return new Item.Properties();
     }

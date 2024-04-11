@@ -302,6 +302,6 @@
   "item.create_wt.tiny_iron_pickaxe.tooltip": "This item is needed in the progression of unlocking molten metals. It has the same characteristics as it's normal version, minus durability",
   "item.create_wt.tiny_diamond_pickaxe.tooltip": "This item is needed in the progression of unlocking molten metals. It has the same characteristics as it's normal version, minus durability",
 
-  "creativetab.create_wt_tab": "Create Weaponry Tinkering",
-  "creativetab.create_wt_weapon_tab": "Create Weaponry Tinkering Weapons"
+  "creativetab.create_wt_tab": "Create: Weaponry Tinkering",
+  "creativetab.create_wt_weapon_tab": "Create: Weaponry Tinkering Weapons"
 }

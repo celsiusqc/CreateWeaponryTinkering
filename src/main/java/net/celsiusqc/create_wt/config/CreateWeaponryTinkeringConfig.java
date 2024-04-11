@@ -3,16 +3,23 @@ package net.celsiusqc.create_wt.config;
 import net.minecraftforge.common.ForgeConfigSpec;
 
 public class CreateWeaponryTinkeringConfig {
-    public static final ForgeConfigSpec.Builder BUILDER = new ForgeConfigSpec.Builder();
+    public static ForgeConfigSpec.BooleanValue enableTinyTools;
+    public static ForgeConfigSpec.BooleanValue enableGlaives;
+
     public static final ForgeConfigSpec CONFIG;
 
-    public static ForgeConfigSpec.BooleanValue enableTinyTools;
-
     static {
-        enableTinyTools = BUILDER
-                .comment("Enable Tiny Tools: if disabled, they will not appear in game.")
-                .define("feature.enableTinyTools", true);
+        ForgeConfigSpec.Builder builder = new ForgeConfigSpec.Builder();
 
-        CONFIG = BUILDER.build();
+        enableTinyTools = builder
+                .comment("Should Tiny Tools be enabled?")
+                .define("items.enableTinyTools", true);
+
+        enableGlaives = builder
+                .comment("Should Glaives be enabled?")
+                .define("items.enableGlaives", true);
+
+        CONFIG = builder.build();
     }
 }
+

@@ -1,5 +1,11 @@
 {
   "type": "minecraft:stonecutting",
+  "conditions": [
+    {
+      "type": "create_wt:config",
+      "config": "feature.enableGlaives"
+    }
+  ],
   "count": 1,
   "ingredient": {
     "item": "create_wt:blank_pattern"
