@@ -23,8 +23,8 @@ apply plugin: 'org.spongepowered.mixin'
 def modVersion = project.findProperty("mod_version") ?: "1.0.5-1.20.1"
 
 version = "forge-1.20.1-$modVersion"
-group = 'net.celsiusqc.cp_tweaks' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
-archivesBaseName = 'cp_tweaks'
+group = 'net.celsiusqc.create_wt' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
+archivesBaseName = 'create_wt'
 
 base {
     archivesName = mod_id

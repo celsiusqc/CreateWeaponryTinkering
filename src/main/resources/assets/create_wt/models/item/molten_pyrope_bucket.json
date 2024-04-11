@@ -1,0 +1,9 @@
+{
+  "parent": "forge:item/bucket",
+  "loader": "forge:fluid_container",
+  "textures": {
+    "base": "item/bucket",
+    "fluid": "create_wt:item/buckets/drip_bucket"
+  },
+  "fluid": "create_wt:molten_pyrope"
+}

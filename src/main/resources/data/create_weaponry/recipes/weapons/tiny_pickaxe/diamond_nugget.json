@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:gems/diamond"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "create_weaponry:diamond_nugget"
+  }
+}

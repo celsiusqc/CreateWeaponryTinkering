@@ -1,0 +1,18 @@
+{
+  "parent": "minecraft:item/handheld",
+  "loader": "forge:separate_transforms",
+  "textures": {
+    "layer0": "create_wt:item/calorite_katana_gui"
+  },
+  "base": {
+    "parent": "create_wt:item/calorite_katana_handheld"
+  },
+  "perspectives": {
+    "gui": {
+      "parent": "create_wt:item/calorite_katana_gui"
+    },
+    "fixed": {
+      "parent": "create_wt:item/calorite_katana_gui"
+    }
+  }
+}

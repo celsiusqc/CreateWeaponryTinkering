@@ -1,0 +1,15 @@
+
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "create_weaponry:handle"
+    },
+    {
+      "item": "create_weaponry:pyrope_sword_head"
+    }
+  ],
+  "result": {
+    "item": "blue_skies:pyrope_sword"
+  }
+}

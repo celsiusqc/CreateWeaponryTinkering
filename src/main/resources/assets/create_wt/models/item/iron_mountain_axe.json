@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "create_wt:item/iron_mountain_axe"
+  }
+}

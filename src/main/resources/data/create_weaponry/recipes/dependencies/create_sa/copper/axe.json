@@ -1,0 +1,30 @@
+{
+  "type": "forge:conditional",
+
+  "recipes": [
+    {
+
+      "conditions": [
+
+        {
+          "type": "forge:mod_loaded",
+          "modid": "create_sa"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shapeless",
+        "ingredients": [
+          {
+            "item": "create_weaponry:handle"
+          },
+          {
+            "item": "create_weaponry:copper_axe_head"
+          }
+        ],
+        "result": {
+          "item": "create_sa:copper_axe"
+        }
+      }
+    }
+  ]
+}

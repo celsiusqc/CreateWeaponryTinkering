@@ -1,0 +1,18 @@
+{
+  "type": "create:filling",
+  "ingredients": [
+    {
+      "item": "create_weaponry:mace_head_pattern"
+    },
+    {
+      "fluid": "create_weaponry:molten_diamond",
+      "nbt": {},
+      "amount": 300
+    }
+  ],
+  "results": [
+    {
+      "item": "create_weaponry:diamond_mace_head"
+    }
+  ]
+}
