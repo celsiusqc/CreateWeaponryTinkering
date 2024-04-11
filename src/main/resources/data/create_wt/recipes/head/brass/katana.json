@@ -1,5 +1,11 @@
 {
   "type": "create:filling",
+  "conditions": [
+    {
+      "type": "create_wt:config",
+      "config": "feature.enableKatanas"
+    }
+  ],
   "ingredients": [
     {
       "item": "create_wt:katana_head_pattern"

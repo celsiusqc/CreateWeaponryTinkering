@@ -1,7 +1,7 @@
 package net.celsiusqc.create_wt.fluid;
 
 import net.celsiusqc.create_wt.CreateWeaponryTinkering;
-import net.celsiusqc.create_wt.base.block.MoltenModBlocks;
+import net.celsiusqc.create_wt.items.MoltenModBlocks;
 import net.celsiusqc.create_wt.items.Buckets;
 import net.minecraft.world.level.material.FlowingFluid;
 import net.minecraft.world.level.material.Fluid;

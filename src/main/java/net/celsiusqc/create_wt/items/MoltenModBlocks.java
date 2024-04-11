@@ -1,4 +1,4 @@
-package net.celsiusqc.create_wt.base.block;
+package net.celsiusqc.create_wt.items;
 
 import net.celsiusqc.create_wt.CreateWeaponryTinkering;
 import net.celsiusqc.create_wt.fluid.ModFluids;

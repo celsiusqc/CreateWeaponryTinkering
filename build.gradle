@@ -203,7 +203,7 @@ dependencies {
     compileOnly(fg.deobf("mezz.jei:jei-1.20.1-common-api:15.2.0.23"))
     compileOnly(fg.deobf("mezz.jei:jei-1.20.1-forge-api:15.2.0.23"))
     // at runtime, use the full JEI jar for Forge
-    runtimeOnly(fg.deobf("mezz.jei:jei-1.20.1-forge:15.2.0.23"))
+    runtimeOnly(fg.deobf("mezz.jei:jei-1.20.1-forge:15.2.0.27"))
     implementation fg.deobf("curse.maven:just-enough-resources-jer-240630:4631691")
 
     //Ad Astra
@@ -226,6 +226,9 @@ dependencies {
 
     implementation fg.deobf("curse.maven:mmmmmmmmmmmm-225738:5051316")
     implementation fg.deobf("curse.maven:selene-499980:5250759")
+
+
+    implementation fg.deobf("curse.maven:configured-457570:5096828")
 
 
 

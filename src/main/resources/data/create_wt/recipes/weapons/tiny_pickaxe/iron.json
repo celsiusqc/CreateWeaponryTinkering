@@ -3,7 +3,7 @@
   "conditions": [
     {
       "type": "create_wt:config",
-      "config": "feature.enableTinyTools"
+      "config": "items.enableTinyTools"
     }
   ],
   "pattern": [

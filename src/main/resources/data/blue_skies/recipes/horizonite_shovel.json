@@ -1,14 +1,17 @@
 {
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "disablethis"
+    }
+  ],
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "create_wt:handle"
-    },
-    {
-      "item": "create_wt:horizonite_shovel_head"
+      "item": "minecraft:dirt"
     }
   ],
   "result": {
-    "item": "blue_skies:horizonite_shovel"
+    "item": "minecraft:sand"
   }
 }

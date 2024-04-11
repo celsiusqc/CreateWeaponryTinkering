@@ -1,11 +1,17 @@
 {
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "disablethis"
+    }
+  ],
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:air"
+      "item": "minecraft:dirt"
     }
   ],
   "result": {
-    "item": "minecraft:air"
+    "item": "minecraft:sand"
   }
 }

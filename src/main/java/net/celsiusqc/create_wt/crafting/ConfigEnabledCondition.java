@@ -24,14 +24,29 @@ public class ConfigEnabledCondition implements ICondition {
     @Override
     public boolean test(IContext context) {
         // You should check which config name is being passed and return the appropriate config setting.
+        if (this.configName.equals("enableTinyTools")) {
+            return CreateWeaponryTinkeringConfig.enableTinyTools.get();
+        }
         if (this.configName.equals("enableGlaives")) {
             return CreateWeaponryTinkeringConfig.enableGlaives.get();
-        } else if (this.configName.equals("enableTinyTools")) {
-            return CreateWeaponryTinkeringConfig.enableTinyTools.get();
+        }
+        if (this.configName.equals("enableMaces")) {
+            return CreateWeaponryTinkeringConfig.enableMaces.get();
+        }
+        if (this.configName.equals("enableKatanas")) {
+            return CreateWeaponryTinkeringConfig.enableKatanas.get();
+        }
+        if (this.configName.equals("enableHammers")) {
+            return CreateWeaponryTinkeringConfig.enableHammers.get();
+        }
+        if (this.configName.equals("enableVanillaRecipeOverwrite")) {
+            return CreateWeaponryTinkeringConfig.enableVanillaRecipeOverwrite.get();
+
+
         }
         // If configName does not match known configs, you can decide to either default to true or false
         // Or throw an exception if that is considered a configuration error.
-        return false; // or throw new RuntimeException("Unknown config: " + this.configName);
+        return true; // or throw new RuntimeException("Unknown config: " + this.configName);
     }
 
     public static class Serializer implements IConditionSerializer<ConfigEnabledCondition> {

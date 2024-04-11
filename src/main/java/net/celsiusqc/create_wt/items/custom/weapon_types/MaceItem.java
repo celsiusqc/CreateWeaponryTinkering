@@ -20,20 +20,22 @@ import net.minecraftforge.common.ForgeMod;
 
 import java.util.UUID;
 
-public class GlaiveItemType extends TieredItem {
-
+public class MaceItem extends TieredItem {
     private final float attackDamage;
     private final float speed;
     private final float reach;
+    private final float knockback;
 
     protected static final UUID ATTACK_RANGE_MODIFIER = UUID.fromString("63d316c1-7d6d-41be-81c3-41fc1a216c27");
+    protected static final UUID ATTACK_KNOCKBACK_MODIFIER = UUID.fromString("63d316c1-7d6d-41be-81c3-41fc1a216c27");
     private Supplier<Multimap<Attribute, AttributeModifier>> toolAttributes = Suppliers.memoize(this::createDefaultAttributes);
 
-    public GlaiveItemType(Tier tier, int damage, float speedIn, float reachIn, Properties properties) {
+    public MaceItem(Tier tier, int damage, float speedIn, float reachIn, float knockbackIn, Properties properties) {
         super(tier, properties);
         this.attackDamage = (float)damage + tier.getAttackDamageBonus();
         this.speed = speedIn;
         this.reach = reachIn;
+        this.knockback = knockbackIn;
         ImmutableMultimap.Builder<Attribute, AttributeModifier> builder = ImmutableMultimap.builder();
         builder.put(Attributes.ATTACK_DAMAGE, new AttributeModifier(BASE_ATTACK_DAMAGE_UUID, "Weapon modifier", this.attackDamage, AttributeModifier.Operation.ADDITION));
         builder.put(Attributes.ATTACK_SPEED, new AttributeModifier(BASE_ATTACK_SPEED_UUID, "Weapon modifier", this.speed, AttributeModifier.Operation.ADDITION));
@@ -43,6 +45,7 @@ public class GlaiveItemType extends TieredItem {
         builder.put(Attributes.ATTACK_DAMAGE, new AttributeModifier(BASE_ATTACK_DAMAGE_UUID, "Weapon modifier", this.attackDamage, AttributeModifier.Operation.ADDITION));
         builder.put(Attributes.ATTACK_SPEED, new AttributeModifier(BASE_ATTACK_SPEED_UUID, "Weapon modifier", this.speed, AttributeModifier.Operation.ADDITION));
         builder.put(ForgeMod.ENTITY_REACH.get(), new AttributeModifier(ATTACK_RANGE_MODIFIER, "Weapon modifier", this.reach, AttributeModifier.Operation.ADDITION));
+        builder.put(Attributes.ATTACK_KNOCKBACK, new AttributeModifier(ATTACK_KNOCKBACK_MODIFIER, "Weapon modifier", this.knockback, AttributeModifier.Operation.ADDITION));
         return builder.build();
     }
     @Override
@@ -63,3 +66,4 @@ public class GlaiveItemType extends TieredItem {
         return true;
     }
 }
+

@@ -1,0 +1,18 @@
+"forge:conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "blue_skies"
+    }
+  ], "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "create_wt:handle"
+    },
+    {
+      "item": "create_wt:charoite_pickaxe_head"
+    }
+  ],
+  "result": {
+    "item": "blue_skies:charoite_pickaxe"
+  }
+}

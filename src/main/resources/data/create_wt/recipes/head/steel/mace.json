@@ -1,5 +1,11 @@
 {
   "type": "create:filling",
+  "conditions": [
+    {
+      "type": "create_wt:config",
+      "config": "feature.enableMaces"
+    }
+  ],
   "ingredients": [
     {
       "item": "create_wt:mace_head_pattern"

@@ -1,12 +1,17 @@
 package net.celsiusqc.create_wt;
 
-import net.celsiusqc.create_wt.base.block.MoltenModBlocks;
+import net.celsiusqc.create_wt.creative_tabs.ModCreativeModTab;
+import net.celsiusqc.create_wt.creative_tabs.WeaponsCreativeModTab;
+import net.celsiusqc.create_wt.items.MoltenModBlocks;
 import net.celsiusqc.create_wt.config.CreateWeaponryTinkeringConfig;
 import net.celsiusqc.create_wt.crafting.ConfigEnabledCondition;
 import net.celsiusqc.create_wt.fluid.ModFluidTypes;
 import net.celsiusqc.create_wt.fluid.ModFluids;
 import net.celsiusqc.create_wt.items.*;
 import net.celsiusqc.create_wt.items.custom.Glaives;
+import net.celsiusqc.create_wt.items.custom.Hammers;
+import net.celsiusqc.create_wt.items.custom.Katanas;
+import net.celsiusqc.create_wt.items.custom.Maces;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.common.crafting.CraftingHelper;
@@ -41,7 +46,8 @@ public class CreateWeaponryTinkering {
         ModLoadingContext.get().registerConfig(ModConfig.Type.COMMON, CreateWeaponryTinkeringConfig.CONFIG);
 
 
-        net.celsiusqc.create_wt.items.ModCreativeModTab.register(modEventBus);
+        ModCreativeModTab.register(modEventBus);
+        WeaponsCreativeModTab.register(modEventBus);
         modEventBus.addListener(this::setup);
         MoltenModBlocks.register(modEventBus);
         ModFluids.register(modEventBus);
@@ -52,6 +58,9 @@ public class CreateWeaponryTinkering {
         Patterns.register(modEventBus);
         TinyTools.register(modEventBus);
         Glaives.register(modEventBus);
+        Hammers.register(modEventBus);
+        Katanas.register(modEventBus);
+        Maces.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 

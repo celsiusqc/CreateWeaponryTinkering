@@ -1,5 +1,11 @@
 {
-  "type": "minecraft:crafting_shapeless",
+   "type": "minecraft:crafting_shapeless",
+ "conditions": [
+    {
+      "type": "create_wt:config",
+      "config": "feature.enableMaces"
+    }
+  ],
   "ingredients": [
     {
       "item": "create_wt:handle"
