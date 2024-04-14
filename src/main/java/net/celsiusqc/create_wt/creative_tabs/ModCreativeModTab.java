@@ -29,7 +29,9 @@ public class ModCreativeModTab {
                     .title(Component.translatable("creativetab.create_wt_tab"))
                     .displayItems((pParameters, pOutput) -> {
 
-                        pOutput.accept(Patterns.BLANK_PATTERN.get());
+                            pOutput.accept(Patterns.BLANK_PATTERN.get());
+                        pOutput.accept(Patterns.INGOT_PATTERN.get());
+                        pOutput.accept(Patterns.GEM_PATTERN.get());
                         pOutput.accept(Patterns.AXE_HEAD_PATTERN.get());
                         pOutput.accept(Patterns.HOE_HEAD_PATTERN.get());
                         pOutput.accept(Patterns.PICKAXE_HEAD_PATTERN.get());

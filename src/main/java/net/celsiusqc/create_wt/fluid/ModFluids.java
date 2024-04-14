@@ -146,7 +146,7 @@ public class ModFluids {
             .slopeFindDistance(2).levelDecreasePerBlock(2).block(MoltenModBlocks.MOLTEN_STEEL_BLOCK)
             .bucket(Buckets.MOLTEN_STEEL_BUCKET);
 
-    //Molten Steel
+    //Molten Zinc
     public static final RegistryObject<FlowingFluid> SOURCE_MOLTEN_ZINC = FLUIDS.register("molten_zinc",
             () -> new ForgeFlowingFluid.Source(ModFluids.MOLTEN_ZINC_PROPERTIES));
     public static final RegistryObject<FlowingFluid> FLOWING_MOLTEN_ZINC = FLUIDS.register("flowing_molten_zinc",

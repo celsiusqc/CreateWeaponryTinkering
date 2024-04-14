@@ -1,0 +1,24 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ad_astra"
+    }
+  ],
+  "type": "create:filling",
+  "ingredients": [
+    {
+      "item": "create_wt:ingot_pattern"
+    },
+    {
+      "fluid": "create_wt:molten_desh",
+      "nbt": {},
+      "amount": 100
+    }
+  ],
+  "results": [
+    {
+      "item": "ad_astra:desh_ingot"
+    }
+  ]
+}

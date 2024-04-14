@@ -1,0 +1,24 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "blue_skies"
+    }
+  ],
+  "type": "create:filling",
+  "ingredients": [
+    {
+      "item": "create_wt:ingot_pattern"
+    },
+    {
+      "fluid": "create_wt:molten_horizonite",
+      "nbt": {},
+      "amount": 100
+    }
+  ],
+  "results": [
+    {
+      "item": "blue_skies:horizonite_ingot"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "alloyed"
+    }
+  ],
+  "type": "create:filling",
+  "ingredients": [
+    {
+      "item": "create_wt:ingot_pattern"
+    },
+    {
+      "fluid": "create_wt:molten_steel",
+      "nbt": {},
+      "amount": 100
+    }
+  ],
+  "results": [
+    {
+      "item": "alloyed:steel_ingot"
+    }
+  ]
+}

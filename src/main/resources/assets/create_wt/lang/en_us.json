@@ -70,6 +70,8 @@
   "fluid_type.create_wt.molten_ostrum_fluid": "Molten Ostrum",
 
   "item.create_wt.blank_pattern": "Blank Pattern",
+  "item.create_wt.ingot_pattern": "Ingot Pattern",
+  "item.create_wt.gem_pattern": "Gem Pattern",
   "item.create_wt.pickaxe_head_pattern": "Pickaxe Head Pattern",
   "item.create_wt.axe_head_pattern": "Axe Head Pattern",
   "item.create_wt.sword_head_pattern": "Sword Head Pattern",

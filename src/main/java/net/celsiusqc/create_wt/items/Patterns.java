@@ -15,6 +15,10 @@ public class Patterns {
 
     public static final RegistryObject<Item> BLANK_PATTERN = ITEMS.register("blank_pattern",
             () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> INGOT_PATTERN = ITEMS.register("ingot_pattern",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> GEM_PATTERN = ITEMS.register("gem_pattern",
+            () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> PICKAXE_HEAD_PATTERN = ITEMS.register("pickaxe_head_pattern",
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> AXE_HEAD_PATTERN = ITEMS.register("axe_head_pattern",
