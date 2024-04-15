@@ -221,8 +221,8 @@ dependencies {
 
 
     //Blue Skies
-    implementation fg.deobf("curse.maven:blue-skies-312918:5010316")
-    implementation fg.deobf("curse.maven:structure-gel-api-378802:5188368")
+    //implementation fg.deobf("curse.maven:blue-skies-312918:5010316")
+    //implementation fg.deobf("curse.maven:structure-gel-api-378802:5188368")
 
     implementation fg.deobf("curse.maven:mmmmmmmmmmmm-225738:5051316")
     implementation fg.deobf("curse.maven:selene-499980:5250759")
