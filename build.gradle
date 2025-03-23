@@ -1,5 +1,5 @@
 plugins {
-	id 'fabric-loom' version '1.6-SNAPSHOT'
+	id 'fabric-loom' version '1.10-SNAPSHOT'
 	id 'maven-publish'
 }
 
@@ -83,7 +83,10 @@ dependencies {
 
 
 	//Create
-	//modImplementation "curse.maven:create-fabric-624165:5982726"
+//	modImplementation "curse.maven:porting-lib-696251:5952430"
+//	modImplementation "curse.maven:forge-config-api-port-fabric-547434:6325013"
+//	modImplementation "curse.maven:create-fabric-624165:5982726"
+
 
 //
 	//Paraglider

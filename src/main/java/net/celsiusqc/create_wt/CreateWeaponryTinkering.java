@@ -1,5 +1,6 @@
 package net.celsiusqc.create_wt;
 
+import com.simibubi.create.Create;
 import net.celsiusqc.create_wt.fluid.ModFluids;
 import net.celsiusqc.create_wt.fluid.MoltenLavaFluidProperties;
 import net.celsiusqc.create_wt.item.ModItems;
@@ -24,7 +25,6 @@ public class CreateWeaponryTinkering implements ModInitializer {
 	public static final String MOD_ID = "create_wt";
     public static final Logger LOGGER = LoggerFactory.getLogger("MOD_ID");
 	public static final RegistryKey<ItemGroup> GROUP = RegistryKey.of(RegistryKeys.ITEM_GROUP, new Identifier(MOD_ID, "group"));
-	private static final Object MOLTEN_LAVA_BLOCK = 1;
 
 	@Override
 	public void onInitialize() {
@@ -39,6 +39,15 @@ public class CreateWeaponryTinkering implements ModInitializer {
 		ModFluids.registerModFluids();
 		registerItem();
 		registerFluid();
+
+		LOGGER.info("Create addon mod [{}] is loading alongside Create [{}]!", NAME, Create.VERSION);
+		LOGGER.info(EnvExecutor.unsafeRunForDist(
+				() -> () -> "{} is accessing Porting Lib from the client!",
+				() -> () -> "{} is accessing Porting Lib from the server!"
+		), NAME);
+
 	}
+
+	
 
 }
