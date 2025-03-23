@@ -1,5 +1,5 @@
 plugins {
-	id 'fabric-loom' version '1.5-SNAPSHOT'
+	id 'fabric-loom' version '1.6-SNAPSHOT'
 	id 'maven-publish'
 }
 
@@ -63,28 +63,32 @@ dependencies {
 	modImplementation "curse.maven:jei-238222:5101365"
 
 	//Waystones
-	modImplementation "curse.maven:waystones-fabric-500087:4962607"
-	modImplementation "curse.maven:balm-fabric-500525:5140906"
+	//modImplementation "curse.maven:waystones-fabric-500087:4962607"
+	//modImplementation "curse.maven:balm-fabric-500525:5140906"
+
+	//CraftTweaker
+	//RmodImplementation "curse.maven:crafttweaker-239197:6256145"
 
 
 	//Ad Astra
-//	modImplementation "curse.maven:ad-astra-635042:5116772"
+	//modImplementation "curse.maven:ad-astra-635042:5116772"
 	//implementation fg.deobf("curse.maven:ad-astra-635042:5116772")
 
 	//"modImplementation" group: "earth.terrarium.adastra", name: "ad_astra-fabric-1.20.1", version: "1.15.18"
 
 
-//	modImplementation "curse.maven:resourceful-lib-570073:5093330"
-//	modImplementation "curse.maven:resourceful-config-714059:5020442"
-//	modImplementation "curse.maven:botarium-704113:5118354"
+	//modImplementation "curse.maven:resourceful-lib-570073:5093330"
+	//modImplementation "curse.maven:resourceful-config-714059:5020442"
+	//modImplementation "curse.maven:botarium-704113:5118354"
 
 
 	//Create
-	//modImplementation "curse.maven:create-fabric-624165:4721061"
+	//modImplementation "curse.maven:create-fabric-624165:5982726"
+
 //
 	//Paraglider
-	modImplementation "curse.maven:paragliders-289240:5046071"
-	modImplementation "curse.maven:forge-config-api-port-fabric-547434:4583000"
+	//modImplementation "curse.maven:paragliders-289240:5046071"
+	// "curse.maven:forge-config-api-port-fabric-547434:4583000"
 
 
 	//Hang Glider
@@ -118,7 +122,20 @@ tasks.withType(JavaCompile).configureEach {
 //	sourceCompatibility = JavaVersion.VERSION_17
 //	targetCompatibility = JavaVersion.VERSION_17
 //}
+loom {
+	runs {
+		// This adds a new gradle task that runs the datagen API: "gradlew runDatagen"
+		datagen {
+			inherit server
+			name "Data Generation"
+			vmArg "-Dfabric-api.datagen"
+			vmArg "-Dfabric-api.datagen.output-dir=${file("src/main/generated")}"
+			vmArg "-Dfabric-api.datagen.modid=createfood"
 
+			runDir "build/datagen"
+		}
+	}
+}
 jar {
 	from("LICENSE") {
 		rename { "${it}_${project.base.archivesName.get()}"}
