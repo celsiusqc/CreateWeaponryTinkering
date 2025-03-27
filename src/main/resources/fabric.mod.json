@@ -2,7 +2,7 @@
 	"schemaVersion": 1,
 	"id": "create_wt",
 	"version": "${version}",
-	"name": "Towers Of The Wild: Modded",
+	"name": "Create: Weaponry Tinkering",
 	"description": "This is an example description! Tell everyone what your mod is about!",
 	"authors": [
 		"celsiusqc"

@@ -18,7 +18,30 @@ base {
 	// See https://docs.gradle.org/current/userguide/declaring_repositories.html
 	// for more information about repositories.
 	repositories {
+
+		maven { url = "https://maven.parchmentmc.org" } // Parchment mappings
+
+		maven { url = "https://mvn.devos.one/releases" } // Porting Lib releases
+		maven { url = "https://mvn.devos.one/snapshots" } // Create and several dependencies
+		maven { url = "https://maven.tterrag.com/" } // Flywheel
+		maven { url = "https://maven.jamieswhiteshirt.com/libs-release" } // Reach Entity Attributes
+		maven { url = "https://raw.githubusercontent.com/Fuzss/modresources/main/maven" } // Forge Config API Port
+
+		maven { // Fabric ASM for Porting Lib
+			url = "https://jitpack.io/"
+			content { includeGroupAndSubgroups("com.github") }
+		}
+
+		maven { url = "https://maven.shedaniel.me" } // Cloth Config, REI
+		maven { url = "https://maven.blamejared.com" } // JEI
+
+		maven { url = "https://maven.terraformersmc.com/releases" } // Mod Menu, EMI
+
 		maven { url "https://www.cursemaven.com" }
+
+		//maven { url "https://maven.modrinth.com" }
+
+		maven{ (url = "https://maven.teamresourceful.com/repository/maven-public/") }
 
 		maven {
 			name "Modding Legacy Maven"
@@ -42,9 +65,18 @@ fabricApi {
 }
 
 dependencies {
+
+	mappings(loom.layered {
+		// Add the base Yarn mappings
+		mappings("net.fabricmc:yarn:${project.yarn_mappings}:v2")
+
+		// Add fix.tiny as a local mappings layer
+		mappings(file("mappings/fix.tiny"))
+
+	})
+
 	// To change the versions see the gradle.properties file
 	minecraft "com.mojang:minecraft:${project.minecraft_version}"
-	mappings "net.fabricmc:yarn:${project.yarn_mappings}:v2"
 	modImplementation "net.fabricmc:fabric-loader:${project.loader_version}"
 
 	// Fabric API. This is technically optional, but you probably want it anyway.
@@ -71,21 +103,43 @@ dependencies {
 
 
 	//Ad Astra
-	//modImplementation "curse.maven:ad-astra-635042:5116772"
-	//implementation fg.deobf("curse.maven:ad-astra-635042:5116772")
+//	modImplementation "curse.maven:ad-astra-635042:5116772"
+//	implementation("com.teamresourceful:bytecodecs:1.0.2")
+//	modImplementation "curse.maven:resourceful-lib-570073:5093330"
+//	modImplementation "curse.maven:resourceful-config-714059:5020442"
+//	modImplementation "curse.maven:botarium-704113:5118354"
+//
+//
+//	modApi('teamreborn:energy:3.0.0')
 
-	//"modImplementation" group: "earth.terrarium.adastra", name: "ad_astra-fabric-1.20.1", version: "1.15.18"
 
 
-	//modImplementation "curse.maven:resourceful-lib-570073:5093330"
-	//modImplementation "curse.maven:resourceful-config-714059:5020442"
-	//modImplementation "curse.maven:botarium-704113:5118354"
+	// Create - dependencies are added transitively
+		modImplementation("com.simibubi.create:create-fabric-$minecraft_version:$create_version")
 
+	//Ad Astra
+		//modImplementation("earth.terrarium.adastra:ad-astra-fabric-$minecraft_version:$ad_astra_version")
+		//modImplementation "curse.maven:ad-astra-635042:6262034"
 
-	//Create
-//	modImplementation "curse.maven:porting-lib-696251:5952430"
-//	modImplementation "curse.maven:forge-config-api-port-fabric-547434:6325013"
-//	modImplementation "curse.maven:create-fabric-624165:5982726"
+	// Development QOL
+		//modLocalRuntime("com.terraformersmc:modmenu:$modmenu_version")
+
+		// Recipe Viewers - Create Fabric supports JEI, REI, and EMI.
+		// See root gradle.properties to choose which to use at runtime.
+		switch (recipe_viewer.toLowerCase(Locale.ROOT)) {
+			case "jei": modLocalRuntime("mezz.jei:jei-$minecraft_version-fabric:$jei_version"); break
+			case "rei": modLocalRuntime("me.shedaniel:RoughlyEnoughItems-fabric:$rei_version"); break
+			case "emi": modLocalRuntime("dev.emi:emi-fabric:$emi_version"); break
+			case "disabled": break
+			default: println("Unknown recipe viewer specified: $recipe_viewer. Must be JEI, REI, EMI, or disabled.")
+		}
+		// if you would like to add integration with them, uncomment them here.
+	//    modCompileOnly("mezz.jei:jei-$minecraft_version-fabric:$jei_fabric_version")
+	//    modCompileOnly("mezz.jei:jei-$minecraft_version-common:$jei_fabric_version")
+	//    modCompileOnly("me.shedaniel:RoughlyEnoughItems-api-fabric:$rei_version")
+	//    modCompileOnly("me.shedaniel:RoughlyEnoughItems-default-plugin-fabric:$rei_version")
+	//    modCompileOnly("dev.emi:emi:$emi_version")
+	}
 
 
 //
@@ -102,7 +156,6 @@ dependencies {
 
 	//World Edit
 	//modImplementation "curse.maven:worldedit-225608:4586218"
-}
 
 processResources {
 	inputs.property "version", project.version

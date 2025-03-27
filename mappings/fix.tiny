@@ -1,0 +1,5 @@
+tiny	2	0	intermediary	named
+c	net/minecraft/class_3829	net/minecraft/util/Clearable
+	m	()V	method_5448	clearCustom
+c	net/minecraft/class_437	net/minecraft/client/gui/screen/Screen
+	m	()V	method_25419	closeCustom
