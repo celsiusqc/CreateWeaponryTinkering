@@ -1,4 +1,7 @@
 {
+  "itemGroup.create_wt": "Example Mod Tab",
+  "block.create_wt.example_block": "Example Block",
+  "item.create_wt.example_item": "Example Item",
   "item.create_wt.wooden_hammer": "Wooden Hammer",
   "item.create_wt.stone_hammer": "Stone Hammer",
   "item.create_wt.golden_hammer": "Golden Hammer",
