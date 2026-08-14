@@ -184,7 +184,7 @@ dependencies {
     // implementation fg.deobf("curse.maven:blue-skies-312918:3966273") // dev-env only, not required to build
     // implementation fg.deobf("curse.maven:structure-gel-api-378802:4489756") // dev-env only, not required to build
     //Cp Tweaks
-    // implementation fg.deobf("curse.maven:create-planetary-tweaks-594527:4575201") // dev-env only, not required to build
+    implementation fg.deobf("curse.maven:create-planetary-tweaks-594527:4575201") // compile dep: WeaponTiers imports cp_tweaks
     //Create SA
 //    implementation fg.deobf("curse.maven:create-stuff-additions-466792:4548582")
     //Ad Astra
