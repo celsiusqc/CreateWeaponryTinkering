@@ -193,11 +193,11 @@ dependencies {
     implementation fg.deobf("curse.maven:botarium-704113:4306551")
     implementation fg.deobf("curse.maven:resourceful-lib-570073:4477753")
     //Alexsmobs
-    implementation fg.deobf("curse.maven:alexs-mobs-426558:4159154")
-    implementation fg.deobf("curse.maven:citadel-331936:4473243")
+    // implementation fg.deobf("curse.maven:alexs-mobs-426558:4159154") // removed: unused dev-env mod, breaks local deobf
+    // implementation fg.deobf("curse.maven:citadel-331936:4473243") // removed: unused dev-env mod, breaks local deobf
     //Durability
-    implementation fg.deobf("curse.maven:durability-tooltip-511040:4016227")
-    implementation fg.deobf("curse.maven:supermartijn642s-config-lib-438332:3871792")
+    // implementation fg.deobf("curse.maven:durability-tooltip-511040:4016227") // removed: unused dev-env mod, breaks local deobf
+    // implementation fg.deobf("curse.maven:supermartijn642s-config-lib-438332:3871792") // removed: unused dev-env mod, breaks local deobf
     //CP Tweaks
     //implementation fg.deobf("curse.maven:create-planetary-tweaks-594527:4555087")
     //Alloyed
