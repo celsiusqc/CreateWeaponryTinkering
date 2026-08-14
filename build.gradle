@@ -170,28 +170,28 @@ dependencies {
     // at runtime, use the full JEI jar for Forge
     runtimeOnly(fg.deobf("mezz.jei:jei-1.19.2-forge:11.5.0.297"))
     //JER
-    implementation fg.deobf("curse.maven:just-enough-resources-jer-240630:3951643")
+    // implementation fg.deobf("curse.maven:just-enough-resources-jer-240630:3951643") // dev-env only, not required to build
     //Create
-    implementation fg.deobf("curse.maven:create-328085:4550987")
+    // implementation fg.deobf("curse.maven:create-328085:4550987") // dev-env only, not required to build
 //    //KubeJs
-    implementation fg.deobf("curse.maven:kubejs-238086:4377175")
-    implementation fg.deobf("curse.maven:rhino-416294:4476056")
-    implementation fg.deobf("curse.maven:architectury-api-419699:4521273")
+    // implementation fg.deobf("curse.maven:kubejs-238086:4377175") // dev-env only, not required to build
+    // implementation fg.deobf("curse.maven:rhino-416294:4476056") // dev-env only, not required to build
+    // implementation fg.deobf("curse.maven:architectury-api-419699:4521273") // dev-env only, not required to build
 //    //Quark
-    implementation fg.deobf("curse.maven:quark-243121:4538962")
-    implementation fg.deobf("curse.maven:autoreglib-250363:4100299")
+    // implementation fg.deobf("curse.maven:quark-243121:4538962") // dev-env only, not required to build
+    // implementation fg.deobf("curse.maven:autoreglib-250363:4100299") // dev-env only, not required to build
     //Blue Skies
-    implementation fg.deobf("curse.maven:blue-skies-312918:3966273")
-    implementation fg.deobf("curse.maven:structure-gel-api-378802:4489756")
+    // implementation fg.deobf("curse.maven:blue-skies-312918:3966273") // dev-env only, not required to build
+    // implementation fg.deobf("curse.maven:structure-gel-api-378802:4489756") // dev-env only, not required to build
     //Cp Tweaks
-    implementation fg.deobf("curse.maven:create-planetary-tweaks-594527:4575201")
+    // implementation fg.deobf("curse.maven:create-planetary-tweaks-594527:4575201") // dev-env only, not required to build
     //Create SA
 //    implementation fg.deobf("curse.maven:create-stuff-additions-466792:4548582")
     //Ad Astra
-    implementation fg.deobf("curse.maven:ad-astra-635042:4452052")
-    implementation fg.deobf("curse.maven:resourceful-config-714059:4444198")
-    implementation fg.deobf("curse.maven:botarium-704113:4306551")
-    implementation fg.deobf("curse.maven:resourceful-lib-570073:4477753")
+    // implementation fg.deobf("curse.maven:ad-astra-635042:4452052") // dev-env only, not required to build
+    // implementation fg.deobf("curse.maven:resourceful-config-714059:4444198") // dev-env only, not required to build
+    // implementation fg.deobf("curse.maven:botarium-704113:4306551") // dev-env only, not required to build
+    // implementation fg.deobf("curse.maven:resourceful-lib-570073:4477753") // dev-env only, not required to build
     //Alexsmobs
     // implementation fg.deobf("curse.maven:alexs-mobs-426558:4159154") // removed: unused dev-env mod, breaks local deobf
     // implementation fg.deobf("curse.maven:citadel-331936:4473243") // removed: unused dev-env mod, breaks local deobf
