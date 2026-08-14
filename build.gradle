@@ -165,10 +165,10 @@ dependencies {
     // implementation fg.deobf("com.tterrag.registrate:Registrate:MC${mc_version}-${registrate_version}") // Adds registrate as a dependency
 
     // compile against the JEI API but do not include it at runtime
-    compileOnly(fg.deobf("mezz.jei:jei-1.19.2-common-api:11.5.0.297"))
-    compileOnly(fg.deobf("mezz.jei:jei-1.19.2-forge-api:11.5.0.297"))
+    // compileOnly(fg.deobf("mezz.jei:jei-1.19.2-common-api:11.5.0.297")) // dev-env only, no JEI code on this branch
+    // compileOnly(fg.deobf("mezz.jei:jei-1.19.2-forge-api:11.5.0.297")) // dev-env only, no JEI code on this branch
     // at runtime, use the full JEI jar for Forge
-    runtimeOnly(fg.deobf("mezz.jei:jei-1.19.2-forge:11.5.0.297"))
+    // runtimeOnly(fg.deobf("mezz.jei:jei-1.19.2-forge:11.5.0.297")) // dev-env only, no JEI code on this branch
     //JER
     // implementation fg.deobf("curse.maven:just-enough-resources-jer-240630:3951643") // dev-env only, not required to build
     //Create
