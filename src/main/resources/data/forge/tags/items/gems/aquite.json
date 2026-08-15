@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    { "required": false, "id": "blue_skies:aquite"}
+    {
+      "required": false,
+      "id": "blue_skies:aquite"
+    }
   ]
 }

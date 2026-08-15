@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    { "required": false, "id": "blue_skies:horizonite_ingot"}
+    {
+      "required": false,
+      "id": "blue_skies:horizonite_ingot"
+    }
   ]
 }
