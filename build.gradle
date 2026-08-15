@@ -23,7 +23,7 @@ apply plugin: 'eclipse'
 apply plugin: 'maven-publish'
 apply plugin: "org.spongepowered.mixin"
 
-version = '1.0.4-1.19.2'
+version = "${mod_version}-${mc_version}"
 group = 'net.celsiusqc.create_weaponry' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = 'create_weaponry'
 
@@ -247,4 +247,13 @@ publishing {
 
 tasks.withType(JavaCompile).configureEach {
     options.encoding = 'UTF-8' // Use the UTF-8 charset for Java compilation
+}
+
+// Expand version variables into mods.toml (mirrors the 1.20.1 branch setup)
+processResources {
+    def buildProps = [mod_version: mod_version, mc_version: mc_version]
+    inputs.properties buildProps
+    filesMatching('META-INF/mods.toml') {
+        expand buildProps
+    }
 }
