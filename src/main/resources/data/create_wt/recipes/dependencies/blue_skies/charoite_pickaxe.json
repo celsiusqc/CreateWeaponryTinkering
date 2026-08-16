@@ -4,7 +4,8 @@
       "type": "forge:mod_loaded",
       "modid": "blue_skies"
     }
-  ], "minecraft:crafting_shapeless",
+  ],
+  "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
       "item": "create_wt:handle"

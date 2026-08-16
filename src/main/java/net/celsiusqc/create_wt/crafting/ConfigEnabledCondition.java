@@ -9,10 +9,16 @@ import net.celsiusqc.create_wt.config.CreateWeaponryTinkeringConfig;
 public class ConfigEnabledCondition implements ICondition {
     private final ResourceLocation location;
     private final String configName;
+    private final boolean expectedValue;
 
     public ConfigEnabledCondition(ResourceLocation location, String configName) {
+        this(location, configName, true);
+    }
+
+    public ConfigEnabledCondition(ResourceLocation location, String configName, boolean expectedValue) {
         this.location = location;
         this.configName = configName;
+        this.expectedValue = expectedValue;
     }
 
     @Override
@@ -20,33 +26,31 @@ public class ConfigEnabledCondition implements ICondition {
         return location;
     }
 
-    // This is the correct method to override from ICondition
     @Override
     public boolean test(IContext context) {
-        // You should check which config name is being passed and return the appropriate config setting.
-        if (this.configName.equals("enableTinyTools")) {
-            return CreateWeaponryTinkeringConfig.enableTinyTools.get();
+        // Recipes historically reference these with section prefixes ("feature.enableVanillaRecipeOverwrite",
+        // "items.enableGlaives"); compare on the bare name so both spellings resolve.
+        String key = this.configName.substring(this.configName.lastIndexOf('.') + 1);
+        Boolean configValue = null;
+        if (key.equals("enableTinyTools")) {
+            configValue = CreateWeaponryTinkeringConfig.enableTinyTools.get();
+        } else if (key.equals("enableGlaives")) {
+            configValue = CreateWeaponryTinkeringConfig.enableGlaives.get();
+        } else if (key.equals("enableMaces")) {
+            configValue = CreateWeaponryTinkeringConfig.enableMaces.get();
+        } else if (key.equals("enableKatanas")) {
+            configValue = CreateWeaponryTinkeringConfig.enableKatanas.get();
+        } else if (key.equals("enableHammers")) {
+            configValue = CreateWeaponryTinkeringConfig.enableHammers.get();
+        } else if (key.equals("enableVanillaRecipeOverwrite")) {
+            configValue = CreateWeaponryTinkeringConfig.enableVanillaRecipeOverwrite.get();
         }
-        if (this.configName.equals("enableGlaives")) {
-            return CreateWeaponryTinkeringConfig.enableGlaives.get();
+        if (configValue == null) {
+            return true; // unknown name: keep the recipe rather than silently dropping content
         }
-        if (this.configName.equals("enableMaces")) {
-            return CreateWeaponryTinkeringConfig.enableMaces.get();
-        }
-        if (this.configName.equals("enableKatanas")) {
-            return CreateWeaponryTinkeringConfig.enableKatanas.get();
-        }
-        if (this.configName.equals("enableHammers")) {
-            return CreateWeaponryTinkeringConfig.enableHammers.get();
-        }
-        if (this.configName.equals("enableVanillaRecipeOverwrite")) {
-            return CreateWeaponryTinkeringConfig.enableVanillaRecipeOverwrite.get();
-
-
-        }
-        // If configName does not match known configs, you can decide to either default to true or false
-        // Or throw an exception if that is considered a configuration error.
-        return true; // or throw new RuntimeException("Unknown config: " + this.configName);
+        // expectedValue lets data files load a recipe when a setting is DISABLED (value: false),
+        // which is how the vanilla tool recipes get restored when enableVanillaRecipeOverwrite is off.
+        return configValue == this.expectedValue;
     }
 
     public static class Serializer implements IConditionSerializer<ConfigEnabledCondition> {
@@ -54,14 +58,15 @@ public class ConfigEnabledCondition implements ICondition {
 
         @Override
         public void write(JsonObject json, ConfigEnabledCondition value) {
-            // Serialize the condition's config option name
             json.addProperty("config", value.configName);
+            json.addProperty("value", value.expectedValue);
         }
 
         @Override
         public ConfigEnabledCondition read(JsonObject json) {
-            // Deserialize the condition's config option name
-            return new ConfigEnabledCondition(new ResourceLocation("create_wt", "config"), json.getAsJsonPrimitive("config").getAsString());
+            boolean expected = !json.has("value") || json.getAsJsonPrimitive("value").getAsBoolean();
+            return new ConfigEnabledCondition(new ResourceLocation("create_wt", "config"),
+                    json.getAsJsonPrimitive("config").getAsString(), expected);
         }
 
         @Override

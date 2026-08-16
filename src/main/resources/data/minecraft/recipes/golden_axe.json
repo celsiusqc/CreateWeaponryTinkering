@@ -1,17 +1,27 @@
 {
   "conditions": [
     {
-      "type": "forge:mod_loaded",
-      "modid": "disablethis"
+      "type": "create_wt:config",
+      "config": "enableVanillaRecipeOverwrite",
+      "value": false
     }
   ],
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "item": "minecraft:dirt"
-    }
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "XX",
+    "X#",
+    " #"
   ],
+  "key": {
+    "X": {
+      "item": "minecraft:gold_ingot"
+    },
+    "#": {
+      "item": "minecraft:stick"
+    }
+  },
   "result": {
-    "item": "minecraft:sand"
+    "item": "minecraft:golden_axe"
   }
 }
